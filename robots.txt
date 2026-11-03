@@ -1,0 +1,21 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /account/
+Disallow: /auth/
+Disallow: /payments/
+Disallow: /includes/
+Disallow: /cron/
+Disallow: /logs/
+Disallow: /uploads/
+Disallow: /backups/
+Disallow: /api/
+Disallow: /go.php
+Disallow: /app-download.php
+Disallow: /work-with-us.php
+Disallow: /private-uploads/
+
+# Change yourdomain.com to your real address:
+Sitemap: https://yourdomain.com/sitemap.php
+Disallow: /slip.php
+Disallow: /slips.php
+Disallow: /slip-pdf.php

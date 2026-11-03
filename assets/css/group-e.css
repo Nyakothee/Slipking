@@ -1,0 +1,63 @@
+/* Tipster marketplace */
+.lb td{vertical-align:middle}.lb-name{display:inline-flex;align-items:center;gap:8px}
+.tp-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px}
+.tp-card{display:block;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px;transition:box-shadow .15s}
+.tp-card:hover{box-shadow:0 4px 16px rgba(0,0,0,.1)}
+.tp-head{display:flex;gap:12px;align-items:center}
+.tp-big{gap:18px;margin:10px 0}
+.tp-av{border-radius:50%;object-fit:cover;flex:none}
+.tp-ini{display:inline-flex;align-items:center;justify-content:center;background:var(--pitch);color:#fff;font-weight:800;font-family:'Barlow Condensed',sans-serif}
+.tp-stars{color:var(--gold);letter-spacing:1px}
+.tp-tag{margin:10px 0 0;color:var(--mute);font-size:15px}
+.tp-nums{display:flex;flex-wrap:wrap;gap:6px 16px;margin:12px 0;font-size:14px;color:var(--mute)}
+.tp-nums b{display:block;font-size:20px;color:var(--ink);font-family:'Barlow Condensed',sans-serif}
+.tp-record{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 16px}
+.tp-foot{font-size:13px;color:var(--mute);border-top:1px solid var(--line);padding-top:8px}
+.tp-plan{border:1px solid var(--line);border-radius:8px;padding:12px;margin-bottom:12px}
+.tp-plan ul{margin:8px 0 10px 18px;font-size:15px}
+.tp-review{border-bottom:1px solid var(--line);padding:10px 0}
+.tp-by{font-size:14px;color:var(--mute);margin-top:6px}
+.tp-by a{text-decoration:underline}
+:root[data-theme="dark"] .tp-card,:root[data-theme="dark"] .tp-record,:root[data-theme="dark"] .tp-plan{background:#1b2420;border-color:#2c3a33}
+.tp-btns{display:flex;gap:8px;margin-top:12px;flex-wrap:wrap}
+.tp-card .tp-btns .btn{flex:1;text-align:center}
+.tabs a{border:1.5px solid var(--line);background:#fff;padding:7px 14px;border-radius:99px;font:600 15px 'Source Sans 3';display:inline-block}
+.tabs a.on{background:var(--pitch);color:#fff;border-color:var(--pitch)}
+:root[data-theme="dark"] .tabs a{background:#1b2420;border-color:#2c3a33}
+:root[data-theme="dark"] .tabs a.on{background:var(--pitch2)}
+
+/* Tipster plan cards */
+.pl-stack{display:grid;gap:16px}
+.pl-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:18px;margin:6px 0 10px}
+.pl-card{position:relative;background:var(--card);border:1.5px solid var(--line);border-radius:14px;padding:22px 20px 20px;box-shadow:0 1px 2px rgba(0,0,0,.04),0 6px 18px rgba(13,59,44,.06);transition:transform .15s,box-shadow .15s}
+.pl-card:hover{transform:translateY(-2px);box-shadow:0 2px 4px rgba(0,0,0,.05),0 12px 28px rgba(13,59,44,.12)}
+.pl-best{border-color:var(--gold);box-shadow:0 0 0 3px rgba(240,169,28,.18),0 10px 28px rgba(13,59,44,.12)}
+.pl-ribbon{position:absolute;top:-12px;right:16px;background:var(--gold);color:#241a00;font:800 12px 'Source Sans 3',Arial,sans-serif;letter-spacing:.06em;text-transform:uppercase;padding:5px 12px;border-radius:99px;box-shadow:0 2px 6px rgba(0,0,0,.18)}
+.pl-top{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:12px}
+.pl-top h4{font:800 24px 'Barlow Condensed','Arial Narrow',sans-serif;letter-spacing:.01em;color:var(--pitch);margin:0}
+.pl-days{background:rgba(13,59,44,.09);color:var(--pitch);font:700 13px 'Source Sans 3',Arial,sans-serif;padding:4px 11px;border-radius:99px;white-space:nowrap}
+.pl-price{display:flex;align-items:baseline;gap:6px;line-height:1}
+.pl-cur{font:700 16px 'Source Sans 3',Arial,sans-serif;color:var(--mute)}
+.pl-amt{font:800 46px 'Barlow Condensed','Arial Narrow',sans-serif;color:var(--ink)}
+.pl-per,.pl-earn{margin:6px 0 14px;font-size:14px;color:var(--mute);padding-bottom:14px;border-bottom:1px dashed var(--line)}
+.pl-earn strong{color:var(--win)}
+.pl-feat{list-style:none;margin:0 0 18px;padding:0;display:grid;gap:9px;font-size:15px}
+.pl-feat li{position:relative;padding-left:26px}
+.pl-feat li::before{content:"";position:absolute;left:0;top:2px;width:18px;height:18px;border-radius:50%;background:var(--win) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M4 8.5l2.6 2.6L12 5.7' fill='none' stroke='%23fff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center/12px no-repeat}
+.pl-btn{display:block;width:100%;text-align:center;padding:12px 16px;font-size:17px}
+.pl-own{margin:0;text-align:center;color:var(--mute);font-weight:600}
+.pl-state{position:absolute;top:14px;right:14px;font:700 11px 'Source Sans 3',Arial,sans-serif;text-transform:uppercase;letter-spacing:.06em;padding:3px 9px;border-radius:99px}
+.pl-state.on{background:rgba(24,138,74,.14);color:var(--win)}
+.pl-state.off{background:rgba(200,55,45,.12);color:var(--loss)}
+.pl-card:has(.pl-state) .pl-top{padding-right:78px}
+.pl-off{opacity:.62}
+.pl-note{font-size:14px;color:var(--mute);margin:0 0 22px}
+.pl-form{background:var(--card);border:1.5px solid var(--line);border-radius:14px;padding:22px 22px 24px;max-width:720px;box-shadow:0 6px 18px rgba(13,59,44,.06)}
+.pl-form h3{font:800 26px 'Barlow Condensed','Arial Narrow',sans-serif;color:var(--pitch);margin-bottom:12px}
+.pl-fields{display:grid;grid-template-columns:2fr 1fr 1fr;gap:14px}
+.pl-calc{background:rgba(13,59,44,.06);border-radius:10px;padding:12px 14px;margin:4px 0 16px;font-size:15px}
+.pl-calc-net b{color:var(--win)}
+@media (max-width:640px){.pl-fields{grid-template-columns:1fr}.pl-amt{font-size:40px}}
+:root[data-theme="dark"] .pl-card,:root[data-theme="dark"] .pl-form{background:#1b2420;border-color:#2c3a33;box-shadow:none}
+:root[data-theme="dark"] .pl-top h4,:root[data-theme="dark"] .pl-form h3{color:#9fe3c2}
+:root[data-theme="dark"] .pl-days,:root[data-theme="dark"] .pl-calc{background:rgba(255,255,255,.07);color:#cfe7dc}

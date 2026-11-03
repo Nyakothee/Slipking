@@ -1,0 +1,38 @@
+/* Member pictures and flags */
+.uav { display:inline-block; border-radius:50%; object-fit:cover; vertical-align:middle; flex:0 0 auto; background:var(--line); }
+.uav-ini { display:inline-grid; place-items:center; color:#fff; font-weight:800; line-height:1; }
+.fl { display:inline-block; vertical-align:middle; border-radius:2px; box-shadow:0 0 0 1px rgba(0,0,0,.18); object-fit:cover; flex:0 0 auto; }
+.fl-t { font-size:11px; font-weight:700; padding:0 4px; background:var(--line); color:var(--ink); box-shadow:none; }
+.uchip { display:inline-flex; align-items:center; gap:8px; max-width:100%; }
+.uchip .uname { font-weight:700; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+
+.navme { display:inline-flex; align-items:center; gap:7px; }
+.navme .uav { width:28px; height:28px; }
+.navme .fl { margin-left:-2px; }
+
+.hello { display:flex; align-items:center; gap:14px; }
+.hello h2 { margin:0; }
+
+.picform { display:flex; gap:22px; align-items:flex-start; flex-wrap:wrap; }
+.picnow { text-align:center; flex:0 0 auto; }
+.picnow .uav { width:96px; height:96px; }
+.picflag { margin-top:8px; min-height:20px; }
+.picfields { flex:1; min-width:240px; }
+.picfields select { width:100%; }
+
+.cm-head .uchip { margin-right:4px; }
+
+/* Account-management conversation */
+.mm-list { display:flex; flex-direction:column; gap:10px; margin:14px 0; max-height:460px; overflow:auto; padding-right:4px; }
+.mm-msg { max-width:88%; padding:10px 14px; border-radius:12px; background:var(--card); border:1px solid var(--line); }
+.mm-msg.mine { align-self:flex-end; background:rgba(212,175,55,.16); border-color:rgba(212,175,55,.5); }
+.mm-msg .mm-who small { color:var(--mute); margin-left:6px; }
+.mm-msg p { margin:4px 0 0; }
+.mm-staff { border-style:dashed; }
+.mm-form { display:flex; gap:10px; align-items:flex-end; }
+.mm-form textarea { flex:1; }
+@media (max-width:560px) { .mm-form { flex-direction:column; align-items:stretch; } .mm-msg { max-width:100%; } }
+
+/* The "My account" inside the menu list is only for small screens; on wide screens the bordered button on the right is used */
+nav .navauth.navme { display:none; }
+@media (max-width:1240px) { nav .navauth.navme { display:flex; } }

@@ -1,0 +1,75 @@
+/* SlipKing inside the Android app only (body.is-app). The app has its own top bar and bottom tabs,
+   so the website's header, footer and floating chat button are hidden and pages get an app look.
+   Dark and light follow the app's theme (html[data-theme]). */
+:root{--em:#f0a91c;--r:16px;--gold:#f0a91c}
+:root[data-theme="dark"]{--paper:#08100d;--card:#101a16;--ink:#f2f5f2;--mute:#93a59c;--line:#1e2d26;--pitch:#0b2f23;--pitch2:#11463a;--win:#2fcb7a;--loss:#f0645b;
+ --sunk:#0c1411;--field:#0c1411;--fieldline:#2a3d34;--chip-on:#33270b;--chip-on-ink:#f6c65b;--chip-on-line:#6b4d10;--hero1:#0f4a38;--hero2:#072a1e;--hero-line:#2a5a47;--hero-ink:#b9d3c7;--lockline:#3a2a08;color-scheme:dark}
+:root[data-theme="light"]{--paper:#f4f5f0;--card:#ffffff;--ink:#12201a;--mute:#64736c;--line:#e3e7dd;--pitch:#ffffff;--pitch2:#fbefce;--win:#188a4a;--loss:#c8372d;
+ --sunk:#eef0e8;--field:#ffffff;--fieldline:#d3d9cc;--chip-on:#fbefce;--chip-on-ink:#7a4d00;--chip-on-line:#f0d28a;--hero1:#155240;--hero2:#0d3b2c;--hero-line:#155240;--hero-ink:#d3efe4;--lockline:#f0d28a;color-scheme:light}
+html{-webkit-tap-highlight-color:transparent;scroll-behavior:smooth}
+body.is-app{font-family:'Plus Jakarta Sans','Source Sans 3',system-ui,Arial,sans-serif;background:var(--paper);color:var(--ink);font-size:15.5px;line-height:1.5;overscroll-behavior-y:contain;-webkit-font-smoothing:antialiased;animation:skin .28s ease-out both}
+@keyframes skin{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){body.is-app{animation:none}}
+
+/* remove website chrome */
+body.is-app>header,body.is-app>footer,body.is-app .ticker,body.is-app .skip,body.is-app .skchat,body.is-app .theme-toggle,body.is-app .app-dl,body.is-app [data-pwa-install],body.is-app #push-box{display:none!important}
+body.is-app main{padding-top:6px;min-height:100vh}
+body.is-app .wrap{padding:0 16px;max-width:760px}
+
+/* type */
+body.is-app h1,body.is-app h2,body.is-app h3,body.is-app .brand,body.is-app .head h2{font-family:'Plus Jakarta Sans',system-ui,sans-serif;letter-spacing:-.015em;line-height:1.18}
+body.is-app h1{font-size:26px;font-weight:800}
+body.is-app h2,body.is-app .head h2{font-size:21px;font-weight:800}
+body.is-app h3{font-size:17px;font-weight:800}
+body.is-app section{padding:22px 0}
+body.is-app .head{margin-bottom:14px;align-items:center}
+body.is-app .head p{font-size:14px}
+
+/* hero becomes a compact welcome card */
+body.is-app .hero{background:linear-gradient(135deg,var(--hero1) 0%,var(--hero2) 75%);border:1px solid var(--hero-line);border-radius:var(--r);margin:12px 16px 4px;padding:20px 18px;color:#fff}
+body.is-app .hero .wrap{padding:0}
+body.is-app .hero h1{font-size:27px;max-width:none;color:#fff}
+body.is-app .hero p{font-size:15px;margin:10px 0 16px;color:var(--hero-ink)}
+body.is-app .proof{gap:12px;margin-top:18px}
+body.is-app .proof div{border-left:0;background:rgba(255,255,255,.08);border-radius:12px;padding:10px 12px;flex:1;min-width:90px}
+body.is-app .proof b{font:800 22px 'Plus Jakarta Sans',sans-serif;color:#fff}
+body.is-app .proof span{color:var(--hero-ink)}
+
+/* cards */
+body.is-app .slip,body.is-app .plan,body.is-app .box,body.is-app .box2,body.is-app .panel,body.is-app .stat,body.is-app .post,body.is-app .quote,body.is-app .faq details{background:var(--card);color:var(--ink);border:1px solid var(--line);border-radius:var(--r);box-shadow:none}
+body.is-app .grid{grid-template-columns:1fr;gap:12px}
+body.is-app .slip .top{border-bottom:1px dashed var(--line);padding:11px 14px}
+body.is-app .slip .body{padding:14px}
+body.is-app .team img{width:46px;height:46px;border:1px solid var(--line)}
+body.is-app .pick{background:var(--sunk);border:1px solid var(--line);border-radius:14px}
+body.is-app .odds{font:800 17px 'Plus Jakarta Sans',sans-serif;border-radius:10px;padding:4px 11px;background:linear-gradient(135deg,#f6b73c,#e79a0d);color:#241a00}
+body.is-app .badge{border-radius:99px;padding:3px 10px;font-size:12px;letter-spacing:.02em}
+body.is-app .slip.locked{border-color:var(--lockline)}
+
+/* buttons: big tap targets */
+body.is-app .btn,body.is-app button.btn,body.is-app input[type=submit]{min-height:48px;border-radius:14px;font:800 15.5px 'Plus Jakarta Sans',sans-serif;padding:12px 20px;display:inline-flex;align-items:center;justify-content:center;transition:transform .12s,filter .12s}
+body.is-app .btn:active{transform:scale(.97);filter:brightness(.92)}
+body.is-app .btn.gold{background:linear-gradient(135deg,#f6b73c,#e79a0d);color:#1a1204}
+body.is-app .btn.dark{background:var(--hero2);color:#fff}
+body.is-app .btn.ghost{background:transparent;color:var(--ink);border:1.5px solid var(--fieldline)}
+body.is-app .btn.small{min-height:38px;padding:7px 14px;border-radius:12px;font-size:14px}
+body.is-app a:active,body.is-app button:active{opacity:.85}
+
+/* forms */
+body.is-app input:not([type=checkbox]):not([type=radio]):not([type=file]),body.is-app select,body.is-app textarea{font-size:16px;min-height:48px;border-radius:12px;border:1px solid var(--fieldline);background:var(--field);color:var(--ink);padding:10px 14px}
+body.is-app textarea{min-height:96px}
+body.is-app input:focus,body.is-app select:focus,body.is-app textarea:focus{outline:0;border-color:var(--em);box-shadow:0 0 0 3px rgba(240,169,28,.28)}
+body.is-app .field label,body.is-app label{font-weight:700;font-size:13.5px;color:var(--mute)}
+
+/* tabs, tables, flashes */
+body.is-app .tabs{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;padding-bottom:4px;margin:0 -16px;padding-left:16px;padding-right:16px}
+body.is-app .tabs::-webkit-scrollbar{display:none}
+body.is-app .tabs button{white-space:nowrap;border-radius:99px;min-height:40px;padding:8px 16px;font-weight:700;border:1px solid var(--line);background:var(--card);color:var(--ink)}
+body.is-app .tabs button.on{background:var(--chip-on);color:var(--chip-on-ink);border-color:var(--chip-on-line)}
+body.is-app table{display:block;overflow-x:auto;-webkit-overflow-scrolling:touch}
+body.is-app .flash{border-radius:14px;margin:8px 16px;padding:0}
+body.is-app .flash .wrap{padding:12px 14px}
+body.is-app a{-webkit-touch-callout:none}
+body.is-app img{border-radius:inherit}
+body.is-app ::selection{background:rgba(240,169,28,.35)}
+body.is-app .nav-hint,body.is-app .authbtns{display:none}

@@ -1,0 +1,16 @@
+a:1:{s:1:"v";a:7:{s:5:"stats";a:4:{s:7:"settled";i:0;s:8:"win_rate";N;s:8:"avg_odds";s:1:"-";s:10:"tips_today";i:0;}s:4:"free";a:0:{}s:7:"vipTips";a:0:{}s:7:"million";N;s:4:"form";a:0:{}s:6:"months";a:0:{}s:5:"plans";a:5:{i:0;a:12:{s:2:"id";i:1;s:4:"name";s:6:"Weekly";s:4:"slug";s:6:"weekly";s:9:"price_kes";i:500;s:9:"price_usd";s:4:"4.00";s:13:"duration_days";i:7;s:8:"features";s:44:"All VIP tips
+Telegram alerts
+Results archive";s:11:"is_featured";i:0;s:9:"is_active";i:1;s:10:"sort_order";i:1;s:10:"tipster_id";N;s:11:"group_seats";i:1;}i:1;a:12:{s:2:"id";i:2;s:4:"name";s:7:"Monthly";s:4:"slug";s:7:"monthly";s:9:"price_kes";i:1500;s:9:"price_usd";s:5:"12.00";s:13:"duration_days";i:30;s:8:"features";s:71:"Everything in Weekly
+Accumulators
+Correct score picks
+Private VIP group";s:11:"is_featured";i:1;s:9:"is_active";i:1;s:10:"sort_order";i:2;s:10:"tipster_id";N;s:11:"group_seats";i:1;}i:2;a:12:{s:2:"id";i:3;s:4:"name";s:5:"Elite";s:4:"slug";s:5:"elite";s:9:"price_kes";i:4000;s:9:"price_usd";s:5:"30.00";s:13:"duration_days";i:90;s:8:"features";s:84:"Everything in Monthly
+Highest-confidence picks
+Early access to tips
+Priority support";s:11:"is_featured";i:0;s:9:"is_active";i:1;s:10:"sort_order";i:3;s:10:"tipster_id";N;s:11:"group_seats";i:1;}i:3;a:12:{s:2:"id";i:7;s:4:"name";s:11:"Season pass";s:4:"slug";s:11:"season-pass";s:9:"price_kes";i:3500;s:9:"price_usd";s:5:"27.00";s:13:"duration_days";i:90;s:8:"features";s:74:"Every VIP tip for 90 days
+Best price per day
+Accumulators
+Priority support";s:11:"is_featured";i:0;s:9:"is_active";i:1;s:10:"sort_order";i:4;s:10:"tipster_id";N;s:11:"group_seats";i:1;}i:4;a:12:{s:2:"id";i:4;s:4:"name";s:5:"Daily";s:4:"slug";s:5:"daily";s:9:"price_kes";i:100;s:9:"price_usd";s:4:"2.00";s:13:"duration_days";i:1;s:8:"features";s:95:"All VIP tips
+Results archive
+Highest-confidence picks
+Early access to tips
+Priority support";s:11:"is_featured";i:1;s:9:"is_active";i:1;s:10:"sort_order";i:10;s:10:"tipster_id";N;s:11:"group_seats";i:1;}}}}

@@ -1,0 +1,45 @@
+/* Tips calendar (tips.php): two weeks back to two weeks ahead */
+.filters{display:flex;flex-direction:column;gap:14px}
+.tc-row{display:flex;flex-wrap:wrap;gap:10px;align-items:center;position:relative}
+.tc-dd{position:relative}
+.tc-dd summary{list-style:none;cursor:pointer;display:inline-flex;align-items:center;gap:8px;padding:6px 14px;border-radius:99px;border:1px solid var(--line);background:var(--card);color:var(--ink);font:600 14px 'Source Sans 3',sans-serif}
+.tc-dd summary::-webkit-details-marker{display:none}
+.tc-dd summary:hover,.tc-dd[open] summary{border-color:var(--pitch2)}
+.tc-dd.picked summary{background:var(--pitch);border-color:var(--pitch);color:#fff}
+.tc-car{transition:transform .15s}.tc-dd[open] .tc-car{transform:rotate(180deg)}
+.tc-dd .tc{position:absolute;left:0;top:calc(100% + 8px);z-index:50;width:min(420px,calc(100vw - 32px));box-shadow:0 18px 44px rgba(0,0,0,.3)}
+.tc{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:14px 16px}
+.tc-top{display:flex;align-items:center;gap:10px;margin-bottom:10px}
+.tc-top strong{flex:1;text-align:center;font:800 22px 'Barlow Condensed',sans-serif}
+.tc-nav{width:34px;height:34px;border-radius:50%;border:1px solid var(--line);background:var(--paper);color:var(--ink);display:flex;align-items:center;justify-content:center;font-size:22px;line-height:1;text-decoration:none}
+.tc-nav:hover{border-color:var(--pitch2)}.tc-nav.off{opacity:.35}
+.tc-today{padding:6px 14px;border-radius:99px;background:var(--gold);color:#241a00;font-weight:800;font-size:13px;text-decoration:none}
+.tc-grid{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:4px}
+.tc-w{text-align:center;font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.05em;color:var(--mute);padding:2px 0}
+.tc-d{position:relative;height:54px;min-width:0;border-radius:10px;border:1px solid var(--line);background:var(--paper);color:var(--ink);display:flex;flex-direction:column;gap:1px;align-items:center;justify-content:center;text-decoration:none;transition:border-color .15s,background .15s}
+.tc-d.out{background:transparent;border-color:transparent}
+a.tc-d:hover{border-color:var(--pitch2);background:var(--card)}
+.tc-d b{font:800 17px 'Barlow Condensed',sans-serif}
+.tc-d em{position:absolute;top:3px;left:5px;font-style:normal;font-size:9.5px;font-weight:800;text-transform:uppercase;color:var(--mute)}
+.tc-d i{min-width:18px;height:15px;padding:0 5px;border-radius:99px;background:var(--pitch);color:#fff;font:700 10.5px/15px 'Source Sans 3',sans-serif;text-align:center;font-style:normal}
+.tc-d.past b{color:var(--mute)}
+.tc-d.has:not(.sel){border-color:#b9d3c7}
+.tc-d.today{box-shadow:inset 0 0 0 2px var(--gold)}
+.tc-d.sel{background:var(--pitch);border-color:var(--pitch);color:#fff}
+.tc-d.sel b{color:#fff}.tc-d.sel em{color:#cfe3da}.tc-d.sel i{background:var(--gold);color:#241a00}
+.tc-key{display:flex;flex-wrap:wrap;gap:6px 16px;margin-top:10px;font-size:12.5px;color:var(--mute)}
+.tc-key .k{display:inline-block;width:12px;height:12px;border-radius:4px;margin-right:6px;vertical-align:-2px;border:1px solid var(--line)}
+.tc-key .k.today{box-shadow:inset 0 0 0 2px var(--gold)}.tc-key .k.has{border-color:#b9d3c7;background:var(--paper)}
+:root[data-theme="dark"] .tc-d.sel{background:#1f7a5d;border-color:#1f7a5d}
+:root[data-theme="dark"] .tc-d i{background:#1f7a5d}
+:root[data-theme="dark"] .tc-d.has:not(.sel){border-color:#2f6f58}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .tc-d.sel{background:#1f7a5d;border-color:#1f7a5d}:root:not([data-theme="light"]) .tc-d i{background:#1f7a5d}:root:not([data-theme="light"]) .tc-d.has:not(.sel){border-color:#2f6f58}}
+@media (max-width:480px){.tc{padding:12px}.tc-d{height:46px}.tc-d b{font-size:15px}.tc-top strong{font-size:19px}}
+
+.tc-d em+b{margin-top:9px}
+.tc{box-sizing:border-box;width:100%}
+@media (max-width:480px){.tc-key span:last-child{flex-basis:100%}.tc-today{padding:6px 10px}}
+
+:root[data-theme="dark"] .tc-dd.picked summary{background:#1f7a5d;border-color:#1f7a5d}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .tc-dd.picked summary{background:#1f7a5d;border-color:#1f7a5d}}
+@media (max-width:560px){.tc-dd{position:static}.tc-dd .tc{left:0;right:0;width:auto}}

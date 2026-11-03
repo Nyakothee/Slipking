@@ -1,0 +1,21 @@
+/* Hidden job application page */
+.jobwrap{max-width:900px}
+.jobhead h1{font-size:44px;margin-bottom:6px}
+.jobhead p{color:var(--mute);max-width:720px}
+.jobtips{display:flex;gap:10px 18px;flex-wrap:wrap;margin:14px 0 22px;padding:0;list-style:none}
+.jobtips li{background:var(--card);border:1px solid var(--line);border-radius:99px;padding:5px 14px;font-size:14px;color:var(--mute)}
+.jobform{display:flex;flex-direction:column;gap:20px}
+.jobsec{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px 22px 8px;box-shadow:0 10px 30px -22px rgba(13,59,44,.4);min-width:0}
+.jobsec legend{font:800 24px 'Barlow Condensed',sans-serif;color:var(--pitch2);padding:0 10px;background:var(--card);border-radius:8px}
+.jobgrid{display:grid;grid-template-columns:1fr 1fr;gap:4px 18px}
+.jobgrid .field.wide{grid-column:1/-1}
+.rq{color:var(--loss);font-weight:800}
+.opts{display:flex;gap:8px 10px;flex-wrap:wrap}
+.opt{display:inline-flex;align-items:center;gap:8px;border:1.5px solid var(--line);border-radius:99px;padding:7px 14px;cursor:pointer;font-weight:400;font-size:15px;background:var(--paper);margin:0}
+.opt:has(input:checked){border-color:var(--pitch2);background:rgba(21,82,64,.12);font-weight:700}
+.opt input{margin:0}
+.photoprev{display:block;margin-top:10px;width:120px;height:150px;object-fit:cover;border-radius:10px;border:1px solid var(--line)}
+.jobfoot{text-align:center;color:var(--mute);font-size:14px}
+.jobdone{margin-top:30px}
+.jobform .btn.full{padding:15px;font-size:18px;border-radius:12px}
+@media (max-width:680px){.jobgrid{grid-template-columns:1fr}.jobhead h1{font-size:34px}.jobsec{padding:18px 14px 6px}}

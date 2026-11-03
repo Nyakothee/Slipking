@@ -1,0 +1,867 @@
+# SlipKing - Arabic (العربية). One line per phrase:  English ||| Translation
+# Texts with {1} {2} are patterns: {1} is replaced by the changing part of the page.
+# Please have a native Arabic speaker review this file, especially payment and gambling wording.
+__months ||| January=يناير;February=فبراير;March=مارس;April=أبريل;May=مايو;June=يونيو;July=يوليو;August=أغسطس;September=سبتمبر;October=أكتوبر;November=نوفمبر;December=ديسمبر;Jan=يناير;Feb=فبراير;Mar=مارس;Apr=أبريل;Jun=يونيو;Jul=يوليو;Aug=أغسطس;Sep=سبتمبر;Oct=أكتوبر;Nov=نوفمبر;Dec=ديسمبر
+__days ||| Monday=الاثنين;Tuesday=الثلاثاء;Wednesday=الأربعاء;Thursday=الخميس;Friday=الجمعة;Saturday=السبت;Sunday=الأحد;Mon=الاثنين;Tue=الثلاثاء;Wed=الأربعاء;Thu=الخميس;Fri=الجمعة;Sat=السبت;Sun=الأحد
+
+# ---- menu, header, footer
+Home ||| الرئيسية
+Today's tips ||| توقعات اليوم
+Accumulators ||| الرهانات المتراكمة
+Results ||| النتائج
+VIP ||| VIP
+Blog ||| المدونة
+About ||| من نحن
+Skip to content ||| انتقل إلى المحتوى
+Main ||| الرئيسية
+Menu ||| القائمة
+Currency ||| العملة
+Language ||| اللغة
+Log in ||| تسجيل الدخول
+Log out ||| تسجيل الخروج
+Go VIP ||| اشترك في VIP
+My account ||| حسابي
+Create account ||| إنشاء حساب
+Create an account ||| إنشاء حساب
+Site ||| الموقع
+Support ||| الدعم
+Follow ||| تابعنا
+Contact us ||| اتصل بنا
+Terms ||| الشروط
+Privacy ||| الخصوصية
+Responsible gambling ||| المراهنة المسؤولة
+VIP plans ||| باقات VIP
+Predictions with a public record. ||| توقعات بسجل نتائج علني.
+18+ only. Gamble responsibly and never bet more than you can afford to lose. Tips are opinions, not guarantees. If betting stops being fun, seek help from a support service in your country. © {1} {2} ||| للبالغين 18 عامًا فأكثر فقط. راهن بمسؤولية ولا تراهن أبدًا بأكثر مما تستطيع تحمّل خسارته. التوقعات مجرد آراء وليست ضمانات. إذا توقفت المراهنة عن كونها ممتعة، فاطلب المساعدة من جهة دعم في بلدك. © {1} {2}
+Prices in other currencies are estimates. You pay in KES (M-Pesa) or USD (PayPal). ||| الأسعار بالعملات الأخرى تقديرية. يتم الدفع بالشلن الكيني (M-Pesa) أو بالدولار الأمريكي (PayPal).
+This page is currently available in English only. ||| هذه الصفحة متاحة حاليًا باللغة الإنجليزية فقط.
+{1} tips today ||| {1} توقعات اليوم
+Last 30 days: {1}% won ||| آخر 30 يومًا: فوز بنسبة {1}%
+Kenya shilling ||| الشلن الكيني
+US dollar ||| الدولار الأمريكي
+Nigerian naira ||| النيرة النيجيرية
+Indian rupee ||| الروبية الهندية
+Chat with us ||| تحدث معنا
+Live chat ||| الدردشة المباشرة
+Close chat ||| إغلاق الدردشة
+Hello! How can we help? We reply as soon as we can. ||| مرحبًا! كيف يمكننا مساعدتك؟ نرد في أقرب وقت ممكن.
+Your name ||| اسمك
+Email (optional) ||| البريد الإلكتروني (اختياري)
+Type your message ||| اكتب رسالتك
+Send ||| إرسال
+Never share passwords or PINs in chat. ||| لا تشارك كلمات المرور أو الرموز السرية في الدردشة أبدًا.
+
+# ---- statuses and common words
+Won ||| رابح
+Lost ||| خاسر
+Void ||| ملغى
+Pending ||| قيد الانتظار
+Awaiting result ||| بانتظار النتيجة
+Active ||| نشط
+Ended ||| منتهٍ
+Cancelled ||| ملغى
+Paid ||| مدفوع
+Failed ||| فشل
+Closed ||| مغلق
+Received ||| تم الاستلام
+We have contacted you ||| تواصلنا معك
+Accepted ||| مقبول
+Not accepted ||| غير مقبول
+Yes ||| نعم
+No ||| لا
+Free ||| مجاني
+VS ||| ضد
+Today ||| اليوم
+Tomorrow ||| غدًا
+Yesterday ||| أمس
+Today {1} ||| اليوم {1}
+Tomorrow {1} ||| غدًا {1}
+Yesterday {1} ||| أمس {1}
+Date ||| التاريخ
+Match ||| المباراة
+Matches ||| المباريات
+Pick ||| التوقع
+Pick: ||| التوقع:
+Odds ||| الأودز
+Result ||| النتيجة
+Status ||| الحالة
+Plan ||| الباقة
+Price ||| السعر
+Length ||| المدة
+Amount ||| المبلغ
+Method ||| الطريقة
+Message ||| الرسالة
+Messages ||| الرسائل
+Subject ||| الموضوع
+Country ||| الدولة
+Email ||| البريد الإلكتروني
+Password ||| كلمة المرور
+Full name ||| الاسم الكامل
+Kickoff ||| موعد البداية
+Started ||| البداية
+Ends ||| النهاية
+From ||| من
+To ||| إلى
+History ||| السجل
+Receipt ||| الإيصال
+Receipt / reference ||| الإيصال / المرجع
+Total odds ||| إجمالي الأودز
+Football ||| كرة القدم
+Basketball ||| كرة السلة
+Tennis ||| التنس
+All sports ||| كل الرياضات
+All tips ||| كل التوقعات
+All results ||| كل النتائج
+Sport ||| الرياضة
+Day ||| اليوم
+Match details ||| تفاصيل المباراة
+/ week ||| / أسبوع
+/ month ||| / شهر
+/ 3 months ||| / 3 أشهر
+/ year ||| / سنة
+/ {1} days ||| / {1} يومًا
+{1} days ||| {1} يومًا
+Weekly ||| أسبوعية
+Monthly ||| شهرية
+Elite ||| النخبة
+All VIP tips ||| كل توقعات VIP
+Telegram alerts ||| تنبيهات تيليجرام
+Results archive ||| أرشيف النتائج
+Everything in Weekly ||| كل ما في الأسبوعية
+Correct score picks ||| توقعات النتيجة الدقيقة
+Private VIP group ||| مجموعة VIP خاصة
+Everything in Monthly ||| كل ما في الشهرية
+Highest-confidence picks ||| توقعات الثقة الأعلى
+Early access to tips ||| وصول مبكر إلى التوقعات
+Priority support ||| دعم ذو أولوية
+Double chance ||| الفرصة المزدوجة
+Over/Under ||| أكثر/أقل
+BTTS ||| تسجيل الفريقين
+Handicap ||| الهانديكاب
+Correct score ||| النتيجة الدقيقة
+Acca ||| رهان متراكم
+Set betting ||| الرهان على الأشواط
+Total games ||| إجمالي الألعاب
+Locked VIP pick ||| توقع VIP مقفل
+VIP tip ||| توقع VIP
+Confidence {1} of 5 ||| الثقة {1} من 5
+Confidence: {1} out of 5 ||| الثقة: {1} من 5
+Last {1} results ||| آخر {1} نتائج
+Win rate by month ||| نسبة الفوز حسب الشهر
+Tips ||| التوقعات
+at {1} ||| في {1}
+
+# ---- home page
+Predictions you can check, match by match. ||| توقعات يمكنك التحقق منها، مباراة بمباراة.
+Free tips every day. Every pick is timestamped before kickoff and stays on the record, win or lose. ||| توقعات مجانية كل يوم. كل توقع يُسجَّل بوقته قبل بداية المباراة ويبقى في السجل، سواء ربح أو خسر.
+See today's free tips ||| شاهد توقعات اليوم المجانية
+View VIP plans ||| عرض باقات VIP
+Open your VIP picks ||| افتح توقعات VIP الخاصة بك
+won, last 30 days ||| فوز، آخر 30 يومًا
+tips settled, last 30 days ||| توقعات محسومة، آخر 30 يومًا
+average odds ||| متوسط الأودز
+Free tips today ||| التوقعات المجانية اليوم
+No sign-up needed. Refreshed every morning. ||| لا حاجة للتسجيل. تُحدَّث كل صباح.
+Today's free tips are being prepared. Check back in a little while. ||| يجري إعداد التوقعات المجانية لليوم. عد بعد قليل.
+VIP picks ||| توقعات VIP
+Higher confidence, fewer tips. ||| ثقة أعلى، وتوقعات أقل.
+Your plan is active. ||| باقتك نشطة.
+Unlock with a plan. ||| افتحها بباقة.
+VIP picks for today will appear here. ||| ستظهر هنا توقعات VIP لليوم.
+1 Million Accumulator ||| رهان المليون المتراكم
+Free for everyone. A long ticket where every selection must win. ||| مجاني للجميع. تذكرة طويلة يجب أن يفوز فيها كل اختيار.
+All accumulators ||| كل الرهانات المتراكمة
+Minimum stake for {1} ||| الحد الأدنى للرهان للحصول على {1}
+{1} selections ||| {1} اختيارًا
+See all selections ||| شاهد كل الاختيارات
+Most long accumulators lose. Only stake what you can afford to lose. ||| معظم الرهانات المتراكمة الطويلة تخسر. لا تراهن إلا بما تستطيع تحمّل خسارته.
+Our record is public ||| سجلنا علني
+Every tip we post is kept in the archive with its posting time. Nothing is edited or hidden after the match. ||| كل توقع ننشره يُحفظ في الأرشيف مع وقت نشره. لا يتم تعديل أي شيء أو إخفاؤه بعد المباراة.
+Open full results ||| افتح كل النتائج
+Monthly results appear here once tips are settled. ||| ستظهر النتائج الشهرية هنا بعد حسم التوقعات.
+Pick your sport ||| اختر رياضتك
+Choose your plan ||| اختر باقتك
+Pay with M-Pesa or PayPal. Your plan runs for the period you pay for and does not renew by itself. ||| ادفع عبر M-Pesa أو PayPal. تستمر باقتك للمدة التي دفعت مقابلها ولا تتجدد تلقائيًا.
+Most chosen ||| الأكثر اختيارًا
+Choose {1} ||| اختر {1}
+Extend with {1} ||| مدّد بباقة {1}
+What members say ||| ماذا يقول الأعضاء
+Questions ||| أسئلة
+Are the tips guaranteed to win? ||| هل التوقعات مضمونة الفوز؟
+No. No tip is guaranteed. We publish every result so you can judge the record yourself. ||| لا. لا يوجد توقع مضمون. ننشر كل نتيجة لتحكم بنفسك على السجل.
+How do I pay for VIP? ||| كيف أدفع مقابل VIP؟
+With M-Pesa (you get a prompt on your phone) or with PayPal. Your plan activates as soon as payment is confirmed. ||| عبر M-Pesa (تصلك رسالة على هاتفك) أو عبر PayPal. تُفعَّل باقتك فور تأكيد الدفع.
+Does my plan renew automatically? ||| هل تتجدد باقتي تلقائيًا؟
+No. Your plan ends when the period you paid for ends, and you choose whether to buy another. ||| لا. تنتهي باقتك بانتهاء المدة التي دفعت مقابلها، وأنت تقرر ما إذا كنت ستشتري باقة أخرى.
+Football & Sports Predictions with a Public Record ||| توقعات كرة القدم والرياضة بسجل علني
+
+# ---- tips, tip, results
+Yesterday's tips ||| توقعات أمس
+Tomorrow's tips ||| توقعات الغد
+{1} · {2} tips ({3} free, {4} VIP) ||| {1} · {2} توقعات ({3} مجانية، {4} VIP)
+No tips for this day and filter yet. Try another day, or check back later. ||| لا توجد توقعات لهذا اليوم وهذا الفلتر. جرّب يومًا آخر أو عد لاحقًا.
+VIP tips locked: {1}. ||| توقعات VIP المقفلة: {1}.
+See VIP plans ||| شاهد باقات VIP
+Once a match is settled, the pick becomes public in the results archive. ||| بعد حسم المباراة يصبح التوقع علنيًا في أرشيف النتائج.
+Unlock with VIP ||| افتح بباقة VIP
+This is a VIP tip ||| هذا توقع VIP
+The pick, odds and analysis for this match are for VIP members until the match is settled. After that they are shown here for everyone. ||| التوقع والأودز والتحليل لهذه المباراة مخصصة لأعضاء VIP حتى تُحسم المباراة. بعد ذلك تظهر هنا للجميع.
+Our analysis ||| تحليلنا
+No written analysis for this tip. ||| لا يوجد تحليل مكتوب لهذا التوقع.
+Market: {1} ||| السوق: {1}
+Status: {1} ||| الحالة: {1}
+Odds change between bookmakers. Check the price you are offered before you bet. No tip is guaranteed. ||| تختلف الأودز بين شركات المراهنات. تحقق من السعر المعروض عليك قبل أن تراهن. لا يوجد توقع مضمون.
+{1} · posted {2} ||| {1} · نُشر في {2}
+Results archive ||| أرشيف النتائج
+Every tip, in the order the matches were played. ||| كل التوقعات بحسب ترتيب لعب المباريات.
+win rate, last 30 days ({1} tips) ||| نسبة الفوز، آخر 30 يومًا ({1} توقعات)
+units profit, last 30 days ||| وحدات الربح، آخر 30 يومًا
+win rate, all time ({1} tips) ||| نسبة الفوز، منذ البداية ({1} توقعات)
+units profit, all time ||| وحدات الربح، منذ البداية
+Profit is counted as 1 unit staked on every tip at the odds shown: a win returns odds minus 1, a loss costs 1. Void tips count as 0. Real returns depend on the odds you get. ||| يُحسب الربح على أساس رهان وحدة واحدة على كل توقع بالأودز المعروضة: الفوز يعيد الأودز ناقص 1، والخسارة تكلّف 1. التوقعات الملغاة تُحسب صفرًا. العوائد الفعلية تعتمد على الأودز التي تحصل عليها.
+No results match this filter yet. ||| لا توجد نتائج تطابق هذا الفلتر بعد.
+
+# ---- VIP page
+Every plan unlocks all VIP tips. Longer plans cost less per day. ||| كل باقة تفتح جميع توقعات VIP. الباقات الأطول أقل تكلفة في اليوم.
+VIP is active ||| VIP نشط
+Your {1} plan is active until {2}. ||| باقتك {1} نشطة حتى {2}.
+About {1} per day ||| حوالي {1} في اليوم
+With PayPal: ${1} ||| عبر PayPal: {1}$
+Plans are not available right now. ||| الباقات غير متاحة حاليًا.
+Plans are one-off payments and do not renew by themselves. No tip is guaranteed to win. Please bet only what you can afford to lose. 18+ only. ||| الباقات دفعات لمرة واحدة ولا تتجدد تلقائيًا. لا يوجد توقع مضمون الفوز. راهن فقط بما تستطيع تحمّل خسارته. للبالغين 18 عامًا فأكثر فقط.
+Free vs VIP ||| المجاني مقابل VIP
+What you get ||| ما تحصل عليه
+Daily tips ||| التوقعات اليومية
+A few ||| القليل
+All of them ||| جميعها
+Accumulators and correct score ||| الرهانات المتراكمة والنتيجة الدقيقة
+Written analysis ||| تحليل مكتوب
+Alerts and private group ||| تنبيهات ومجموعة خاصة
+How paying works ||| كيف يعمل الدفع
+Choose a plan and sign in or create an account. ||| اختر باقة وسجّل الدخول أو أنشئ حسابًا.
+Pay with M-Pesa (a prompt appears on your phone) or PayPal. ||| ادفع عبر M-Pesa (تظهر رسالة على هاتفك) أو PayPal.
+Your plan starts the moment the payment is confirmed. ||| تبدأ باقتك لحظة تأكيد الدفع.
+PayPal ||| PayPal
+M-Pesa ||| M-Pesa
+Recent VIP results ||| نتائج VIP الأخيرة
+VIP win rate so far: {1}% of {2} settled tips. ||| نسبة فوز VIP حتى الآن: {1}% من {2} توقعات محسومة.
+Settled picks are public, wins and losses alike. ||| التوقعات المحسومة علنية، سواء كانت رابحة أو خاسرة.
+Full results ||| كل النتائج
+VIP results will be listed here as matches are settled. ||| ستُدرج نتائج VIP هنا كلما حُسمت المباريات.
+Before you pay ||| قبل أن تدفع
+What if my M-Pesa payment does not activate my plan? ||| ماذا لو لم يفعّل دفعي عبر M-Pesa باقتي؟
+Wait two minutes and refresh. If it still shows inactive, contact us with your M-Pesa confirmation message and we will activate it. ||| انتظر دقيقتين ثم حدّث الصفحة. إذا ظلت غير مفعّلة، تواصل معنا مع رسالة تأكيد M-Pesa وسنفعّلها.
+Can I get a refund? ||| هل يمكنني استرداد المبلغ؟
+Refund terms will be listed on the terms page. Please read them before you pay. ||| ستُذكر شروط الاسترداد في صفحة الشروط. يرجى قراءتها قبل الدفع.
+Which currency is used? ||| ما العملة المستخدمة؟
+M-Pesa payments are in Kenya shillings. PayPal payments are charged in US dollars at the price shown on the plan. ||| مدفوعات M-Pesa بالشلن الكيني. مدفوعات PayPal تُحاسب بالدولار الأمريكي بالسعر المعروض على الباقة.
+
+# ---- accumulators
+One long ticket of many selections. Every selection must win. ||| تذكرة طويلة من اختيارات كثيرة. يجب أن يفوز كل اختيار.
+1 Million Accumulator (free) ||| رهان المليون المتراكم (مجاني)
+VIP Accumulator ||| الرهان المتراكم VIP
+Please read this first. ||| يرجى القراءة أولًا.
+An accumulator wins only if every selection wins, and one loss means the whole ticket loses. With dozens of selections the odds are huge because the chance is tiny, so most tickets lose. Only stake an amount you can afford to lose completely. ||| لا يفوز الرهان المتراكم إلا إذا فاز كل اختيار فيه، وخسارة واحدة تعني خسارة التذكرة كلها. ومع عشرات الاختيارات تكون الأودز ضخمة لأن الاحتمال ضئيل جدًا، ولذلك تخسر معظم التذاكر. لا تراهن إلا بمبلغ تستطيع تحمّل خسارته بالكامل.
+Our record so far: ||| سجلنا حتى الآن:
+{1} won, {2} lost ({3} settled) ||| {1} رابحة، {2} خاسرة ({3} محسومة)
+No {1} accumulator has been posted yet. Check back soon. ||| لم يُنشر أي رهان متراكم {1} بعد. عد قريبًا.
+1 in {1} ||| 1 من كل {1}
+Posted {1} · {2} selections · ||| نُشر في {1} · {2} اختيارًا ·
+Every selection must win. One loss loses the whole ticket. The "minimum stake" is only the smallest stake that would reach the target if every selection wins, and it is not advice to stake that amount. Odds change between bookmakers, so check your price. 18+ only. ||| يجب أن يفوز كل اختيار. خسارة واحدة تُخسر التذكرة كلها. "الحد الأدنى للرهان" هو أصغر مبلغ يحقق الهدف إذا فاز كل اختيار، وليس نصيحة بالمراهنة بهذا المبلغ. تختلف الأودز بين شركات المراهنات، فتحقق من السعر المعروض عليك. للبالغين 18 عامًا فأكثر فقط.
+total odds ||| إجمالي الأودز
+(void selections removed) ||| (بعد استبعاد الاختيارات الملغاة)
+minimum stake to return {1} or more ||| الحد الأدنى للرهان للحصول على {1} أو أكثر
+roughly the chance all selections win, as the odds see it ||| تقريبًا احتمال فوز كل الاختيارات بحسب الأودز
+won: {1}, lost: {2}, still to play: {3} ||| رابحة: {1}، خاسرة: {2}، لم تُلعب بعد: {3}
+This is a VIP accumulator ||| هذا رهان متراكم VIP
+The {1} selections are for VIP members until the ticket is settled. After that they are shown here for everyone, whether it won or lost. ||| الاختيارات الـ {1} مخصصة لأعضاء VIP حتى تُحسم التذكرة. بعد ذلك تظهر هنا للجميع، سواء ربحت أو خسرت.
+Your stake ({1}) ||| مبلغ رهانك ({1})
+Return if every selection wins = stake x total odds. Estimate only. ||| العائد إذا فاز كل اختيار = المبلغ × إجمالي الأودز. تقدير فقط.
+Returns ||| العائد
+
+# ---- blog, contact, about, 404
+Guides, previews and bankroll advice. ||| أدلة ومعاينات ونصائح لإدارة الميزانية.
+No articles yet. The first ones are on the way. ||| لا توجد مقالات بعد. الأولى في الطريق.
+Betting carries risk and no tip is guaranteed. 18+ only. Never bet more than you can afford to lose. ||| المراهنة تنطوي على مخاطرة ولا يوجد توقع مضمون. للبالغين 18 عامًا فأكثر فقط. لا تراهن أبدًا بأكثر مما تستطيع تحمّل خسارته.
+See today's tips ||| شاهد توقعات اليوم
+For payment problems, include your M-Pesa receipt code or PayPal receipt. ||| لمشكلات الدفع، أرفق رمز إيصال M-Pesa أو إيصال PayPal.
+Your email ||| بريدك الإلكتروني
+Send message ||| إرسال الرسالة
+Thank you. We have your message and will reply to {1}. ||| شكرًا لك. وصلتنا رسالتك وسنرد على {1}.
+Back to the home page ||| العودة إلى الصفحة الرئيسية
+Leave empty ||| اتركه فارغًا
+About {1} ||| عن {1}
+{1} publishes sports betting predictions. Some are free and open to everyone. The rest are VIP tips for members who take a paid plan. ||| تنشر {1} توقعات للمراهنات الرياضية. بعضها مجاني ومتاح للجميع، والباقي توقعات VIP للأعضاء المشتركين في باقة مدفوعة.
+Every tip is stamped with the time it was posted, before the match starts. After kickoff a tip cannot be edited or deleted, and every result, win or loss, goes into a public archive. ||| يُختم كل توقع بوقت نشره قبل بداية المباراة. بعد البداية لا يمكن تعديل التوقع أو حذفه، وتدخل كل نتيجة، رابحة أو خاسرة، في أرشيف علني.
+See our full results ||| شاهد كل نتائجنا
+before you spend anything. ||| قبل أن تنفق أي مبلغ.
+No tipster wins every time, and neither do we. Tips are opinions based on form and statistics, not promises. Only bet money you can afford to lose. ||| لا يوجد محلل يفوز في كل مرة، ونحن كذلك. التوقعات آراء مبنية على المستوى والإحصاءات وليست وعودًا. لا تراهن إلا بمال تستطيع تحمّل خسارته.
+Read about responsible gambling ||| اقرأ عن المراهنة المسؤولة
+We do not take bets and we are not a bookmaker. You place any bet yourself, with a bookmaker that is licensed where you live. ||| نحن لا نقبل الرهانات ولسنا شركة مراهنات. أنت تضع أي رهان بنفسك لدى شركة مراهنات مرخّصة في بلد إقامتك.
+Page not found ||| الصفحة غير موجودة
+The page you asked for does not exist or has moved. ||| الصفحة التي طلبتها غير موجودة أو تم نقلها.
+Betting should be entertainment, never a way to make a living or to fix money problems. You must be 18 or older to use this site. ||| يجب أن تكون المراهنة تسلية، وليست وسيلة لكسب العيش أو لحل المشكلات المالية. يجب أن يكون عمرك 18 عامًا أو أكثر لاستخدام هذا الموقع.
+Our tips are not guarantees. ||| توقعاتنا ليست ضمانات.
+They are opinions. Any tip can lose, including our most confident ones. Never bet because a tip "cannot lose". ||| هي مجرد آراء. أي توقع قد يخسر، حتى أكثرها ثقة. لا تراهن أبدًا لأن توقعًا "لا يمكن أن يخسر".
+Keep it under control ||| حافظ على السيطرة
+Decide a budget before you start and stick to it. Only bet money you can afford to lose completely. Never borrow to bet. Do not chase losses with bigger stakes. Take regular breaks, and keep a record of what you spend. ||| حدّد ميزانية قبل أن تبدأ والتزم بها. راهن فقط بمال تستطيع تحمّل خسارته بالكامل. لا تقترض أبدًا لتراهن. لا تطارد خسائرك برهانات أكبر. خذ فترات راحة منتظمة واحتفظ بسجل لما تنفقه.
+Warning signs ||| علامات تحذيرية
+Betting more than you planned. Hiding it from family or friends. Feeling anxious or angry when you cannot bet. Betting to win back losses. Money for rent, food or school fees going to bets. If any of these sound familiar, stop and talk to someone. ||| المراهنة بأكثر مما خططت. إخفاء ذلك عن العائلة أو الأصدقاء. الشعور بالقلق أو الغضب عندما لا تستطيع المراهنة. المراهنة لتعويض الخسائر. ذهاب مال الإيجار أو الطعام أو الرسوم الدراسية إلى الرهانات. إذا بدا لك أيٌّ من هذه مألوفًا، فتوقف وتحدث إلى شخص ما.
+Where to get help ||| أين تجد المساعدة
+Speak to a trusted friend or family member. Licensed bookmakers offer tools to set deposit limits, take a break, or exclude yourself completely, so use them. Look for a gambling support organisation or counselling service in your own country and contact them. ||| تحدث إلى صديق أو أحد أفراد العائلة تثق به. تقدّم شركات المراهنات المرخّصة أدوات لتحديد حدود الإيداع أو أخذ استراحة أو استبعاد نفسك تمامًا، فاستخدمها. ابحث عن جهة لدعم المقامرين أو خدمة استشارية في بلدك وتواصل معها.
+Our part ||| دورنا
+We show every result, wins and losses, so you can judge us honestly. We never pressure anyone to buy VIP, and plans never renew by themselves. ||| نعرض كل نتيجة، رابحة وخاسرة، لتحكم علينا بإنصاف. لا نضغط على أحد لشراء VIP، والباقات لا تتجدد تلقائيًا أبدًا.
+
+# ---- sign up, log in, passwords
+Free to join. VIP is optional. ||| الانضمام مجاني. VIP اختياري.
+M-Pesa phone number (optional) ||| رقم هاتف M-Pesa (اختياري)
+Used to pre-fill your M-Pesa payment. ||| يُستخدم لتعبئة دفعتك عبر M-Pesa مسبقًا.
+At least 8 characters. ||| 8 أحرف على الأقل.
+Repeat password ||| أعد كتابة كلمة المرور
+I am 18 years or older. ||| عمري 18 عامًا أو أكثر.
+I accept the ||| أوافق على
+terms ||| الشروط
+and understand that tips are not guaranteed. ||| وأفهم أن التوقعات غير مضمونة.
+Already have an account? ||| لديك حساب بالفعل؟
+Welcome back. ||| مرحبًا بعودتك.
+Forgot your password? ||| نسيت كلمة المرور؟
+New here? ||| جديد هنا؟
+Forgot password ||| نسيت كلمة المرور
+Enter your email and we will send you a link to choose a new password. ||| أدخل بريدك الإلكتروني وسنرسل لك رابطًا لاختيار كلمة مرور جديدة.
+Send reset link ||| إرسال رابط إعادة التعيين
+Back to log in ||| العودة إلى تسجيل الدخول
+If that email has an account, a reset link is on its way. It is valid for 1 hour. Check your spam folder too. ||| إذا كان لهذا البريد حساب، فالرابط في طريقه إليك. صالح لمدة ساعة. تحقق من مجلد الرسائل غير المرغوبة أيضًا.
+New password ||| كلمة مرور جديدة
+Choose a password of at least 8 characters. ||| اختر كلمة مرور من 8 أحرف على الأقل.
+Repeat new password ||| أعد كتابة كلمة المرور الجديدة
+Save password ||| حفظ كلمة المرور
+This reset link is not valid or has expired. ||| رابط إعادة التعيين هذا غير صالح أو منتهي.
+Get a new link ||| احصل على رابط جديد
+
+# ---- account area
+Hello, {1} ||| مرحبًا، {1}
+Signed in as {1} ||| تم تسجيل الدخول باسم {1}
+Dashboard ||| لوحة التحكم
+Subscription ||| الاشتراك
+Payments ||| المدفوعات
+Profile ||| الملف الشخصي
+Notifications ||| الإشعارات
+Referrals ||| الإحالات
+Please confirm your email address. We sent you a link when you signed up. ||| يرجى تأكيد بريدك الإلكتروني. أرسلنا إليك رابطًا عند التسجيل.
+Send the link again ||| أعد إرسال الرابط
+Your payment is being confirmed. This usually takes under a minute. Refresh this page shortly. ||| جارٍ تأكيد دفعتك. يستغرق ذلك عادة أقل من دقيقة. حدّث هذه الصفحة بعد قليل.
+Unread messages: {1} ||| رسائل غير مقروءة: {1}
+Read ||| قراءة
+You are on the free plan. VIP unlocks every premium pick. ||| أنت على الباقة المجانية. VIP يفتح كل التوقعات المميزة.
+VIP picks today ||| توقعات VIP اليوم
+No VIP picks are posted for today yet. Check back soon. ||| لم تُنشر توقعات VIP لليوم بعد. عد قريبًا.
+VIP picks tomorrow ||| توقعات VIP غدًا
+No free tips yet today. ||| لا توجد توقعات مجانية اليوم بعد.
+You are on the free plan ||| أنت على الباقة المجانية
+Unlock every VIP pick with a weekly, monthly or 3-month plan. ||| افتح كل توقعات VIP بباقة أسبوعية أو شهرية أو لثلاثة أشهر.
+Days left ||| الأيام المتبقية
+Extend my plan ||| تمديد باقتي
+Your plan does not renew by itself. Buy another before it ends and the days are added on. ||| لا تتجدد باقتك تلقائيًا. اشترِ باقة أخرى قبل انتهائها وستُضاف الأيام.
+Payment history ||| سجل المدفوعات
+You have not made any payments yet. ||| لم تُجرِ أي دفعات بعد.
+A payment marked Pending that never completes will show as Failed. If money left your account but your plan is not active, contact us with the M-Pesa or PayPal confirmation. ||| الدفعة التي تظهر "قيد الانتظار" ولا تكتمل ستظهر "فشل". إذا خُصم مال من حسابك ولم تتفعل باقتك، تواصل معنا مع تأكيد M-Pesa أو PayPal.
+Mark all as read ||| تحديد الكل كمقروء
+No messages yet. ||| لا توجد رسائل بعد.
+Invite friends ||| ادعُ أصدقاءك
+Your link ||| رابطك
+Share this link. Anyone who signs up through it is counted below. ||| شارك هذا الرابط. كل من يسجل من خلاله يُحتسب أدناه.
+Friends who joined ||| الأصدقاء المنضمون
+Of those, who have paid for VIP ||| منهم من دفع مقابل VIP
+Your details ||| بياناتك
+To change your email, contact support. ||| لتغيير بريدك الإلكتروني، تواصل مع الدعم.
+M-Pesa phone number ||| رقم هاتف M-Pesa
+Save details ||| حفظ البيانات
+Change password ||| تغيير كلمة المرور
+Current password ||| كلمة المرور الحالية
+
+# ---- checkout and payments
+Checkout ||| إتمام الدفع
+Your order ||| طلبك
+You already have VIP. These days will be added after your current plan ends. ||| لديك VIP بالفعل. ستُضاف هذه الأيام بعد انتهاء باقتك الحالية.
+One-off payment. It does not renew by itself. You must be 18 or older. ||| دفعة لمرة واحدة. لا تتجدد تلقائيًا. يجب أن يكون عمرك 18 عامًا أو أكثر.
+Have a coupon code? ||| لديك كود خصم؟
+Apply ||| تطبيق
+{1}% off with code {2} ||| خصم {1}% بالكود {2}
+or ${1} with PayPal ||| أو {1}$ عبر PayPal
+Pay with M-Pesa ||| ادفع عبر M-Pesa
+Pay {1} with M-Pesa ||| ادفع {1} عبر M-Pesa
+A prompt will appear on this phone. Enter your M-Pesa PIN to pay. ||| ستظهر رسالة على هذا الهاتف. أدخل رقم M-Pesa السري للدفع.
+Pay with PayPal ||| ادفع عبر PayPal
+Charged in US dollars: ${1}. You can use your PayPal balance or a card. ||| تُحاسب بالدولار الأمريكي: {1}$. يمكنك استخدام رصيد PayPal أو بطاقة.
+Payments are not switched on yet. Please check back soon. ||| لم يتم تفعيل المدفوعات بعد. يرجى العودة قريبًا.
+Payment received ||| تم استلام الدفعة
+Thank you. Your {1} plan is active until {2}. ||| شكرًا لك. باقتك {1} نشطة حتى {2}.
+Thank you. Your {1} plan is active. ||| شكرًا لك. باقتك {1} نشطة.
+See my VIP picks ||| شاهد توقعات VIP الخاصة بي
+Still confirming ||| لا يزال التأكيد جاريًا
+We have not received the confirmation yet. If you entered your PIN, your plan will switch on by itself within a few minutes. ||| لم يصلنا التأكيد بعد. إذا أدخلت رقمك السري فستتفعل باقتك تلقائيًا خلال دقائق.
+Check my payments ||| راجع مدفوعاتي
+Payment not completed ||| لم تكتمل الدفعة
+This payment did not go through. ||| لم تتم هذه الدفعة.
+Try again ||| حاول مرة أخرى
+Nothing was charged, or M-Pesa / PayPal will return it. If money left your account but your plan is not active, contact us with your confirmation message. ||| لم يُخصم شيء، أو ستعيده M-Pesa / PayPal. إذا خُصم مال من حسابك ولم تتفعل باقتك، تواصل معنا مع رسالة التأكيد.
+Choose a plan again ||| اختر باقة من جديد
+Contact support ||| اتصل بالدعم
+
+# ---- account management
+Account management ||| إدارة الحساب
+Tell us what you are looking for. We will talk to you directly before anything starts. ||| أخبرنا بما تبحث عنه. سنتحدث معك مباشرة قبل أن يبدأ أي شيء.
+How it works ||| كيف تعمل الخدمة
+You send an enquiry here. Nothing is agreed and no money moves. ||| ترسل استفسارًا هنا. لا يتم الاتفاق على شيء ولا يتحرك أي مال.
+We contact you on the phone or WhatsApp number you give, and talk through what you want. ||| نتواصل معك على رقم الهاتف أو واتساب الذي تقدمه، ونناقش ما تريد.
+If we both agree, the terms (including fees) are written down and agreed before anything starts. ||| إذا اتفقنا، تُكتب الشروط (بما فيها الرسوم) ويتم الاتفاق عليها قبل أن يبدأ أي شيء.
+You can ask to stop at any time. ||| يمكنك طلب التوقف في أي وقت.
+What we never do ||| ما لا نفعله أبدًا
+We never ask for your password, PIN or codes through this website, the chat or this form. If anyone asks you to send them here, do not. ||| لا نطلب أبدًا كلمة مرورك أو رقمك السري أو رموزك عبر هذا الموقع أو الدردشة أو هذا النموذج. إذا طلب منك أحد إرسالها هنا فلا تفعل.
+This website never holds your betting money. ||| هذا الموقع لا يحتفظ أبدًا بأموال مراهناتك.
+We never promise profit or guarantee results. ||| لا نعد بالربح ولا نضمن النتائج أبدًا.
+Risks you must understand. ||| مخاطر يجب أن تفهمها.
+Betting can lose all of the money used. Past results do not guarantee future results. Many betting companies do not allow anyone other than the account owner to operate an account, so check your company's rules, because your account could be limited or closed. Laws about betting and about managing other people's money differ between countries, so make sure you understand the rules where you live. Only use money you can afford to lose. 18+ only. ||| قد تخسر في المراهنة كل المال المستخدم. النتائج السابقة لا تضمن النتائج المستقبلية. كثير من شركات المراهنات لا تسمح لغير صاحب الحساب بتشغيله، فتحقق من قواعد شركتك لأن حسابك قد يُقيَّد أو يُغلق. تختلف القوانين المتعلقة بالمراهنة وبإدارة أموال الآخرين بين الدول، فتأكد من فهمك للقواعد في بلد إقامتك. استخدم فقط مالًا تستطيع تحمّل خسارته. للبالغين 18 عامًا فأكثر فقط.
+Send an enquiry ||| أرسل استفسارًا
+Please log in or create a free account so we can reach you and keep your enquiry safe. ||| يرجى تسجيل الدخول أو إنشاء حساب مجاني لنتمكن من الوصول إليك وحفظ استفسارك بأمان.
+You already have an enquiry we are working on. We will contact you soon. ||| لديك استفسار نعمل عليه بالفعل. سنتواصل معك قريبًا.
+Phone or WhatsApp number ||| رقم الهاتف أو واتساب
+Betting company you use ||| شركة المراهنات التي تستخدمها
+Only the name. Never your login details. ||| الاسم فقط. وليس بيانات تسجيل دخولك أبدًا.
+Amount you are thinking of using ||| المبلغ الذي تفكر في استخدامه
+Risk you are comfortable with ||| مستوى المخاطرة الذي ترتاح إليه
+Low ||| منخفض
+Medium ||| متوسط
+High ||| مرتفع
+Anything else we should know (optional) ||| أي شيء آخر ينبغي أن نعرفه (اختياري)
+I understand I can lose all the money used and that no result is guaranteed. ||| أفهم أنني قد أخسر كل المال المستخدم وأنه لا توجد نتيجة مضمونة.
+I understand that I must never send my password, PIN or codes on this site. ||| أفهم أنه يجب ألا أرسل كلمة مروري أو رقمي السري أو رموزي على هذا الموقع أبدًا.
+Send enquiry ||| إرسال الاستفسار
+Your enquiries ||| استفساراتك
+Betting company ||| شركة المراهنات
+
+# ---- messages shown after an action or an error
+Your session expired. Please try again. ||| انتهت جلستك. يرجى المحاولة مرة أخرى.
+Your session expired. Refresh the page and try again. ||| انتهت جلستك. حدّث الصفحة وحاول مرة أخرى.
+Welcome, {1}! Your account is ready. We sent a link to confirm your email. ||| مرحبًا بك، {1}! حسابك جاهز. أرسلنا رابطًا لتأكيد بريدك الإلكتروني.
+You have been logged out. ||| تم تسجيل خروجك.
+The email or password is not correct. ||| البريد الإلكتروني أو كلمة المرور غير صحيحة.
+Too many attempts. Please wait 15 minutes and try again. ||| محاولات كثيرة. انتظر 15 دقيقة ثم حاول مرة أخرى.
+Too many attempts. Please wait a few minutes and try again. ||| محاولات كثيرة. انتظر بضع دقائق ثم حاول مرة أخرى.
+Too many requests. Please wait 15 minutes and try again. ||| طلبات كثيرة. انتظر 15 دقيقة ثم حاول مرة أخرى.
+Too many requests. Please wait 15 minutes. ||| طلبات كثيرة. انتظر 15 دقيقة.
+Too many messages. Please wait 15 minutes and try again. ||| رسائل كثيرة. انتظر 15 دقيقة ثم حاول مرة أخرى.
+Too many enquiries today. Please try again tomorrow. ||| استفسارات كثيرة اليوم. حاول مرة أخرى غدًا.
+Too many chats started from your connection. Please try again later. ||| تم بدء محادثات كثيرة من اتصالك. حاول مرة أخرى لاحقًا.
+You are sending messages too fast. Please wait a moment. ||| ترسل الرسائل بسرعة كبيرة. انتظر لحظة.
+Type a message first. ||| اكتب رسالة أولًا.
+For your safety, never send passwords or PINs in chat. Please remove them and send again. ||| لسلامتك، لا ترسل كلمات المرور أو الأرقام السرية في الدردشة أبدًا. احذفها ثم أعد الإرسال.
+For your safety, never write passwords, PINs or codes here. Remove them and send again. ||| لسلامتك، لا تكتب كلمات المرور أو الأرقام السرية أو الرموز هنا أبدًا. احذفها ثم أعد الإرسال.
+Please enter your name (2 to 60 characters). ||| يرجى إدخال اسمك (من 2 إلى 60 حرفًا).
+That email address does not look right. You can leave it empty. ||| يبدو أن عنوان البريد الإلكتروني غير صحيح. يمكنك تركه فارغًا.
+An account with this email already exists. Try logging in. ||| يوجد حساب بهذا البريد الإلكتروني بالفعل. جرّب تسجيل الدخول.
+We could not create your account. Please try again. ||| تعذر إنشاء حسابك. يرجى المحاولة مرة أخرى.
+Enter your name (2 to 100 characters). ||| أدخل اسمك (من 2 إلى 100 حرف).
+Enter your name. ||| أدخل اسمك.
+Enter your full name. ||| أدخل اسمك الكامل.
+Enter a valid email address. ||| أدخل بريدًا إلكترونيًا صحيحًا.
+Enter a valid email address so we can reply. ||| أدخل بريدًا إلكترونيًا صحيحًا لنتمكن من الرد.
+Enter a valid Kenyan phone number, like 0712 345 678. ||| أدخل رقم هاتف كينيًا صحيحًا، مثل 0712 345 678.
+Enter a valid Safaricom number, like 0712 345 678. ||| أدخل رقم سفاريكوم صحيحًا، مثل 0712 345 678.
+Enter a phone or WhatsApp number we can reach you on, like +254 712 345 678. ||| أدخل رقم هاتف أو واتساب يمكننا الوصول إليك عليه، مثل 678 345 712 254+.
+Enter a subject (3 to 120 characters). ||| أدخل موضوعًا (من 3 إلى 120 حرفًا).
+Write your message (10 to 3000 characters). ||| اكتب رسالتك (من 10 إلى 3000 حرف).
+Your message is too long (1500 characters maximum). ||| رسالتك طويلة جدًا (1500 حرف كحد أقصى).
+Enter your country. ||| أدخل دولتك.
+Enter the name of the betting company you use. ||| أدخل اسم شركة المراهنات التي تستخدمها.
+Enter the amount you are thinking of using (a number above 0). ||| أدخل المبلغ الذي تفكر في استخدامه (رقم أكبر من 0).
+Choose a currency. ||| اختر عملة.
+Choose how much risk you are comfortable with. ||| اختر مستوى المخاطرة الذي ترتاح إليه.
+You must confirm that you are 18 or older. ||| يجب أن تؤكد أن عمرك 18 عامًا أو أكثر.
+Please accept the terms. ||| يرجى قبول الشروط.
+Please confirm that you understand the risks. ||| يرجى تأكيد أنك تفهم المخاطر.
+Please confirm that you understand we never ask for your password on this site. ||| يرجى تأكيد أنك تفهم أننا لا نطلب كلمة مرورك أبدًا على هذا الموقع.
+You already have an enquiry we are working on. Please wait for our reply. ||| لديك استفسار نعمل عليه بالفعل. يرجى انتظار ردنا.
+Thank you. We have your enquiry and will contact you on the number you gave. ||| شكرًا لك. وصلنا استفسارك وسنتواصل معك على الرقم الذي قدمته.
+We could not send your message just now. Please email us directly at {1}. ||| تعذر إرسال رسالتك الآن. يرجى مراسلتنا مباشرة على {1}.
+Your password must be at least 8 characters. ||| يجب أن تتكون كلمة المرور من 8 أحرف على الأقل.
+The two passwords do not match. ||| كلمتا المرور غير متطابقتين.
+Your password has been changed. You can log in now. ||| تم تغيير كلمة المرور. يمكنك تسجيل الدخول الآن.
+Your password has been changed. ||| تم تغيير كلمة المرور.
+Your details have been saved. ||| تم حفظ بياناتك.
+Your email is confirmed. Thank you! ||| تم تأكيد بريدك الإلكتروني. شكرًا لك!
+We sent a new confirmation link to {1}. ||| أرسلنا رابط تأكيد جديدًا إلى {1}.
+This confirmation link is not valid or has expired. Log in and request a new one. ||| رابط التأكيد هذا غير صالح أو منتهي. سجّل الدخول واطلب رابطًا جديدًا.
+All messages marked as read. ||| تم تحديد كل الرسائل كمقروءة.
+Please log in first. ||| يرجى تسجيل الدخول أولًا.
+Please log in. ||| يرجى تسجيل الدخول.
+Please choose a plan first. ||| يرجى اختيار باقة أولًا.
+That plan is not available. ||| هذه الباقة غير متاحة.
+Payment not found. ||| لم يتم العثور على الدفعة.
+Invalid request. ||| طلب غير صالح.
+That code is not valid. ||| هذا الكود غير صالح.
+That code has expired. ||| انتهت صلاحية هذا الكود.
+That code has been fully used. ||| تم استخدام هذا الكود بالكامل.
+You have already used that code. ||| لقد استخدمت هذا الكود من قبل.
+M-Pesa is not available right now. ||| M-Pesa غير متاحة حاليًا.
+PayPal is not available right now. ||| PayPal غير متاحة حاليًا.
+Could not reach M-Pesa. Please try again in a moment. ||| تعذر الوصول إلى M-Pesa. حاول مرة أخرى بعد قليل.
+Could not reach PayPal. Please try again in a moment. ||| تعذر الوصول إلى PayPal. حاول مرة أخرى بعد قليل.
+Check your phone and enter your M-Pesa PIN. ||| تحقق من هاتفك وأدخل رقم M-Pesa السري.
+Waiting for you to enter your PIN... ||| بانتظار إدخالك للرقم السري...
+Payment received. Your VIP plan is now active. ||| تم استلام الدفعة. باقة VIP الخاصة بك نشطة الآن.
+You cancelled the request on your phone. ||| ألغيت الطلب على هاتفك.
+The payment did not go through. Nothing was taken, or it will be refunded by M-Pesa. ||| لم تتم الدفعة. لم يُخصم شيء، أو ستعيده M-Pesa.
+PayPal could not complete the payment. You have not been charged. Please try again. ||| تعذر على PayPal إكمال الدفعة. لم يتم خصم أي مبلغ. يرجى المحاولة مرة أخرى.
+PayPal could not start the payment. Please try again. ||| تعذر على PayPal بدء الدفعة. يرجى المحاولة مرة أخرى.
+PayPal could not use that payment method. Please choose another one. ||| تعذر على PayPal استخدام وسيلة الدفع هذه. يرجى اختيار وسيلة أخرى.
+We could not confirm the payment yet. If PayPal shows a charge, your plan will switch on automatically or contact us with your PayPal receipt. ||| لم نتمكن من تأكيد الدفعة بعد. إذا أظهرت PayPal خصمًا فستتفعل باقتك تلقائيًا، أو تواصل معنا مع إيصال PayPal.
+M-Pesa could not send the prompt. Please check the phone number and try again. ||| تعذر على M-Pesa إرسال الرسالة. تحقق من رقم الهاتف وحاول مرة أخرى.
+An accumulator needs at least 2 selections. ||| يحتاج الرهان المتراكم إلى اختيارين على الأقل.
+A maximum of 100 selections is allowed. ||| الحد الأقصى المسموح به 100 اختيار.
+
+# ---- JavaScript messages
+Sending the request to your phone... ||| جارٍ إرسال الطلب إلى هاتفك...
+Waiting for confirmation... ||| بانتظار التأكيد...
+Something went wrong. ||| حدث خطأ ما.
+Something went wrong. Please try again. ||| حدث خطأ ما. يرجى المحاولة مرة أخرى.
+Could not connect. Check your internet and try again. ||| تعذر الاتصال. تحقق من الإنترنت وحاول مرة أخرى.
+We have not received confirmation yet. If you entered your PIN, your plan will switch on by itself within a few minutes. You can check the Payments page in your account. ||| لم يصلنا التأكيد بعد. إذا أدخلت رقمك السري فستتفعل باقتك تلقائيًا خلال دقائق. يمكنك مراجعة صفحة المدفوعات في حسابك.
+PayPal could not load. Check your connection and refresh the page. ||| تعذر تحميل PayPal. تحقق من اتصالك وحدّث الصفحة.
+Opening PayPal... ||| جارٍ فتح PayPal...
+Could not start the payment. ||| تعذر بدء الدفعة.
+Confirming your payment... ||| جارٍ تأكيد دفعتك...
+The payment could not be confirmed. ||| تعذر تأكيد الدفعة.
+Payment cancelled. You have not been charged. ||| تم إلغاء الدفعة. لم يتم خصم أي مبلغ.
+PayPal ran into a problem. Please try again. ||| واجهت PayPal مشكلة. يرجى المحاولة مرة أخرى.
+
+# ---- performance page, trial/win-back, referral reward, Paystack and Razorpay
+Performance ||| الأداء
+Where our tips do well and where they do not. Every settled tip is counted, wins and losses. ||| أين تنجح توقعاتنا وأين تفشل. تُحتسب كل توقعات محسومة، رابحة أو خاسرة.
+Group ||| المجموعة
+Win rate ||| نسبة الفوز
+Average odds ||| متوسط الأودز
+Profit (units) ||| الربح (وحدات)
+units profit ||| وحدات الربح
+win rate ({1} tips) ||| نسبة الفوز ({1} توقعات)
+Profit is counted as 1 unit staked on every tip at the odds shown. With fewer than 10 tips a result can be luck, so treat small samples with care. ||| يُحسب الربح على أساس رهان وحدة واحدة على كل توقع بالأودز المعروضة. مع أقل من 10 توقعات قد تكون النتيجة مجرد حظ، فتعامل مع العينات الصغيرة بحذر.
+No settled tips in this period yet. ||| لا توجد توقعات محسومة في هذه الفترة بعد.
+Try every VIP pick free for {1} day(s). ||| جرّب كل توقعات VIP مجانًا لمدة {1} يوم.
+New here? Try every VIP pick free for {1} day(s). No payment needed. ||| جديد هنا؟ جرّب كل توقعات VIP مجانًا لمدة {1} يوم. لا حاجة للدفع.
+Start my free trial ||| ابدأ تجربتي المجانية
+Create a free account to try VIP free. ||| أنشئ حسابًا مجانيًا لتجربة VIP مجانًا.
+Confirm your email address to unlock your free VIP trial. ||| أكّد بريدك الإلكتروني لفتح تجربة VIP المجانية.
+Add your phone number to unlock your free VIP trial. ||| أضف رقم هاتفك لفتح تجربة VIP المجانية.
+Open profile ||| افتح الملف الشخصي
+Your free VIP trial is active until {1}. ||| تجربة VIP المجانية نشطة حتى {1}.
+Please confirm your email address first. ||| يرجى تأكيد بريدك الإلكتروني أولًا.
+Please add your phone number in your profile first. ||| يرجى إضافة رقم هاتفك في ملفك الشخصي أولًا.
+The free trial is for new members who have not had a plan yet. ||| التجربة المجانية للأعضاء الجدد الذين لم تكن لديهم باقة بعد.
+This phone number has already been used for a free trial. ||| تم استخدام رقم الهاتف هذا في تجربة مجانية من قبل.
+The free trial is not available right now. ||| التجربة المجانية غير متاحة حاليًا.
+The free trial is not available. ||| التجربة المجانية غير متاحة.
+The free trial is not set up yet. Please contact us. ||| لم يتم إعداد التجربة المجانية بعد. يرجى التواصل معنا.
+Emails ||| رسائل البريد
+Do not send me reminder or "we miss you" emails. (Account and payment emails are still sent.) ||| لا ترسلوا لي رسائل تذكير أو «نفتقدك». (تُرسل رسائل الحساب والدفع دائمًا.)
+Save ||| حفظ
+Email choice saved. ||| تم حفظ اختيار البريد.
+Reward: ||| المكافأة:
+{1} free VIP days for you when a friend makes their first payment. ||| {1} أيام VIP مجانية لك عندما يُجري صديقك أول دفعة.
+Pay in Naira ||| ادفع بالنيرة
+Card or bank transfer, charged in Nigerian naira: {1}. ||| بطاقة أو تحويل مصرفي، يُحاسب بالنيرة النيجيرية: {1}.
+Pay {1} with Paystack ||| ادفع {1} عبر Paystack
+Pay in Indian rupees ||| ادفع بالروبية الهندية
+UPI, card or net banking, charged in Indian rupees: {1}. ||| UPI أو بطاقة أو الخدمات المصرفية عبر الإنترنت، يُحاسب بالروبية الهندية: {1}.
+Pay {1} with Razorpay ||| ادفع {1} عبر Razorpay
+Paystack is not available right now. ||| Paystack غير متاحة حاليًا.
+Razorpay is not available right now. ||| Razorpay غير متاحة حاليًا.
+Paystack could not start the payment. Please try again. ||| تعذر على Paystack بدء الدفعة. يرجى المحاولة مرة أخرى.
+Razorpay could not start the payment. Please try again. ||| تعذر على Razorpay بدء الدفعة. يرجى المحاولة مرة أخرى.
+We could not confirm the payment yet. If you were charged, your plan will switch on automatically or contact us with your receipt. ||| لم نتمكن من تأكيد الدفعة بعد. إذا خُصم المبلغ فستتفعل باقتك تلقائيًا، أو تواصل معنا مع إيصالك.
+Last 30 days ||| آخر 30 يومًا
+Last 90 days ||| آخر 90 يومًا
+Last 12 months ||| آخر 12 شهرًا
+All time ||| منذ البداية
+By sport ||| حسب الرياضة
+By league ||| حسب الدوري
+By market ||| حسب السوق
+By month ||| حسب الشهر
+(small sample) ||| (عينة صغيرة)
+Monthly win rate ||| نسبة الفوز الشهرية
+Monthly profit (units) ||| الربح الشهري (وحدات)
+Last 12 months. Months with no settled tips are left empty. ||| آخر 12 شهرًا. تُترك الأشهر التي لا توجد فيها توقعات محسومة فارغة.
+No settled tips in the last 12 months yet. ||| لا توجد توقعات محسومة في آخر 12 شهرًا بعد.
+Profit in units by month ||| الربح بالوحدات حسب الشهر
+
+# ---- general patterns (keep these LAST)
+{1} vs {2}, {3} ||| {1} ضد {2}، {3}
+{1} vs {2} ||| {1} ضد {2}
+{1} · {2} ||| {1} · {2}
+{1} - {2} ||| {1} - {2}
+Starting the payment... ||| جارٍ بدء الدفع...
+Redirecting to Paystack... ||| جارٍ التحويل إلى Paystack...
+Verifying your payment... ||| جارٍ التحقق من دفعتك...
+Payment window closed. You have not been charged. ||| تم إغلاق نافذة الدفع. لم يتم خصم أي مبلغ منك.
+Razorpay could not load. Check your connection and refresh the page. ||| تعذر تحميل Razorpay. تحقق من اتصالك وأعد تحميل الصفحة.
+# ---- update 6 (calculator, bet tracker, match/league pages, social, bookmakers, theme) ----
+Betting calculator ||| حاسبة الرهان
+Estimate a sensible stake for a single bet, or work out the combined odds and stake for an accumulator. Use the same currency for every amount. ||| قدّر مبلغ رهان معقولاً لرهان منفرد، أو احسب الأودز المجمّعة والمبلغ لرهان مركّب. استخدم العملة نفسها لجميع المبالغ.
+Estimates, not guarantees. ||| تقديرات وليست ضمانات.
+The results are only as good as the numbers you put in, and no bet is certain to win. 18+ only. Never stake money you cannot afford to lose. Read our ||| النتائج مرهونة بالأرقام التي تدخلها، ولا يوجد رهان مضمون الربح. للبالغين 18 عاماً فأكثر فقط. لا تراهن أبداً بمال لا تستطيع تحمّل خسارته. اقرأ
+responsible gambling page ||| صفحة اللعب المسؤول
+Single bet ||| رهان منفرد
+Accumulator ||| رهان مركّب
+Your bet ||| رهانك
+Bankroll ||| رأس المال
+The total amount you set aside for betting. ||| إجمالي المبلغ الذي خصصته للمراهنة.
+Decimal odds ||| الأودز العشرية
+How to estimate the win chance ||| كيف تقدّر احتمال الفوز
+I will enter my own win probability ||| سأدخل احتمال الفوز بنفسي
+Use a confidence rating (1 to 5 stars) ||| استخدام تقييم الثقة (من 1 إلى 5 نجوم)
+Win probability (%) ||| احتمال الفوز (%)
+Your honest estimate of how often this bet wins. ||| تقديرك الصادق لعدد مرات فوز هذا الرهان.
+Confidence ||| الثقة
+1 star: 35% ||| نجمة واحدة: 35%
+2 stars: 45% ||| نجمتان: 45%
+3 stars: 55% ||| 3 نجوم: 55%
+4 stars: 65% ||| 4 نجوم: 65%
+5 stars: 75% ||| 5 نجوم: 75%
+The percentages are fixed assumptions for this calculator, not our recorded win rates. ||| هذه النسب افتراضات ثابتة لهذه الحاسبة وليست نسب فوزنا المسجّلة.
+Risk profile ||| مستوى المخاطرة
+Cautious: quarter Kelly, 1% flat ||| حذر: ربع كيلي، 1% ثابتة
+Balanced: half Kelly, 2% flat ||| متوازن: نصف كيلي، 2% ثابتة
+Bold: full Kelly, 3% flat ||| جريء: كيلي كامل، 3% ثابتة
+Suggested stake ||| المبلغ المقترح
+Enter your bankroll, odds and win chance. ||| أدخل رأس مالك والأودز واحتمال الفوز.
+Your selections ||| اختياراتك
+Add a selection ||| إضافة اختيار
+Target return (stake plus profit) ||| العائد المستهدف (المبلغ مع الربح)
+Optional. We work out the stake needed to return this much. ||| اختياري. نحسب المبلغ اللازم لتحقيق هذا العائد.
+Or your stake ||| أو مبلغ رهانك
+Optional. We show what it would return. ||| اختياري. نعرض ما سيعود عليك.
+Bankroll (optional) ||| رأس المال (اختياري)
+Accumulator result ||| نتيجة الرهان المركّب
+Enter the odds of each selection. ||| أدخل أودز كل اختيار.
+How these numbers work ||| كيف تُحسب هذه الأرقام
+Kelly stake = (odds x chance - 1) / (odds - 1) of your bankroll, where chance is your win probability as a fraction. If the result is zero or negative, the bet has no edge and the stake is 0. ||| مبلغ كيلي = (الأودز × الاحتمال - 1) ÷ (الأودز - 1) من رأس مالك، حيث الاحتمال كسر عشري. إذا كانت النتيجة صفراً أو سالبة فلا أفضلية في الرهان والمبلغ صفر.
+Full Kelly is aggressive and swings a lot. Half and quarter Kelly are smoother and safer if your estimate is a little too optimistic. ||| كيلي الكامل جريء وتتقلب نتائجه كثيراً. نصف وربع كيلي أكثر ثباتاً وأماناً إذا كان تقديرك متفائلاً قليلاً.
+Flat staking puts the same small share of your bankroll (1 to 3 percent) on every bet, whatever the odds. ||| الرهان الثابت يضع النسبة الصغيرة نفسها من رأس مالك (من 1 إلى 3%) على كل رهان مهما كانت الأودز.
+An accumulator multiplies the odds of every selection. One loss loses the whole bet. ||| الرهان المركّب يضرب أودز كل الاختيارات. خسارة اختيار واحد تعني خسارة الرهان كله.
+Bookmaker implied chance ||| الاحتمال الضمني لدى شركة المراهنات
+Combined odds ||| الأودز المجمّعة
+Each odds value must be above 1.00. ||| يجب أن تكون كل أودز أكبر من 1.00.
+Enter the odds of at least two selections. ||| أدخل أودز اختيارين على الأقل.
+Even if the odds are fair, the chance of all selections winning is about 1 in ||| حتى لو كانت الأودز عادلة، فاحتمال فوز كل الاختيارات يقارب 1 من كل
+Every selection must win. If just one loses, you lose your whole stake. ||| يجب أن يفوز كل اختيار. إذا خسر اختيار واحد فقط تخسر المبلغ كله.
+Flat stake ||| مبلغ ثابت
+Flat staking ||| الرهان الثابت
+Four or more selections is high risk. Keep the stake small. ||| أربعة اختيارات أو أكثر مخاطرة عالية. أبقِ المبلغ صغيراً.
+Full Kelly ||| كيلي الكامل
+Full Kelly is more than a quarter of your bankroll. That is very aggressive and your win estimate may be too optimistic. Consider half or quarter Kelly. ||| كيلي الكامل يتجاوز ربع رأس مالك. هذا جريء جداً وقد يكون تقديرك متفائلاً. فكّر في نصف أو ربع كيلي.
+Half Kelly ||| نصف كيلي
+Quarter Kelly ||| ربع كيلي
+Kelly criterion ||| معيار كيلي
+No edge: at these odds your estimated chance does not beat the bookmaker price, so the Kelly stake is 0. Skipping this bet is the sensible choice. ||| لا أفضلية: بهذه الأودز لا يتفوق احتمالك المقدَّر على سعر شركة المراهنات، فمبلغ كيلي صفر. تجاهل هذا الرهان هو الخيار الحكيم.
+Odds of selection ||| أودز الاختيار
+Profit at that stake ||| الربح بهذا المبلغ
+Profit if every selection wins ||| الربح إذا فازت كل الاختيارات
+Profit if it wins ||| الربح عند الفوز
+Remove ||| إزالة
+Return for your stake ||| العائد على مبلغك
+Selections ||| الاختيارات
+Stake needed for your target return ||| المبلغ اللازم للعائد المستهدف
+Suggested for your risk profile ||| المقترح لمستوى مخاطرتك
+These are estimates, not guarantees. 18+ only. ||| هذه تقديرات وليست ضمانات. للبالغين 18 عاماً فأكثر فقط.
+These are estimates, not guarantees. Bets can and do lose. 18+ only. ||| هذه تقديرات وليست ضمانات. الرهانات قد تخسر وتخسر فعلاً. للبالغين 18 عاماً فأكثر فقط.
+This stake is more than 2% of your bankroll, which is a lot for a bet that usually loses. ||| هذا المبلغ يتجاوز 2% من رأس مالك، وهو كثير لرهان يخسر في الغالب.
+Win probability must be between 0 and 100. ||| يجب أن يكون احتمال الفوز بين 0 و100.
+With this many selections a win is rare. Treat it as a small-stake lottery ticket, not a plan. ||| مع هذا العدد من الاختيارات يندر الفوز. اعتبره تذكرة يانصيب بمبلغ صغير وليس خطة.
+Your estimated chance ||| احتمالك المقدَّر
+Calculator type ||| نوع الحاسبة
+My bet tracker ||| متتبّع رهاناتي
+Bet tracker ||| متتبّع الرهانات
+Amounts are in your own currency. SlipKing does not convert them, so use the same currency for every bet. This tracker is private to you and is for your own records only. 18+ only. ||| المبالغ بعملتك الخاصة. لا يحوّلها SlipKing، لذا استخدم العملة نفسها لكل رهان. هذا المتتبّع خاص بك ولسجلاتك فقط. للبالغين 18 عاماً فأكثر فقط.
+Gamble responsibly ||| العب بمسؤولية
+Month placed ||| شهر الرهان
+All months ||| كل الأشهر
+Filter ||| تصفية
+Clear filters ||| مسح التصفية
+Download all my bets (CSV) ||| تنزيل كل رهاناتي (CSV)
+Staked (settled bets) ||| المبلغ المراهَن (رهانات محسومة)
+Profit or loss ||| الربح أو الخسارة
+ROI (profit / staked) ||| العائد على الاستثمار (الربح ÷ المراهَن)
+Cumulative profit ||| الربح التراكمي
+The chart appears once you have a won or lost bet. ||| يظهر الرسم البياني عندما يكون لديك رهان رابح أو خاسر.
+Add a bet ||| إضافة رهان
+Bet ||| الرهان
+Bookmaker (optional) ||| شركة المراهنات (اختياري)
+Stake ||| المبلغ
+Date placed ||| تاريخ الرهان
+Notes (optional) ||| ملاحظات (اختياري)
+Add bet ||| إضافة الرهان
+Profit: won = stake x (odds - 1), lost = minus the stake, void and pending = 0. You can hold up to 2000 bets. ||| الربح: الرابح = المبلغ × (الأودز - 1)، الخاسر = ناقص المبلغ، الملغى والمعلّق = 0. يمكنك حفظ ما يصل إلى 2000 رهان.
+Add each bet you place, then update its result when it settles. ||| أضف كل رهان تضعه ثم حدّث نتيجته عند حسمه.
+Only won and lost bets count towards profit, ROI and strike rate. ||| الرهانات الرابحة والخاسرة فقط تُحتسب في الربح والعائد ونسبة الفوز.
+ROI is your profit divided by the total staked on settled bets. ||| العائد على الاستثمار هو ربحك مقسوماً على إجمالي المبلغ المراهَن في الرهانات المحسومة.
+Your bets are private to your account and are never shown to other members. ||| رهاناتك خاصة بحسابك ولا تُعرض لأي عضو آخر.
+My bets ||| رهاناتي
+Update ||| تحديث
+View the tip ||| عرض التوقع
+Delete ||| حذف
+No bets match these filters. ||| لا توجد رهانات تطابق هذه التصفية.
+You have not added any bets yet. Use the form above to add your first one. ||| لم تضف أي رهان بعد. استخدم النموذج أعلاه لإضافة أول رهان.
+e.g. Arsenal to win ||| مثال: فوز أرسنال
+Track this bet ||| تتبّع هذا الرهان
+Tips for this match ||| توقعات هذه المباراة
+to unlock the VIP picks. Once the match is settled, every pick becomes public. ||| لفتح توقعات VIP. بعد حسم المباراة تصبح كل التوقعات علنية.
+No tips for this match yet. Check back closer to kick-off. ||| لا توجد توقعات لهذه المباراة بعد. عد قبيل انطلاق المباراة.
+Our recent settled tips on this team's matches. ||| أحدث توقعاتنا المحسومة على مباريات هذا الفريق.
+Odds change between bookmakers. Check the price you are offered before you bet. No tip is guaranteed. 18+ only. ||| تختلف الأودز بين شركات المراهنات. تحقق من السعر المعروض عليك قبل الرهان. لا توجد توقعات مضمونة. للبالغين 18 عاماً فأكثر فقط.
+Won - lost ||| رابحة - خاسرة
+Upcoming tips ||| التوقعات القادمة
+No upcoming tips for this league right now. ||| لا توجد توقعات قادمة لهذه البطولة حالياً.
+Recent results ||| النتائج الأخيرة
+No settled tips for this league yet. ||| لا توجد توقعات محسومة لهذه البطولة بعد.
+Past results do not guarantee future results. 18+ only. ||| النتائج السابقة لا تضمن النتائج المستقبلية. للبالغين 18 عاماً فأكثر فقط.
+Bet on {1} ||| راهن عبر {1}
+18+ only. Gamble responsibly. ||| للبالغين 18 عاماً فأكثر فقط. العب بمسؤولية.
+Compare odds ||| قارن الأودز
+Bookmaker ||| شركة المراهنات
+Best odds ||| أفضل أودز
+Bad-day guarantee: ||| ضمان اليوم السيئ:
+Follow us ||| تابعنا
+Join the VIP Telegram channel ||| انضم إلى قناة VIP على تيليجرام
+Free tips on Telegram ||| توقعات مجانية على تيليجرام
+Follow on WhatsApp ||| تابعنا على واتساب
+Share: ||| مشاركة:
+Share ||| مشاركة
+Install app ||| تثبيت التطبيق
+Turn on tip alerts ||| تفعيل تنبيهات التوقعات
+Tip alerts: on ||| تنبيهات التوقعات: مفعّلة
+New VIP tip ||| توقع VIP جديد
+New free tip ||| توقع مجاني جديد
+Switch to dark mode ||| التبديل إلى الوضع الداكن
+Switch to light mode ||| التبديل إلى الوضع الفاتح
+Pay with M-Pesa, PayPal or card. Weekly, monthly and 3-month plans. ||| ادفع عبر M-Pesa أو PayPal أو البطاقة. باقات أسبوعية وشهرية ولـ 3 أشهر.
+Tipsters ||| المتنبئون
+Become a tipster ||| كن متنبئًا
+Apply ||| قدّم طلبًا
+Best rated ||| الأعلى تقييمًا
+Highest win rate ||| أعلى نسبة نجاح
+Most subscribers ||| الأكثر مشتركين
+Newest ||| الأحدث
+Search name, country or speciality ||| ابحث بالاسم أو البلد أو التخصص
+win rate ||| نسبة النجاح
+settled tips ||| توقعات محسومة
+subscribers ||| مشتركون
+No ratings yet ||| لا توجد تقييمات بعد
+No plans yet ||| لا توجد باقات بعد
+Subscribe ||| اشترك
+Extend ||| تمديد
+Recent tips ||| أحدث التوقعات
+Ratings and reviews ||| التقييمات والمراجعات
+Rate this tipster ||| قيّم هذا المتنبئ
+Update your rating ||| حدّث تقييمك
+Save rating ||| احفظ التقييم
+Comment (optional) ||| تعليق (اختياري)
+No reviews yet. ||| لا توجد مراجعات بعد.
+Premium tip ||| توقع مميز
+Subscribe to unlock ||| اشترك لفتح التوقع
+My tipsters ||| متنبئوني
+Tip by ||| توقع من
+Are you a tipster? ||| هل أنت متنبئ؟
+Browse tipsters ||| تصفح المتنبئين
+Only members who bought one of this tipster's plans can leave a rating. This keeps ratings honest. ||| يمكن فقط للأعضاء الذين اشتروا باقة من هذا المتنبئ تقييمه. هذا يحافظ على صدق التقييمات.
+Thank you. Your rating is saved. ||| شكرًا لك. تم حفظ تقييمك.
+Country ||| البلد
+Mobile number ||| رقم الجوال
+Mobile number (without the country code) ||| رقم الجوال (بدون رمز الدولة)
+We will send you an SMS code to confirm this number. Type it without the country code. ||| سنرسل لك رمزًا برسالة نصية لتأكيد هذا الرقم. اكتبه بدون رمز الدولة.
+Type it without the country code. ||| اكتبه بدون رمز الدولة.
+Confirm your mobile number ||| أكّد رقم جوالك
+SMS code ||| رمز الرسالة
+Confirm ||| تأكيد
+Send a new code ||| أرسل رمزًا جديدًا
+Wrong number? ||| رقم خاطئ؟
+Change it in your profile ||| غيّره من ملفك الشخصي
+Do this later ||| افعل ذلك لاحقًا
+Confirm now ||| أكّد الآن
+Save and send SMS code ||| احفظ وأرسل رمز الرسالة
+Save number ||| احفظ الرقم
+Confirmed ||| مؤكد
+Not confirmed ||| غير مؤكد
+Please confirm your mobile number with the SMS code. You need this before you can pay. ||| يرجى تأكيد رقم جوالك برمز الرسالة. تحتاج إلى ذلك قبل الدفع.
+Choose your country. ||| اختر بلدك.
+That code is not correct. ||| هذا الرمز غير صحيح.
+That code has expired. Ask for a new one. ||| انتهت صلاحية هذا الرمز. اطلب رمزًا جديدًا.
+Enter the 6-digit code from the SMS. ||| أدخل الرمز المكوّن من 6 أرقام من الرسالة.
+Your mobile number is confirmed. ||| تم تأكيد رقم جوالك.
+Please wait a minute before asking for another code. ||| يرجى الانتظار دقيقة قبل طلب رمز آخر.
+Leaderboard ||| لوحة المتصدرين
+Tipster leaderboard ||| لوحة متصدري المتنبئين
+View the leaderboard ||| عرض لوحة المتصدرين
+Rank by profit ||| الترتيب حسب الربح
+Rank by win rate ||| الترتيب حسب نسبة النجاح
+Rank by member rating ||| الترتيب حسب تقييم الأعضاء
+Profit ||| الربح
+Record ||| السجل
+Avg odds ||| متوسط الأودز
+Rating ||| التقييم
+Subscribers ||| المشتركون
+Analysis by ||| تحليل من
+I want to get tips ||| أريد الحصول على توقعات
+I am a tipster ||| أنا متنبئ
+Register as a tipster ||| سجّل كمتنبئ
+Sell your tips, build a following and get paid. An admin approves every tipster. ||| بع توقعاتك، وكوّن جمهورك، واحصل على أجرك. يوافق المشرف على كل متنبئ.
+Your tipster profile ||| ملفك كمتنبئ
+Your login ||| بيانات دخولك
+Tipster name (public) ||| اسم المتنبئ (عام)
+One-line summary ||| ملخص في سطر واحد
+About you and your method ||| نبذة عنك وعن أسلوبك
+Specialities ||| التخصصات
+Profile picture (optional) ||| صورة الملف الشخصي (اختياري)
+Profile picture ||| صورة الملف الشخصي
+Send my tipster application ||| أرسل طلبي كمتنبئ
+View performance ||| عرض الأداء
+Choose ||| اختر
+See all tipsters ||| عرض كل المتنبئين
+Our first tipsters will appear here soon. ||| سيظهر أول المتنبئين هنا قريبًا.
+Follow independent tipsters, check their record and ratings, then choose the one you trust. ||| تابع متنبئين مستقلين، وراجع سجلهم وتقييماتهم، ثم اختر من تثق به.
+Best value ||| أفضل قيمة
+Extend access ||| تمديد الوصول
+This is your plan ||| هذه باقتك
+Account settings ||| إعدادات الحساب
+Create a new plan ||| أنشئ باقة جديدة
+Live ||| مباشر
+Game ||| اللعبة
+Live match centre ||| مركز المباريات المباشرة
+Free prediction game ||| لعبة التوقعات المجانية
+Top referrers ||| أفضل المُحيلين
+Alerts ||| التنبيهات
+Rewards ||| المكافآت
+Follow for alerts ||| تابع لتلقي التنبيهات
+Following (tap to unfollow) ||| تتابعه (اضغط لإلغاء المتابعة)
+Alert settings ||| إعدادات التنبيهات
+Verified record ||| سجل موثّق
+Verified results ||| نتائج موثّقة
+See every tip ||| عرض كل التوقعات
+Money-back guarantee ||| ضمان استرداد الأموال
+Start free trial ||| ابدأ التجربة المجانية
+Comments ||| التعليقات
+Post comment ||| انشر التعليق
+Reply ||| ردّ
+Report ||| إبلاغ
+Money-back ||| استرداد الأموال
+Claim refund ||| اطلب الاسترداد
+Friends you invited ||| الأصدقاء الذين دعوتهم
+Copy link ||| نسخ الرابط
+Your results ||| نتائجك
+Choose how to pay ||| اختر طريقة الدفع
+Pay with Airtel Money ||| ادفع عبر Airtel Money
+Pay with MTN MoMo ||| ادفع عبر MTN MoMo
+Pay by card ||| ادفع بالبطاقة
+Profile picture and flag ||| صورة الملف الشخصي والعلم
+Save picture and flag ||| احفظ الصورة والعلم
+Show my flag next to my name ||| أظهر علمي بجانب اسمي
+Account management ||| إدارة الحساب
+Send a request ||| أرسل طلبًا

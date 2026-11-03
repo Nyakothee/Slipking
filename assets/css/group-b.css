@@ -1,0 +1,17 @@
+/* Group B: bookmaker buttons, odds comparison, guarantee line. Load after style.css. */
+.bm-buttons{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.bm-btn{display:inline-block;background:var(--pitch);color:#fff;font:700 15px 'Source Sans 3',Arial,sans-serif;padding:9px 14px;border-radius:6px;border:1.5px solid var(--pitch)}
+.bm-btn:hover{background:var(--pitch2)}
+.bm-btn.small{padding:6px 10px;font-size:14px}
+.bm-18{margin-top:8px;font-size:13px;color:var(--mute)}
+.bm-18 a{text-decoration:underline}
+.bm-odds{margin-top:18px}
+.bm-odds h3{font-size:22px;margin-bottom:8px}
+.bm-table{width:100%;border-collapse:collapse;background:var(--card);border:1px solid var(--line);border-radius:8px;overflow:hidden}
+.bm-table th,.bm-table td{padding:9px 10px;text-align:left;border-bottom:1px solid var(--line);font-size:15px}
+.bm-table th{background:var(--paper);font-size:13px;color:var(--mute);text-transform:uppercase;letter-spacing:.03em}
+.bm-table tr:last-child td{border-bottom:0}
+.bm-table tr.best{background:#fff6dd}
+.bm-bestflag{display:inline-block;margin-left:6px;background:var(--gold);color:#241a00;font-size:11px;font-weight:700;padding:1px 6px;border-radius:4px;text-transform:uppercase}
+.gt-badge{background:#fff6dd;border:1px solid var(--gold);border-radius:8px;padding:8px 12px;font-size:14px;color:var(--ink);margin:10px 0}
+@media (max-width:560px){.bm-table th:nth-child(3),.bm-table td:nth-child(3){text-align:right}.bm-btn{flex:1 1 100%;text-align:center}}

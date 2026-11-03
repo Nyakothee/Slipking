@@ -1,0 +1,29 @@
+/* Dark mode. Applies when the visitor chose it (data-theme="dark") or, with no choice made, when the device prefers dark. */
+:root[data-theme="dark"]{color-scheme:dark;--paper:#0e1512;--card:#17211c;--ink:#e8efe9;--mute:#9db0a5;--line:#2b3a33;--win:#4cc57f;--loss:#ff7a6e;--pitch:#0a2a20;--pitch2:#123d30}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){color-scheme:dark;--paper:#0e1512;--card:#17211c;--ink:#e8efe9;--mute:#9db0a5;--line:#2b3a33;--win:#4cc57f;--loss:#ff7a6e;--pitch:#0a2a20;--pitch2:#123d30}}
+/* white surfaces that style.css hard-codes */
+:root[data-theme="dark"] .tabs button,:root[data-theme="dark"] .plan,:root[data-theme="dark"] .quote,:root[data-theme="dark"] .faq details,:root[data-theme="dark"] .post,:root[data-theme="dark"] .tbl,:root[data-theme="dark"] .stat,:root[data-theme="dark"] .box,:root[data-theme="dark"] .panel{background:var(--card);color:var(--ink)}
+:root[data-theme="dark"] .field input,:root[data-theme="dark"] .field select,:root[data-theme="dark"] .field textarea{background:#101a15;color:var(--ink);border-color:var(--line)}
+:root[data-theme="dark"] .tabs button.on{background:var(--pitch2);color:#fff}
+:root[data-theme="dark"] .badge.won{background:#12361f;color:var(--win)}
+:root[data-theme="dark"] .badge.lost{background:#3d1b18;color:var(--loss)}
+:root[data-theme="dark"] .badge.pending{background:#232f29;color:var(--mute)}
+:root[data-theme="dark"] .flash.success{background:#12361f;color:#8fe3b0}
+:root[data-theme="dark"] .flash.error{background:#3d1b18;color:#ffb3aa}
+:root[data-theme="dark"] .flash.info{background:#17304a;color:#b5d6f5}
+:root[data-theme="dark"] .pick{background:#101a15}
+:root[data-theme="dark"] .tbl td{border-color:var(--line)}
+:root[data-theme="dark"] body.admin{background:#0b100e}
+@media (prefers-color-scheme: dark){
+:root:not([data-theme="light"]) .tabs button,:root:not([data-theme="light"]) .plan,:root:not([data-theme="light"]) .quote,:root:not([data-theme="light"]) .faq details,:root:not([data-theme="light"]) .post,:root:not([data-theme="light"]) .tbl,:root:not([data-theme="light"]) .stat,:root:not([data-theme="light"]) .box,:root:not([data-theme="light"]) .panel{background:var(--card);color:var(--ink)}
+:root:not([data-theme="light"]) .field input,:root:not([data-theme="light"]) .field select,:root:not([data-theme="light"]) .field textarea{background:#101a15;color:var(--ink);border-color:var(--line)}
+:root:not([data-theme="light"]) .tabs button.on{background:var(--pitch2);color:#fff}
+:root:not([data-theme="light"]) .badge.won{background:#12361f;color:var(--win)}
+:root:not([data-theme="light"]) .badge.lost{background:#3d1b18;color:var(--loss)}
+:root:not([data-theme="light"]) .badge.pending{background:#232f29;color:var(--mute)}
+:root:not([data-theme="light"]) .flash.success{background:#12361f;color:#8fe3b0}
+:root:not([data-theme="light"]) .flash.error{background:#3d1b18;color:#ffb3aa}
+:root:not([data-theme="light"]) .flash.info{background:#17304a;color:#b5d6f5}
+:root:not([data-theme="light"]) .pick{background:#101a15}
+}
+.theme-toggle{background:none;border:1.5px solid #6d9a88;color:#fff;border-radius:6px;width:38px;height:38px;cursor:pointer;font-size:18px;line-height:1}

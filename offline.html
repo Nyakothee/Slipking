@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#0d3b2c">
+<title>You are offline</title>
+<style>
+:root{--pitch:#0d3b2c;--pitch2:#155240;--paper:#f6f7f4;--ink:#17201c;--mute:#5f6b65;--gold:#f0a91c}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Source Sans 3',Arial,sans-serif;background:var(--paper);color:var(--ink);line-height:1.5;min-height:100vh;display:flex;flex-direction:column}
+header{background:var(--pitch);color:#fff;padding:16px 18px;border-bottom:4px solid var(--gold);font:800 28px 'Barlow Condensed','Arial Narrow',sans-serif}
+main{flex:1;display:flex;align-items:center;justify-content:center;padding:28px 18px;text-align:center}
+.card{max-width:440px}
+h1{font:800 42px/1.05 'Barlow Condensed','Arial Narrow',sans-serif;margin-bottom:12px}
+p{color:var(--mute);margin-bottom:22px}
+button{border:0;cursor:pointer;font:700 16px 'Source Sans 3',Arial,sans-serif;padding:11px 22px;border-radius:6px;background:var(--gold);color:#241a00}
+:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+</style>
+</head>
+<body>
+<header>SlipKing</header>
+<main>
+  <div class="card">
+    <h1>You are offline</h1>
+    <p>This page needs an internet connection. Check your connection and try again. Tips and results are always loaded fresh so you never see out-of-date picks.</p>
+    <button type="button" onclick="location.reload()">Try again</button>
+  </div>
+</main>
+</body>
+</html>

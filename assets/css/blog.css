@@ -1,0 +1,14 @@
+/* Pictures and videos inside blog articles (and the editor preview) */
+.article figure.bm, .bl-preview figure.bm { margin:22px 0; }
+.article figure.bm img, .bl-preview figure.bm img, .article video.bv, .bl-preview video.bv { display:block; width:100%; height:auto; border-radius:10px; background:var(--line); }
+.article figcaption, .bl-preview figcaption { margin-top:8px; font-size:14px; color:var(--mute); text-align:center; }
+.vid { position:relative; width:100%; aspect-ratio:16/9; border-radius:10px; overflow:hidden; background:#000; }
+.vid iframe { position:absolute; inset:0; width:100%; height:100%; border:0; }
+.article h2, .bl-preview h2 { margin:28px 0 10px; }
+.article h3, .bl-preview h3 { margin:22px 0 8px; }
+.article ul, .bl-preview ul { margin:0 0 16px 22px; }
+.article a, .bl-preview a { text-decoration:underline; }
+
+.bl-bar { display:flex; flex-wrap:wrap; gap:8px; align-items:center; margin-bottom:8px; }
+#bl-msg { font-size:14px; }
+.bl-preview { border:1.5px dashed var(--line); border-radius:10px; padding:18px; margin-top:12px; background:var(--card); }

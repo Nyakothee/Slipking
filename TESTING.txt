@@ -1,0 +1,302 @@
+SLIPKING - TEST SCRIPT (do this on the real server BEFORE you accept real money)
+Tick each line. If something fails, the answer is usually in one of these three files (via File Manager):
+   logs/php-errors.log   (PHP errors)      logs/payments.log   (every payment event)      logs/mail.log   (emails that failed)
+Tip: while testing, set DEBUG to true in includes/config.php. Set it back to false afterwards.
+
+A. FIRST LOAD
+[ ] Home page opens with sample tips, a chart and plans. No error text on screen.
+[ ] Menu links work: Today's tips, Results, VIP, Blog, About, Contact, Terms, Privacy, Responsible gambling.
+[ ] https://yourdomain.com/includes/config.php shows "Forbidden" (NOT blank, NOT code).
+[ ] https://yourdomain.com/logs/payments.log and /database.sql show "Forbidden".
+[ ] Phone: the menu button opens the menu; nothing scrolls sideways.
+
+B. MEMBER ACCOUNT
+[ ] Register a new account (use a real email). You land on the dashboard.
+[ ] Confirmation email arrives (check spam). If not, open logs/mail.log: the link is there. Click it: banner disappears.
+[ ] Log out, log in again. Wrong password shows one general error. 8 wrong tries blocks for 15 minutes.
+[ ] "Forgot password": email arrives, link works once, second use of the same link says expired.
+[ ] Profile: change name and phone (07xx xxx xxx). Change password, log in with the new one.
+
+C. ADMIN AND THE PUBLIC RECORD
+[ ] In phpMyAdmin make yourself admin:  UPDATE users SET role='admin' WHERE email='you@example.com';
+[ ] /admin/login.php works. A normal member cannot get into /admin/.
+[ ] Run in phpMyAdmin:  DELETE FROM tips; DELETE FROM matches;   (removes the sample data)
+[ ] Add a FREE tip and a VIP tip with kickoff in the future. Both appear on the site.
+[ ] Log out. Open the home page, right-click > View page source, search for the VIP pick text. It must NOT be there.
+[ ] Try to add a tip with a kickoff in the past: refused.
+[ ] Settle a tip before its kickoff: refused. Edit the kickoff to a few minutes ahead, wait, then mark Won/Lost.
+[ ] A started or settled tip: pick/odds fields are greyed out, Delete is refused.
+[ ] Results page shows the settled tip, and the settled VIP pick is now visible to everyone.
+[ ] Admin > Activity log shows each step.
+
+D. M-PESA (SANDBOX FIRST)
+[ ] includes/config-payments.php: MPESA_ENV 'sandbox', your Daraja sandbox key/secret/passkey, shortcode 174379.
+[ ] Site is on https:// (Safaricom must be able to reach /payments/mpesa-callback.php).
+[ ] As a member: VIP > choose plan > enter the sandbox test phone number shown on the Daraja simulator > Pay.
+[ ] The page says "Check your phone", then moves to "Payment received" and VIP switches on.
+[ ] Dashboard shows the VIP picks and plan end date. Payments page shows the payment as Paid.
+[ ] Pay again for the same plan: the end date moves forward by the plan length (days are added, not replaced).
+[ ] Cancel the prompt on the phone: page says you cancelled, nothing activated.
+[ ] Lost callback test: start a payment, then in logs/payments.log confirm "callback-in" appears. If it does not,
+    your callback address is not reachable; fix hosting/https before going live.
+[ ] Admin > Payments > open a payment > "Check again with Safaricom" works on a pending one.
+[ ] Cron: run once by hand from cPanel's Terminal or a one-time cron:  php /home/USER/public_html/cron/check-pending-mpesa.php
+[ ] GOING LIVE: set MPESA_ENV 'live', your paybill, the live passkey, live key/secret. Pay a small real amount (set a plan to KES 10
+    temporarily) from your own phone and check the money reaches your paybill. Then restore the real price.
+
+E. PAYPAL (SANDBOX FIRST)
+[ ] developer.paypal.com > Sandbox accounts: use the Personal (buyer) account to pay.
+[ ] Keys in includes/config-payments.php, PAYPAL_ENV 'sandbox'. The PayPal button appears on checkout (plan needs a USD price > 0).
+[ ] Pay: you are sent to the success page, VIP is active, Payments shows "USD ...".
+[ ] Close the PayPal popup half way: "Payment cancelled", nothing activated.
+[ ] Webhook: in the PayPal app add https://yourdomain.com/payments/paypal-webhook.php, event "Payment capture completed",
+    put the Webhook ID in config. Use "Send test event" if offered and check logs/payments.log for "paypal-webhook-in".
+[ ] GOING LIVE: create a Live app, paste live keys, PAYPAL_ENV 'live', pay a tiny real amount from another PayPal account.
+
+F. MONEY SAFETY CHECKS
+[ ] Double click the Pay button: only ONE payment prompt/charge.
+[ ] After a successful payment press Back and Pay again: it creates a NEW payment, the first is not paid twice.
+[ ] Admin > Members > a member > "Add VIP days" works and the member gets a message.
+[ ] Edit a plan price in Admin > Plans: a payment started BEFORE the change keeps its old amount.
+
+F2. COUPONS
+[ ] (Existing installs) database-update-2.sql imported before uploading the new files.
+[ ] Admin > Coupon codes: create TEST20 (20%). On checkout, enter it: both KES and USD prices drop, "20% off" shows.
+[ ] Pay with it (sandbox): Payments page shows the discounted amount; the coupon's Used count goes up by 1.
+[ ] Try the same code again with the same member: "You have already used that code."
+[ ] A wrong code shows "That code is not valid." and the normal price stays.
+
+F3. CURRENCIES AND ACCUMULATORS
+[ ] (Existing installs) database-update-3.sql imported BEFORE uploading the new files.
+[ ] Admin > Currencies: press "Update rates now" (or type rates). NGN and INR no longer say "placeholder".
+[ ] Header shows a currency menu. Choose USD, NGN, INR, KES: plan prices change; NGN/INR show a ~ sign and a footer note.
+[ ] Pay with a currency chosen as NGN: checkout still charges KES (M-Pesa) or USD (PayPal) - never Naira or rupees.
+[ ] Admin > Accumulators > New: paste 50+ lines in the format shown (use future kickoffs). Saved total odds = the product of all odds.
+[ ] Public Accumulators page: card shows total odds, selections and minimum stake in the chosen currency; the stake box on the ticket page updates the return.
+[ ] VIP accumulator while logged out: the page shows only a teaser. View page source: no team names or picks in it.
+[ ] After the first kickoff: Edit is locked (notes only). Mark one selection Lost: the whole ticket turns Lost immediately.
+[ ] Settled VIP accumulator is now visible to everyone.
+
+F4. LIVE CHAT, ACCOUNT MANAGEMENT, LANGUAGES
+[ ] (Existing installs) database-update-4.sql imported BEFORE uploading the new files.
+[ ] A "Chat with us" button shows on the home page. Open it, type a name and a message, press Send: the message appears.
+[ ] Admin > Live chat shows the conversation (and you got an email at SITE_EMAIL). Reply: it appears in the visitor's chat within seconds.
+[ ] Close the visitor's browser tab, open the site again: the same conversation is still there. Close it from the admin: new messages reopen it.
+[ ] Type "my password is abc123" in the chat: it is refused with a warning.
+[ ] Account management page: logged out you see Log in / Create account; logged in you can send an enquiry; it appears in Admin > Account management,
+    and changing its status sends the member a message.
+[ ] Header language menu: choose Français, then العربية. Menu, home page, tips, VIP, checkout, login pages and the chat are translated.
+    In Arabic the page flows right-to-left and nothing overlaps. Phone widths too. Terms/Privacy show the "English only" notice.
+[ ] Language and currency choices are remembered after you close the browser. Switching language keeps you on the same page.
+[ ] Dates show French/Arabic month names. Pay a test payment in French: the messages while paying are in French.
+
+F5. PERFORMANCE, OFFERS, REFERRAL REWARDS, PAYSTACK / RAZORPAY
+[ ] (Existing installs) database-update-5.sql imported BEFORE uploading the new files.
+[ ] /performance.php opens. With some settled tips you see two charts and tables by sport, league, market and month; period tabs work.
+[ ] New member (confirm email, add phone in Profile): VIP page and dashboard show "Start my free trial". Press it: VIP is active for the trial length.
+    A second account with the same phone number is refused. A member who ever had a plan never sees the trial.
+[ ] Admin > Offer settings: change trial days / referral days / win-back coupon and save.
+[ ] Referral: member A shares the link on Referrals, friend B registers through it and pays (sandbox is fine). A gets the bonus days and a message, once only.
+[ ] Start a checkout and abandon it; run  php cron/send-reminders.php  an hour later: a "Finish your VIP purchase" message arrives (once). Turn reminders off in Profile > Emails: no message.
+[ ] Let a trial or plan end 3-10 days ago and run the cron: one "We miss you" message (mentions your coupon if set).
+[ ] Currencies: NGN and INR switched on and rates updated. Fill includes/config-gateways.php: the "Pay in Naira" / "Pay in Indian rupees" panels appear on checkout.
+[ ] Paystack test card payment: lands on the success page, VIP active, Payments shows NGN. Razorpay test payment likewise (INR).
+[ ] Close the browser right after paying (or use the dashboard "Send test event"): the webhook still activates the plan.
+[ ] Admin > Payments: filter by Paystack/Razorpay; open one and use "Check again" (Paystack).
+
+F6. VERSION 3 ADDITIONS
+[ ] (Existing installs) database-update-6.sql imported; backups/ folder exists. check.php shows every table and the backups folder as OK.
+[ ] Dark mode button works, survives a page reload, and every page stays readable (slips, tables, forms, VIP page).
+[ ] /calculator.php: a +EV example gives a stake, a no-edge example says "No edge" and stake 0; accumulator needs 2+ odds.
+[ ] My account > Bet tracker: add a bet, mark it won/lost, profit/ROI update; delete; CSV downloads only your own bets.
+[ ] /match.php?id=... and /league.php?id=... open; a pending VIP tip is blurred and its pick/odds are NOT in the page source.
+[ ] View source of /sitemap.php: match and league URLs are listed. Install prompt / manifest valid in Chrome DevTools > Application.
+[ ] Admin > Security: enable 2FA, log out and in: wrong code refused, right code accepted, recovery code works once.
+[ ] Admin > Email test with SMTP and with a wrong password (clear error, message falls back to mail()).
+[ ] Admin > Social and Telegram: test message arrives. Add a VIP tip: VIP channel gets pick+odds, free channel gets a teaser with NO pick or odds.
+[ ] Admin > Bookmakers: add a real link and tick Active; "Bet on ..." appears only on unlocked tips; go.php redirects and counts a click.
+[ ] Admin > Tips > Odds: enter odds per bookmaker; the comparison table shows on the public tip (never for a locked VIP tip).
+[ ] Admin > Guarantee: switch on in a test database with 3+ settled VIP tips that all lost yesterday; php cron/guarantee.php grants days once (run twice: nothing new).
+[ ] Admin > Bulk tips: upload the template; a bad row is flagged in the preview and NOT saved; good rows appear in Admin > Tips.
+[ ] (Optional) Automatic results: set the key, link one finished match, run cron/auto-results.php: a 1X2/over-under tip settles; an odd market stays pending.
+[ ] Admin dashboard shows the charts and "Show the numbers" tables. Admin > Backups: create, download, open the .sql.gz.
+[ ] French and Arabic: the calculator, tracker, match/league pages and footer are translated (Arabic reads right-to-left).
+
+G. JOBS AND EMAIL
+[ ] Add the cron jobs from README.txt (including update-rates.php and cleanup.php). After the first run, logs show no errors.
+[ ] Contact form: you receive the message at SITE_EMAIL and "Reply" goes to the sender.
+
+H. BEFORE YOU ANNOUNCE
+[ ] DEBUG is false. database.sql and database-update-1.sql are removed from the server.
+[ ] terms.php and privacy.php read correctly for YOUR business and were checked by a lawyer in your country.
+[ ] robots.txt has your real domain. Submit https://yourdomain.com/sitemap.php in Google Search Console.
+[ ] Download a backup of the database and files, and set up automatic backups in your hosting panel.
+
+F7. TIPSTERS AND STAFF ROLES
+[ ] Import database-update-7.sql. check.php shows the five tipster tables and "tips table supports tipsters".
+[ ] Member applies at tipster/apply.php; Admin > Tipsters shows it as Pending; Approve; the member gets a notification.
+[ ] Tipster creates a plan and posts a premium tip. Logged out, the tip shows locked and links to the tipster profile; the pick is not in the page source.
+[ ] A second member buys the plan (test payment). They can now see the pick; Admin > Tipster payouts shows the sale with your commission.
+[ ] Change the commission in Admin > Tipsters, buy again: the new sale uses the new rate; the old sale keeps the old rate.
+[ ] The buyer can rate the tipster; a non-buyer and the tipster cannot. Hide the review in Admin > Reviews: the average updates.
+[ ] Tipster requests a payout only after the holding days and above the minimum; Admin marks it paid with a receipt; the tipster is notified.
+[ ] The home page, Performance and Results numbers did NOT change when tipster tips were added or settled.
+[ ] Staff: add an editor, a support agent and a finance user in Admin > Staff. Each sees only their menu items; opening a forbidden page by URL is refused.
+
+F8. COUNTRY AND SMS CONFIRMATION
+[ ] Import database-update-8.sql. check.php shows phone_codes and "users table has the mobile number columns".
+[ ] Register page: the country list is complete and the dial code next to the number changes with the country.
+[ ] Wrong number formats are refused (Kenya: 0712 345 678 or 712345678 both work; +254 712 345 678 works).
+[ ] With a provider set up: Admin > SMS test delivers an SMS in at least two different countries.
+[ ] Register: you land on the confirm page and receive a code; a wrong code is refused (5 tries), a right one confirms; the resend button waits 1 minute.
+[ ] An unconfirmed member sees the dashboard banner and is sent to the confirm page from checkout; after confirming they can pay.
+[ ] The same number cannot be confirmed on a second account. Changing the number in the profile makes it unconfirmed again.
+[ ] With SMS_DRIVER 'off' registration still works and nothing asks for a code.
+
+F9. LEADERBOARD AND CONTRIBUTORS
+[ ] Import database-update-9.sql. check.php shows "tips table supports contributor tipsters".
+[ ] leaderboard.php lists only tipsters with enough settled tips; switching period and ranking works; profit matches (won: odds-1, lost: -1).
+[ ] Admin > Tipsters > Make contributor. The tipster now sees "Post this as a platform tip" on their tips page.
+[ ] That tip is NOT visible on the site until you approve it in Admin > Contributor tips; after approval it shows "Analysis by <name>" on the home/tips pages.
+[ ] A rejected or withdrawn tip never appears and never counts. A tip whose match started cannot be approved.
+[ ] Set the contributor pool to 10%, buy a VIP plan with a test payment: the contributor gets an earning row (Tipster payouts > Latest sales) and the total is 10% of the plan price.
+[ ] Pool at 0%: a VIP sale creates no contributor earnings.
+
+F10. TIPSTER REGISTRATION AND PICTURES
+[ ] Register page shows two tabs. "I am a tipster" shows the profile fields; the member tab does not.
+[ ] Registering as a tipster creates the account and a Pending tipster in Admin > Tipsters; the picture appears on the profile after you approve.
+[ ] A non-image (rename a .php file to .jpg) and a picture over 2 MB are refused. A real photo is shown cropped as a square.
+[ ] Tipster area > Profile: replace and remove the picture; the old file disappears from uploads/tipsters.
+[ ] Home page shows the Tipsters section with ratings; "View performance" and "Choose" open the right tipster.
+[ ] With tipster signups closed (Admin > Tipsters) the tipster tab shows the closed note and refuses the form.
+
+F11. TIPSTER-ONLY ACCOUNTS
+[ ] Import database-update-10.sql. Register on the tipster tab, log out, log in: you land on tipster/index.php.
+[ ] That account cannot open index.php, tips.php, vip.php, tipsters.php, account/dashboard.php: each sends it back to the tipster dashboard.
+[ ] It CAN open its own tipster.php?slug=..., Messages, Account settings and log out. Another tipster's page is redirected.
+[ ] The top menu for that account shows only Dashboard, My tips, My plans, Earnings, Profile and Log out.
+[ ] A normal member and an admin still see the normal site and menus.
+[ ] Plan cards look right on the public tipster page (phone and desktop) and on Tipster area > My plans; the "you earn" preview updates as you type a price.
+
+F12. GAME, STREAKS, BADGES
+[ ] Import database-update-11.sql. Add 3 football matches kicking off tomorrow. Open game.php logged out: you see them but cannot pick. Log in, pick, save; reload: picks remain.
+[ ] A match starting in under 1 minute cannot be picked. Changing a pick before then works.
+[ ] Admin > Prediction game: after kickoff enter a final score: correct pickers get +3 on the weekly/monthly/all-time boards; wrong pickers get nothing. Saving the same score again changes nothing.
+[ ] Void a match: its picks show "void", no points. Account > Rewards shows streak and badges (first pick). Visit on two days: streak 2.
+[ ] "Award last week" gives the VIP days only once, only to people with at least 5 settled picks.
+F13. LIVE CENTRE
+[ ] live.php lists today's matches. In Admin > Live scores set status 2H, minute 55, score 1-0, add a goal: live.php and the match page update within ~20 s with no reload; the live badge appears.
+[ ] A VIP tip on that match shows "Premium tip (VIP)" for a non-VIP and the real pick for a VIP (check the page source for a non-VIP: the pick text must not be there, also in api/live.php?ids=ID&full=1).
+[ ] Set Full time: the pill says Full time and open game picks are settled. Settle the tip in Tips: its chip turns Won/Lost on the live page.
+F14. COMMENTS
+[ ] Logged out: you see a login note, no form. Logged in without a confirmed email: refused. With one: post, reply, like (toggle), report, delete your own.
+[ ] A comment with a link, or 6 in 10 minutes, is refused. 3 different members reporting hides it; Admin > Comments shows it; restore and delete work; "Stop commenting" blocks that member.
+F15. FOLLOW, ALERTS, PUSH
+[ ] Follow a tipster. The tipster posts a tip: the follower gets a Notification (and email if chosen). The text never shows a premium pick.
+[ ] Account > Alerts: save settings. Admin > Push notifications: create keys (HTTPS or localhost), turn alerts on in Account > Alerts, press "Send me a test push": a pop-up appears; clicking it opens the site.
+[ ] Run cron/send-alerts.php: a match 45-75 minutes away alerts people who picked it; running it twice does not repeat. Settle a tracked tip: the member is told.
+F16. VERIFIED RECORD, TRIAL, GUARANTEE, REFERRALS
+[ ] tipster-record.php?slug=X lists every tip including one removed before kickoff; chart and calculator work; a locked premium pick is hidden for non-subscribers.
+[ ] Tipster sets a 2-day trial; a new member starts it once (second time refused); premium tips are visible during it and hidden after it ends.
+[ ] Tipster opts in to the guarantee; after a losing period and the plan ending, the member sees "Claim refund"; Admin > Money-back claims: approve reverses the earning; reject tells the member.
+[ ] Account > Referrals shows counts, share buttons and the friend list with shortened names; referral-leaderboard.php ranks by paid friends.
+F17. STATISTICS, ODDS, TRUST (needs your free keys; do these on your server)
+[ ] Admin > Data sources: "Test football-data.org" says HTTP 200. Sync one competition (PL): league-table.php?c=PL shows the table and fixtures; team.php and fixture.php open from it.
+[ ] predictions.php shows bars that add to 100%; fixture.php shows the preview text, form and head to head; the disclaimer is visible everywhere.
+[ ] Admin > Data sources: "Test The Odds API" says 200 and shows credits left. "Sync odds now": odds.php lists matches; odds-event.php shows the table, best prices bold, and the chart after 2+ syncs.
+[ ] A match you created with the same teams shows the "Statistical estimate" and the odds table on match.php.
+[ ] Post a tip (admin, bulk, tipster) and settle one: audit.php shows 'Posted' and 'Settled' rows and says "Chain intact". Edit one row's payload in phpMyAdmin: it says "Chain broken". Undo the edit.
+[ ] Two accounts on the same browser/IP: Admin > Multi-account signals lists them; the second cannot start a free trial; the referral reward is withheld (activity log "fraud.referral").
+[ ] Account > Limits: set a limit lower than a plan price: checkout redirects back with the message; M-Pesa/PayPal/Paystack/Razorpay buttons are refused. Take a 1-month break: payments refused and it cannot be undone.
+[ ] Admin > Analytics shows numbers; run cron/lifecycle.php: a welcome email is sent once only; excluded and opted-out members get nothing.
+[ ] (B2C, sandbox) Admin > Tipster payouts > "Pay via M-Pesa now": status "Sending", then paid with the receipt; failed result returns it to the queue with a note; double click sends once.
+[ ] Language switcher: Kiswahili translates the menu and the home page.
+F18. AUTOMATIC LANGUAGE
+[ ] Open the site in a private window with the browser language set to French: the home page is in French at once. Switch to English with the switcher: it stays English on later visits.
+[ ] Browser set to English (even from France): English. Turn the option off in Admin > Data sources: new visitors always get English.
+F19. NEW PAYMENT METHODS (after update-13 and config-wallets.php)
+[ ] Admin > Payment methods lists 7 methods with their keys shown as set / not set, and the tick boxes save.
+[ ] Checkout shows only the configured methods as coloured buttons (Airtel red, MTN yellow, Stripe purple, M-Pesa green, PayPal gold); clicking one opens its panel.
+[ ] Stripe test card 4242 4242 4242 4242: pay in USD, then in EUR and GBP. The plan activates and Admin > Payments shows the right currency and method.
+[ ] MTN sandbox / Airtel sandbox: enter a test number, approve, and the checkout page moves to the success page. Unapproved prompts show as cancelled after 30 minutes.
+[ ] Admin > Currencies lists Euro, Pound, TZS and UGX; the currency switcher shows them.
+[ ] Dark mode: the buttons and panels stay readable.
+F20. PROFILE PICTURES AND FLAGS
+[ ] Account > Profile: upload a JPG, a PNG and a phone photo (it should be the right way up). Pictures over 2 MB or text files renamed to .jpg are refused with a clear message.
+[ ] Choose a nationality and save: the flag shows on the profile, the dashboard greeting, and next to your name in a comment and in the game ranking.
+[ ] Untick "Show my flag": the flag disappears everywhere. Tick "Remove my picture": initials come back and the old file is deleted from uploads/avatars.
+[ ] Admin > Members: pictures and flags show; "Remove picture" works for an administrator.
+[ ] Dark mode: initials circles and flags stay clear.
+F21. ACCOUNT MANAGEMENT AND BLOG MEDIA
+[ ] Footer, Tipsters page and My account tabs all show "Account management". As a tipster, tick "I take account-management requests" in Tipster area > Profile.
+[ ] As a client, open that tipster's public profile: the Account management box appears with a "Send a request" button; the form has the tipster pre-selected and needs the sharing tick.
+[ ] After sending: the tipster sees the request (Tipster area > Account management) and a notification; both sides can exchange messages; a message like "my password is abc" is refused.
+[ ] Tipster sets Accepted / Declined / Closed: the client gets a notification and sees the status. Client can close their own request. Admin > Account management shows "Handled by" and the conversation.
+[ ] Admin > Blog > New article: upload a JPG (appears as an [img:...] line), an MP4, paste a YouTube link, press Preview, publish: the public article shows the picture, the video player and the YouTube player on a phone too.
+[ ] A link like [img:http://...] or [video:https://other-site.com/page] shows nothing (only safe sources are shown).
+F22. TIPSTER WALLET AND AUTOMATIC WITHDRAWALS
+[ ] Make a test sale for a tipster, wait out (or set to 0) the holding days: Tipster area > Wallet shows the amount as available.
+[ ] Press Withdraw (sandbox): the withdrawal shows "Sending", then "Paid" with a receipt; the tipster gets a notification.
+[ ] Press Withdraw again straight away (after another sale): refused with "one withdrawal every 14 days" and the date the next one opens.
+[ ] Make the payment fail (wrong number in the sandbox): status "Failed", the balance is back, and Withdraw works again immediately.
+[ ] With automatic payment switched off (or B2C/PayPal not ready) the button is disabled and explains why; the optional manual queue only appears if you switch it on.
+
+F23. Update 17
+ 1. Register as tipster: pick Airtel Money, type 254733123456. Applies without error. Choose a country in the list (search "tanz"); flag shown.
+ 2. Log in: flag sits right of the profile picture at the top. Upload a picture on Profile (works as tipster and as member).
+ 3. As tipster click "Main site": the home page opens. Open vip.php: sent back to the tipster dashboard.
+ 4. Logged out: /accumulators.php shows "VIP" instead of odds on a pending VIP ticket; acca.php?id=.. shows no odds or selections.
+ 5. Airtel payout: sandbox first. Wallet > Withdraw with Airtel selected; check "Withdrawals" history for Paid / Failed.
+
+F24. Update 18
+ 1. Open /work-with-us.php while logged out: the form shows; fill it, upload a photo, an ID picture and a PDF CV; you get a reference like JOB-1A2B3C.
+ 2. Admin > Job applications: the application is listed; open it; the photo and documents open; change the status; add a note. Try /admin/job-file.php as a member: no access.
+ 3. /private-uploads/jobs/anyfile in the browser: refused (403).
+ 4. Admin > Tipsters: "Activate joining fee". Register a new tipster (with photo): you are sent to checkout for KES 100 (Kenya) or USD 5 (other country).
+    Admin cannot approve until it is paid; after payment "Fee paid" shows. Deactivate again: new tipsters are not charged.
+ 5. Register as a tipster without a photo: refused.
+
+
+F25. Update 19
+ 1. A VIP card you have not paid for: the market shows "Hidden market"; pick and odds are blurred under a near-opaque cover.
+ 2. Admin > Bookmakers opens without the old error. The navbar "My account" shows no flag.
+ 3. Open a tipster profile: the Full track record panel; click See every tip: history with times and the edited/cancelled table.
+    Admin > Tips: press P on a started match; it shows as Push.
+ 4. A match page: vote in the poll, change the vote, after kickoff voting is refused. Post a comment and a reply.
+ 5. Create a club, copy the invite link, join with a second account, share a pick, toggle Public record and view logged out.
+ 6. Arena: play a round, let the timer run out (auto-submits). Check the leaderboard.
+ 7. Slips: add rows, see total odds change, save, duplicate, download the PDF.
+
+
+F26. Update 23
+ 1. Tipster > Profile: choose a picture; it uploads at once and the header shows it. Break another field (short bio) and save: the photo stays.
+ 2. Register as a tipster with a short bio: you get the error but the photo preview stays; fix the bio and submit without choosing again.
+ 3. Open a match, press "Open the discussion room": post, reply to a reply, up/down vote, collapse a thread, Share, Report.
+ 4. Dark mode and phone width on the profile page and the room.
+
+F27. Slip builder / messages / chat look
+ - Open slip.php: add rows, click outcome chips, check the ticket totals update. Open slips.php: cards show preview.
+ - Account > Messages: unread items have gold edge; Mark all as read works.
+ - Open Chat with us: send a message, reply from admin/chat.php, check bubbles in light and dark.
+
+F28. Update 25
+ - Navbar: hover Today's tips and Results to see the drop-downs; on a phone tap the small arrow.
+ - Admin > Communities: create "Arsenal fans"; open Discussion > Communities > m/Arsenal fans; post with a title, text, emoji and a picture; reply to it with a picture.
+ - Tipster > Profile: upload a photo, log out and in again, it must still be there. Change country: flag appears in the preview and on the public page.
+
+F29. Profiles + Jackpot (needs real database): make profile public, share a bet, view member.php, follow from a second account. Create jackpot with 12 games, open it, enter from two accounts, change amount, fill results, settle, mark winner paid.
+
+F30. Community update (real database): like/react/comment/reply on a group post and check notifications; edit and delete your post; report from a second account; make a moderator (Admin > Communities > moderator email) and pin/remove; create a poll and vote; attach a slip; set team names and open the group page before a fixture; open the group Chat tab as a member and a non-member; reply, report and mute in chat; turn the digest on and run cron/digest.php.
+
+F31. Community update 2 (real database): follow a member from a group post and open Discussion > Following; send, receive, report and block a message; make a group private, request to join from a second account and approve it; add an event and tap "I am going"; post with #tag and open it, search; attach a tip as an approved tipster; open a slip's Share link in a private window; watch a match's odds and run cron/sync-odds.php; reply to a post and check the alert (in-app, push, e-mail); open Admin > Community stats; switch the site to Kiswahili and open a group.
+
+F32. Android app: Admin > Android app, upload a real .apk (and a file that is not an APK, which must be refused); open download-app.php on a phone, download and install it; try a second upload as the new live version; Take down and check the "coming soon" page; confirm private-uploads/app/xyz.apk is NOT reachable by direct address.
+F33. Android app (after building slipking-android): install on a phone; splash shows then Home loads; sign in, close and reopen the app (still signed in); bottom tabs work; More > Go VIP and pay with M-Pesa STK, then try PayPal/Card (pop-up and 3-D Secure pages stay inside); upload a photo in chat; download a slip PDF; turn Wi-Fi off (offline screen, then recovers); post a reply from another account and wait ~15 minutes for the notification; upload a higher version in Admin > Android app and check the Update dialog. Confirm footer shows no "Get the Android app" or push box inside the app.
+F34. Firebase push: add the key in Admin > Android app, press Send a test (phone buzzes); post a tip as a tipster with a follower using the app (follower gets it within seconds); send an Admin > Messages broadcast; sign out in the app and confirm that phone no longer gets that member's alerts; remove the key and confirm 15-minute checking returns.
+F35. In-app look: open the app, confirm no website header/footer/chat bubble, pages are dark with big buttons; as staff confirm the Admin panel section appears in More and an admin page (post a tip) works and shows in the app.
+F36. App extras: add the SlipKing widget to a phone home screen (shows numbers, tap opens tips); Settings > Appearance Light/Dark/Same as phone (app and site pages both switch); change the phone language to French, Arabic and Kiswahili (app menus and site pages follow; Arabic is right-to-left); upload a photo in chat using the camera option; on a page that uses the camera/microphone confirm the permission prompt appears.
+F37. Native app API: open yoursite/api/v1/?a=config (JSON with sports and countries); ?a=tips (JSON list; a VIP tip you cannot see shows locked:true and an empty pick); ?a=tip&id=1; ?a=results; ?a=plans. Logging in is done by the app (POST needs the app header).
+
+Quick phone test list (do each once after installing the app):
+1 Register + log in   2 Open Tips, Live, Home   3 Turn on airplane mode and reopen Home (should show a saved copy)
+4 Send a private message to someone from a post   5 Pay or view the tipster fee as a tipster   6 Admin: delete a finished game

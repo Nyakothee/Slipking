@@ -1,0 +1,990 @@
+# SlipKing - Kiswahili. One line per phrase:  English ||| Kiswahili
+# Texts with {1} {2} are patterns: {1} is replaced by the changing part of the page.
+# Specific patterns must come before general ones. Please have a native Swahili speaker review this file.
+__months ||| January=Januari;February=Februari;March=Machi;April=Aprili;May=Mei;June=Juni;July=Julai;August=Agosti;September=Septemba;October=Oktoba;November=Novemba;December=Desemba;Jan=Jan;Feb=Feb;Mar=Mac;Apr=Apr;Jun=Jun;Jul=Jul;Aug=Ago;Sep=Sep;Oct=Okt;Nov=Nov;Dec=Des
+__days ||| Monday=Jumatatu;Tuesday=Jumanne;Wednesday=Jumatano;Thursday=Alhamisi;Friday=Ijumaa;Saturday=Jumamosi;Sunday=Jumapili;Mon=Jtatu;Tue=Jnne;Wed=Jtano;Thu=Alh;Fri=Ij;Sat=Jmosi;Sun=Jpili
+
+# ---- menu, header, footer
+Home ||| Nyumbani
+Today's tips ||| Utabiri wa leo
+Accumulators ||| Mikeka ya mechi nyingi
+Results ||| Matokeo
+VIP ||| VIP
+Blog ||| Blogu
+About ||| Kuhusu sisi
+Skip to content ||| Ruka hadi maudhui
+Main ||| Kuu
+Menu ||| Menyu
+Currency ||| Sarafu
+Language ||| Lugha
+Log in ||| Ingia
+Log out ||| Toka
+Go VIP ||| Jiunge na VIP
+My account ||| Akaunti yangu
+Create account ||| Fungua akaunti
+Create an account ||| Fungua akaunti
+Site ||| Tovuti
+Support ||| Msaada
+Follow ||| Tufuate
+Contact us ||| Wasiliana nasi
+Terms ||| Masharti
+Privacy ||| Faragha
+Responsible gambling ||| Kucheza kwa uwajibikaji
+VIP plans ||| Mipango ya VIP
+Predictions with a public record. ||| Utabiri wenye rekodi ya wazi.
+18+ only. Gamble responsibly and never bet more than you can afford to lose. Tips are opinions, not guarantees. If betting stops being fun, seek help from a support service in your country. © {1} {2} ||| Kwa umri wa miaka 18 na zaidi tu. Cheza kwa uwajibikaji na usiweke kamari zaidi ya unachoweza kumudu kupoteza. Utabiri ni maoni, si dhamana. Kamari ikiacha kuwa burudani, tafuta msaada kutoka huduma ya usaidizi nchini kwako. © {1} {2}
+Prices in other currencies are estimates. You pay in KES (M-Pesa) or USD (PayPal). ||| Bei kwa sarafu nyingine ni makadirio. Unalipa kwa KES (M-Pesa) au USD (PayPal).
+This page is currently available in English only. ||| Ukurasa huu kwa sasa unapatikana kwa Kiingereza pekee.
+{1} tips today ||| Utabiri {1} leo
+Last 30 days: {1}% won ||| Siku 30 zilizopita: {1}% zimeshinda
+Kenya shilling ||| Shilingi ya Kenya
+US dollar ||| Dola ya Marekani
+Nigerian naira ||| Naira ya Nigeria
+Indian rupee ||| Rupia ya India
+Chat with us ||| Zungumza nasi
+Live chat ||| Mazungumzo ya moja kwa moja
+Close chat ||| Funga mazungumzo
+Hello! How can we help? We reply as soon as we can. ||| Habari! Tukusaidie vipi? Tunajibu haraka iwezekanavyo.
+Your name ||| Jina lako
+Email (optional) ||| Barua pepe (si lazima)
+Type your message ||| Andika ujumbe wako
+Send ||| Tuma
+Never share passwords or PINs in chat. ||| Usishiriki manenosiri au PIN kwenye mazungumzo.
+
+# ---- statuses and common words
+Won ||| Imeshinda
+Lost ||| Imepoteza
+Void ||| Imebatilishwa
+Pending ||| Inasubiri
+Awaiting result ||| Inasubiri matokeo
+Active ||| Inatumika
+Ended ||| Imeisha
+Cancelled ||| Imeghairiwa
+Paid ||| Imelipwa
+Failed ||| Imeshindwa
+Closed ||| Imefungwa
+Received ||| Imepokelewa
+We have contacted you ||| Tumewasiliana nawe
+Accepted ||| Imekubaliwa
+Not accepted ||| Haijakubaliwa
+Yes ||| Ndiyo
+No ||| Hapana
+Free ||| Bure
+VS ||| DHIDI YA
+Today ||| Leo
+Tomorrow ||| Kesho
+Yesterday ||| Jana
+Today {1} ||| Leo {1}
+Tomorrow {1} ||| Kesho {1}
+Yesterday {1} ||| Jana {1}
+Date ||| Tarehe
+Match ||| Mechi
+Matches ||| Mechi
+Pick ||| Chaguo
+Pick: ||| Chaguo:
+Odds ||| Odds
+Result ||| Matokeo
+Status ||| Hali
+Plan ||| Mpango
+Price ||| Bei
+Length ||| Muda
+Amount ||| Kiasi
+Method ||| Njia
+Message ||| Ujumbe
+Messages ||| Ujumbe
+Subject ||| Mada
+Country ||| Nchi
+Email ||| Barua pepe
+Password ||| Nenosiri
+Full name ||| Jina kamili
+Kickoff ||| Mwanzo wa mechi
+Started ||| Ilianza
+Ends ||| Inaisha
+From ||| Kutoka
+To ||| Hadi
+History ||| Historia
+Receipt ||| Risiti
+Receipt / reference ||| Risiti / marejeleo
+Total odds ||| Odds jumla
+Football ||| Soka
+Basketball ||| Mpira wa kikapu
+Tennis ||| Tenisi
+All sports ||| Michezo yote
+All tips ||| Utabiri wote
+All results ||| Matokeo yote
+Sport ||| Mchezo
+Day ||| Siku
+Match details ||| Maelezo ya mechi
+VS ||| DHIDI YA
+/ week ||| / wiki
+/ month ||| / mwezi
+/ 3 months ||| / miezi 3
+/ year ||| / mwaka
+/ {1} days ||| / siku {1}
+{1} days ||| siku {1}
+Weekly ||| Wiki
+Monthly ||| Mwezi
+Elite ||| Elite
+All VIP tips ||| Utabiri wote wa VIP
+Telegram alerts ||| Arifa za Telegram
+Results archive ||| Kumbukumbu ya matokeo
+Everything in Weekly ||| Kila kitu cha Wiki
+Accumulators ||| Mikeka ya mechi nyingi
+Correct score picks ||| Chaguo za alama kamili
+Private VIP group ||| Kundi la siri la VIP
+Everything in Monthly ||| Kila kitu cha Mwezi
+Highest-confidence picks ||| Chaguo za uhakika wa juu zaidi
+Early access to tips ||| Kupata utabiri mapema
+Priority support ||| Msaada wa kipaumbele
+Double chance ||| Nafasi mbili
+Over/Under ||| Zaidi/Chini
+BTTS ||| Timu zote kufunga
+Handicap ||| Hendikapu
+Correct score ||| Alama kamili
+Acca ||| Mkeka
+Set betting ||| Kubeti seti
+Total games ||| Jumla ya michezo
+Locked VIP pick ||| Chaguo la VIP lililofungwa
+VIP tip ||| Utabiri wa VIP
+Confidence {1} of 5 ||| Uhakika {1} kati ya 5
+Confidence: {1} out of 5 ||| Uhakika: {1} kati ya 5
+Last {1} results ||| Matokeo {1} ya mwisho
+Win rate by month ||| Kiwango cha ushindi kwa mwezi
+
+# ---- home page
+Predictions you can check, match by match. ||| Utabiri unaoweza kuukagua, mechi baada ya mechi.
+Free tips every day. Every pick is timestamped before kickoff and stays on the record, win or lose. ||| Utabiri wa bure kila siku. Kila chaguo linawekewa muhuri wa wakati kabla ya mechi kuanza na linabaki kwenye rekodi, likishinda au likipoteza.
+See today's free tips ||| Tazama utabiri wa bure wa leo
+View VIP plans ||| Tazama mipango ya VIP
+Open your VIP picks ||| Fungua chaguo zako za VIP
+won, last 30 days ||| zimeshinda, siku 30 zilizopita
+tips settled, last 30 days ||| utabiri uliokamilika, siku 30 zilizopita
+average odds ||| wastani wa odds
+Free tips today ||| Utabiri wa bure leo
+No sign-up needed. Refreshed every morning. ||| Hakuna kujisajili kunakohitajika. Husasishwa kila asubuhi.
+Today's free tips are being prepared. Check back in a little while. ||| Utabiri wa bure wa leo unaandaliwa. Rudi baada ya muda mfupi.
+VIP picks ||| Chaguo za VIP
+Higher confidence, fewer tips. ||| Uhakika wa juu, utabiri michache.
+Your plan is active. ||| Mpango wako unatumika.
+Unlock with a plan. ||| Fungua kwa mpango.
+VIP picks for today will appear here. ||| Chaguo za VIP za leo zitaonekana hapa.
+1 Million Accumulator ||| Mkeka wa Milioni 1
+Free for everyone. A long ticket where every selection must win. ||| Bure kwa wote. Mkeka mrefu ambapo kila chaguo lazima lishinde.
+All accumulators ||| Mikeka yote
+Minimum stake for {1} ||| Dau la chini kwa {1}
+{1} selections ||| Chaguo {1}
+See all selections ||| Tazama chaguo zote
+Most long accumulators lose. Only stake what you can afford to lose. ||| Mikeka mingi mirefu hupoteza. Weka dau tu kiasi unachoweza kumudu kupoteza.
+Our record is public ||| Rekodi yetu ni ya wazi
+Every tip we post is kept in the archive with its posting time. Nothing is edited or hidden after the match. ||| Kila utabiri tunaouchapisha unahifadhiwa kwenye kumbukumbu pamoja na wakati wa kuchapishwa. Hakuna kinachobadilishwa wala kufichwa baada ya mechi.
+Open full results ||| Fungua matokeo kamili
+Monthly results appear here once tips are settled. ||| Matokeo ya kila mwezi yataonekana hapa utabiri ukikamilika.
+Pick your sport ||| Chagua mchezo wako
+Choose your plan ||| Chagua mpango wako
+Pay with M-Pesa or PayPal. Your plan runs for the period you pay for and does not renew by itself. ||| Lipa kwa M-Pesa au PayPal. Mpango wako unaendelea kwa muda uliolipia na hauhuishwi wenyewe.
+Most chosen ||| Unaochaguliwa zaidi
+Choose {1} ||| Chagua {1}
+Extend with {1} ||| Ongeza kwa {1}
+What members say ||| Wanachosema wanachama
+Questions ||| Maswali
+Are the tips guaranteed to win? ||| Je, utabiri umehakikishiwa kushinda?
+No. No tip is guaranteed. We publish every result so you can judge the record yourself. ||| Hapana. Hakuna utabiri uliohakikishiwa. Tunachapisha kila matokeo ili uweze kujihukumu rekodi mwenyewe.
+How do I pay for VIP? ||| Nalipaje kwa VIP?
+With M-Pesa (you get a prompt on your phone) or with PayPal. Your plan activates as soon as payment is confirmed. ||| Kwa M-Pesa (utapata ombi kwenye simu yako) au kwa PayPal. Mpango wako unawashwa mara tu malipo yanapothibitishwa.
+Does my plan renew automatically? ||| Je, mpango wangu unajihuisha wenyewe?
+No. Your plan ends when the period you paid for ends, and you choose whether to buy another. ||| Hapana. Mpango wako unaisha muda uliolipia ukiisha, na wewe unaamua kama utanunua mwingine.
+Football & Sports Predictions with a Public Record ||| Utabiri wa Soka na Michezo wenye Rekodi ya Wazi
+
+# ---- tips, tip, results
+Yesterday's tips ||| Utabiri wa jana
+Tomorrow's tips ||| Utabiri wa kesho
+{1} · {2} tips ({3} free, {4} VIP) ||| {1} · utabiri {2} ({3} bure, {4} VIP)
+No tips for this day and filter yet. Try another day, or check back later. ||| Hakuna utabiri kwa siku na kichujio hiki bado. Jaribu siku nyingine, au rudi baadaye.
+VIP tips locked: {1}. ||| Utabiri wa VIP umefungwa: {1}.
+See VIP plans ||| Tazama mipango ya VIP
+Once a match is settled, the pick becomes public in the results archive. ||| Mechi ikikamilika, chaguo huwa wazi kwenye kumbukumbu ya matokeo.
+Unlock with VIP ||| Fungua kwa VIP
+This is a VIP tip ||| Huu ni utabiri wa VIP
+The pick, odds and analysis for this match are for VIP members until the match is settled. After that they are shown here for everyone. ||| Chaguo, odds na uchambuzi wa mechi hii ni kwa wanachama wa VIP hadi mechi ikamilike. Baada ya hapo vinaonyeshwa hapa kwa kila mtu.
+Our analysis ||| Uchambuzi wetu
+No written analysis for this tip. ||| Hakuna uchambuzi ulioandikwa kwa utabiri huu.
+Market: {1} ||| Soko: {1}
+Status: {1} ||| Hali: {1}
+Odds change between bookmakers. Check the price you are offered before you bet. No tip is guaranteed. ||| Odds hutofautiana kati ya kampuni za kubeti. Angalia bei unayopewa kabla ya kubeti. Hakuna utabiri uliohakikishiwa.
+{1} · posted {2} ||| {1} · uliwekwa {2}
+Results archive ||| Kumbukumbu ya matokeo
+Every tip, in the order the matches were played. ||| Kila utabiri, kwa mpangilio ambao mechi zilichezwa.
+win rate, last 30 days ({1} tips) ||| kiwango cha ushindi, siku 30 zilizopita (utabiri {1})
+units profit, last 30 days ||| faida kwa vitengo, siku 30 zilizopita
+win rate, all time ({1} tips) ||| kiwango cha ushindi, tangu mwanzo (utabiri {1})
+units profit, all time ||| faida kwa vitengo, tangu mwanzo
+Profit is counted as 1 unit staked on every tip at the odds shown: a win returns odds minus 1, a loss costs 1. Void tips count as 0. Real returns depend on the odds you get. ||| Faida inahesabiwa kama kitengo 1 kimewekwa kwa kila utabiri kwa odds zilizoonyeshwa: ushindi hurudisha odds toa 1, kupoteza hugharimu 1. Utabiri uliobatilishwa unahesabiwa 0. Mapato halisi hutegemea odds unazopata.
+No results match this filter yet. ||| Hakuna matokeo yanayolingana na kichujio hiki bado.
+
+# ---- VIP page
+Every plan unlocks all VIP tips. Longer plans cost less per day. ||| Kila mpango unafungua utabiri wote wa VIP. Mipango mirefu ina gharama ndogo kwa siku.
+VIP is active ||| VIP inatumika
+Your {1} plan is active until {2}. ||| Mpango wako wa {1} unatumika hadi {2}.
+About {1} per day ||| Takriban {1} kwa siku
+With PayPal: ${1} ||| Kwa PayPal: ${1}
+Plans are not available right now. ||| Mipango haipatikani kwa sasa.
+Plans are one-off payments and do not renew by themselves. No tip is guaranteed to win. Please bet only what you can afford to lose. 18+ only. ||| Mipango ni malipo ya mara moja na hayajihuishi yenyewe. Hakuna utabiri uliohakikishiwa kushinda. Weka dau tu unachoweza kumudu kupoteza. Kwa umri wa miaka 18 na zaidi tu.
+Free vs VIP ||| Bure dhidi ya VIP
+What you get ||| Unachopata
+Daily tips ||| Utabiri wa kila siku
+A few ||| Kadhaa
+All of them ||| Yote
+Accumulators and correct score ||| Mikeka na alama kamili
+Written analysis ||| Uchambuzi ulioandikwa
+Alerts and private group ||| Arifa na kundi la siri
+How paying works ||| Jinsi malipo yanavyofanya kazi
+Choose a plan and sign in or create an account. ||| Chagua mpango kisha ingia au fungua akaunti.
+Pay with M-Pesa (a prompt appears on your phone) or PayPal. ||| Lipa kwa M-Pesa (ombi linaonekana kwenye simu yako) au PayPal.
+Your plan starts the moment the payment is confirmed. ||| Mpango wako huanza mara tu malipo yanapothibitishwa.
+PayPal ||| PayPal
+M-Pesa ||| M-Pesa
+Recent VIP results ||| Matokeo ya hivi karibuni ya VIP
+VIP win rate so far: {1}% of {2} settled tips. ||| Kiwango cha ushindi wa VIP hadi sasa: {1}% ya utabiri {2} uliokamilika.
+Settled picks are public, wins and losses alike. ||| Chaguo zilizokamilika ni za wazi, ushindi na hasara kwa pamoja.
+Full results ||| Matokeo kamili
+VIP results will be listed here as matches are settled. ||| Matokeo ya VIP yataorodheshwa hapa mechi zikikamilika.
+Before you pay ||| Kabla ya kulipa
+What if my M-Pesa payment does not activate my plan? ||| Je, malipo yangu ya M-Pesa yasipowasha mpango wangu?
+Wait two minutes and refresh. If it still shows inactive, contact us with your M-Pesa confirmation message and we will activate it. ||| Subiri dakika mbili kisha onyesha upya ukurasa. Ikiendelea kuonyesha haujawashwa, wasiliana nasi ukiwa na ujumbe wa uthibitisho wa M-Pesa nasi tutauwasha.
+Can I get a refund? ||| Je, naweza kurejeshewa pesa?
+Refund terms will be listed on the terms page. Please read them before you pay. ||| Masharti ya kurejesha pesa yataorodheshwa kwenye ukurasa wa masharti. Tafadhali yasome kabla ya kulipa.
+Which currency is used? ||| Sarafu gani inatumika?
+M-Pesa payments are in Kenya shillings. PayPal payments are charged in US dollars at the price shown on the plan. ||| Malipo ya M-Pesa ni kwa shilingi za Kenya. Malipo ya PayPal hutozwa kwa dola za Marekani kwa bei iliyoonyeshwa kwenye mpango.
+
+# ---- accumulators
+Accumulators ||| Mikeka ya mechi nyingi
+One long ticket of many selections. Every selection must win. ||| Mkeka mmoja mrefu wa chaguo nyingi. Kila chaguo lazima lishinde.
+1 Million Accumulator (free) ||| Mkeka wa Milioni 1 (bure)
+VIP Accumulator ||| Mkeka wa VIP
+Please read this first. ||| Tafadhali soma hii kwanza.
+An accumulator wins only if every selection wins, and one loss means the whole ticket loses. With dozens of selections the odds are huge because the chance is tiny, so most tickets lose. Only stake an amount you can afford to lose completely. ||| Mkeka hushinda tu kama kila chaguo limeshinda, na kupoteza moja kunamaanisha mkeka mzima umepoteza. Kukiwa na chaguo nyingi, odds huwa kubwa kwa sababu uwezekano ni mdogo sana, kwa hivyo mikeka mingi hupoteza. Weka dau tu kiasi unachoweza kumudu kupoteza kabisa.
+Our record so far: ||| Rekodi yetu hadi sasa:
+{1} won, {2} lost ({3} settled) ||| {1} zimeshinda, {2} zimepoteza ({3} zimekamilika)
+No {1} accumulator has been posted yet. Check back soon. ||| Hakuna mkeka wa {1} uliochapishwa bado. Rudi hivi karibuni.
+1 in {1} ||| 1 kati ya {1}
+Posted {1} · {2} selections · ||| Uliwekwa {1} · chaguo {2} ·
+Every selection must win. One loss loses the whole ticket. The "minimum stake" is only the smallest stake that would reach the target if every selection wins, and it is not advice to stake that amount. Odds change between bookmakers, so check your price. 18+ only. ||| Kila chaguo lazima lishinde. Kupoteza moja hupoteza mkeka mzima. "Dau la chini" ni dau dogo zaidi linalofikia lengo ikiwa kila chaguo litashinda, na si ushauri wa kuweka kiasi hicho. Odds hutofautiana kati ya kampuni za kubeti, kwa hivyo angalia bei yako. Kwa umri wa miaka 18 na zaidi tu.
+total odds ||| odds jumla
+(void selections removed) ||| (chaguo zilizobatilishwa zimeondolewa)
+minimum stake to return {1} or more ||| dau la chini ili kurudisha {1} au zaidi
+roughly the chance all selections win, as the odds see it ||| takriban uwezekano wa chaguo zote kushinda, kwa mtazamo wa odds
+won: {1}, lost: {2}, still to play: {3} ||| zimeshinda: {1}, zimepoteza: {2}, bado kuchezwa: {3}
+This is a VIP accumulator ||| Huu ni mkeka wa VIP
+The {1} selections are for VIP members until the ticket is settled. After that they are shown here for everyone, whether it won or lost. ||| Chaguo {1} ni kwa wanachama wa VIP hadi mkeka ukamilike. Baada ya hapo vinaonyeshwa hapa kwa kila mtu, uwe umeshinda au umepoteza.
+Your stake ({1}) ||| Dau lako ({1})
+Return if every selection wins = stake x total odds. Estimate only. ||| Mapato ikiwa kila chaguo litashinda = dau x odds jumla. Makadirio tu.
+Returns ||| Mapato
+Responsible gambling ||| Kucheza kwa uwajibikaji
+
+# ---- blog, contact, about, 404
+Guides, previews and bankroll advice. ||| Miongozo, uchambuzi wa awali na ushauri wa bajeti ya kubeti.
+No articles yet. The first ones are on the way. ||| Hakuna makala bado. Za kwanza zinakuja.
+Betting carries risk and no tip is guaranteed. 18+ only. Never bet more than you can afford to lose. ||| Kubeti kuna hatari na hakuna utabiri uliohakikishiwa. Kwa umri wa miaka 18 na zaidi tu. Usiweke dau zaidi ya unachoweza kumudu kupoteza.
+See today's tips ||| Tazama utabiri wa leo
+Contact us ||| Wasiliana nasi
+For payment problems, include your M-Pesa receipt code or PayPal receipt. ||| Kwa matatizo ya malipo, tuma msimbo wa risiti yako ya M-Pesa au risiti ya PayPal.
+Your email ||| Barua pepe yako
+Send message ||| Tuma ujumbe
+Thank you. We have your message and will reply to {1}. ||| Asante. Tumepokea ujumbe wako na tutajibu kwa {1}.
+Back to the home page ||| Rudi ukurasa wa mwanzo
+Leave empty ||| Acha wazi
+About {1} ||| Kuhusu {1}
+{1} publishes sports betting predictions. Some are free and open to everyone. The rest are VIP tips for members who take a paid plan. ||| {1} huchapisha utabiri wa kubeti michezo. Baadhi ni bure kwa kila mtu. Mengine ni utabiri wa VIP kwa wanachama wenye mpango wa kulipia.
+Every tip is stamped with the time it was posted, before the match starts. After kickoff a tip cannot be edited or deleted, and every result, win or loss, goes into a public archive. ||| Kila utabiri unawekewa muhuri wa wakati ulipochapishwa, kabla mechi kuanza. Baada ya mechi kuanza utabiri hauwezi kubadilishwa wala kufutwa, na kila matokeo, ushindi au kupoteza, huingia kwenye kumbukumbu ya wazi.
+See our full results ||| Tazama matokeo yetu kamili
+before you spend anything. ||| kabla hujatumia chochote.
+No tipster wins every time, and neither do we. Tips are opinions based on form and statistics, not promises. Only bet money you can afford to lose. ||| Hakuna mtabiri anayeshinda kila mara, na sisi pia. Utabiri ni maoni yanayotegemea mwenendo na takwimu, si ahadi. Weka dau tu pesa unazoweza kumudu kupoteza.
+Read about responsible gambling ||| Soma kuhusu kucheza kwa uwajibikaji
+We do not take bets and we are not a bookmaker. You place any bet yourself, with a bookmaker that is licensed where you live. ||| Hatupokei dau na sisi si kampuni ya kubeti. Unaweka dau mwenyewe, kwa kampuni ya kubeti yenye leseni mahali unapoishi.
+Page not found ||| Ukurasa haujapatikana
+The page you asked for does not exist or has moved. ||| Ukurasa uliouomba haupo au umehamishwa.
+Betting should be entertainment, never a way to make a living or to fix money problems. You must be 18 or older to use this site. ||| Kubeti kunapaswa kuwa burudani, kamwe si njia ya kujipatia riziki wala kutatua matatizo ya pesa. Lazima uwe na umri wa miaka 18 au zaidi ili kutumia tovuti hii.
+Our tips are not guarantees. ||| Utabiri wetu si dhamana.
+They are opinions. Any tip can lose, including our most confident ones. Never bet because a tip "cannot lose". ||| Ni maoni. Utabiri wowote unaweza kupoteza, hata wenye uhakika wa juu zaidi. Kamwe usibeti kwa sababu utabiri "hauwezi kupoteza".
+Keep it under control ||| Dhibiti mchezo wako
+Decide a budget before you start and stick to it. Only bet money you can afford to lose completely. Never borrow to bet. Do not chase losses with bigger stakes. Take regular breaks, and keep a record of what you spend. ||| Amua bajeti kabla ya kuanza na uzingatie. Weka dau tu pesa unazoweza kumudu kupoteza kabisa. Usikope ili kubeti. Usifuate hasara kwa dau kubwa zaidi. Pumzika mara kwa mara, na uweke rekodi ya unachotumia.
+Warning signs ||| Dalili za tahadhari
+Betting more than you planned. Hiding it from family or friends. Feeling anxious or angry when you cannot bet. Betting to win back losses. Money for rent, food or school fees going to bets. If any of these sound familiar, stop and talk to someone. ||| Kubeti zaidi ya ulivyopanga. Kuficha familia au marafiki. Kuhisi wasiwasi au hasira unaposhindwa kubeti. Kubeti ili kurudisha hasara. Pesa za kodi, chakula au karo zikienda kwenye kamari. Ikiwa yoyote kati ya haya ni ya kawaida kwako, simama na uongee na mtu.
+Where to get help ||| Mahali pa kupata msaada
+Speak to a trusted friend or family member. Licensed bookmakers offer tools to set deposit limits, take a break, or exclude yourself completely, so use them. Look for a gambling support organisation or counselling service in your own country and contact them. ||| Ongea na rafiki au mwanafamilia unayemwamini. Kampuni za kubeti zenye leseni hutoa zana za kuweka kikomo cha amana, kupumzika, au kujiondoa kabisa, kwa hivyo zitumie. Tafuta shirika la usaidizi wa kamari au huduma ya ushauri nchini kwako na uwasiliane nao.
+Our part ||| Wajibu wetu
+We show every result, wins and losses, so you can judge us honestly. We never pressure anyone to buy VIP, and plans never renew by themselves. ||| Tunaonyesha kila matokeo, ushindi na hasara, ili uweze kutuhukumu kwa uaminifu. Hatuwahi kumshinikiza mtu kununua VIP, na mipango haijihuishi yenyewe.
+
+# ---- sign up, log in, passwords
+Create account ||| Fungua akaunti
+Free to join. VIP is optional. ||| Kujiunga ni bure. VIP ni hiari.
+M-Pesa phone number (optional) ||| Nambari ya simu ya M-Pesa (si lazima)
+Used to pre-fill your M-Pesa payment. ||| Hutumika kujaza malipo yako ya M-Pesa mapema.
+At least 8 characters. ||| Angalau herufi 8.
+Repeat password ||| Rudia nenosiri
+I am 18 years or older. ||| Nina umri wa miaka 18 au zaidi.
+I accept the ||| Nakubali
+terms ||| masharti
+and understand that tips are not guaranteed. ||| na ninaelewa kuwa utabiri haujahakikishiwa.
+Already have an account? ||| Tayari una akaunti?
+Welcome back. ||| Karibu tena.
+Forgot your password? ||| Umesahau nenosiri lako?
+New here? ||| Mgeni hapa?
+Forgot password ||| Umesahau nenosiri
+Enter your email and we will send you a link to choose a new password. ||| Weka barua pepe yako nasi tutakutumia kiungo cha kuchagua nenosiri jipya.
+Send reset link ||| Tuma kiungo cha kuweka upya
+Back to log in ||| Rudi kuingia
+If that email has an account, a reset link is on its way. It is valid for 1 hour. Check your spam folder too. ||| Ikiwa barua pepe hiyo ina akaunti, kiungo cha kuweka upya kinakuja. Kinatumika kwa saa 1. Angalia pia folda ya barua taka.
+New password ||| Nenosiri jipya
+Choose a password of at least 8 characters. ||| Chagua nenosiri lenye angalau herufi 8.
+Repeat new password ||| Rudia nenosiri jipya
+Save password ||| Hifadhi nenosiri
+This reset link is not valid or has expired. ||| Kiungo hiki cha kuweka upya si halali au kimeisha muda.
+Get a new link ||| Pata kiungo kipya
+
+# ---- account area
+Hello, {1} ||| Habari, {1}
+Signed in as {1} ||| Umeingia kama {1}
+Dashboard ||| Dashibodi
+Subscription ||| Usajili
+Payments ||| Malipo
+Profile ||| Wasifu
+Notifications ||| Arifa
+Referrals ||| Rufaa
+Please confirm your email address. We sent you a link when you signed up. ||| Tafadhali thibitisha barua pepe yako. Tulikutumia kiungo ulipojisajili.
+Send the link again ||| Tuma kiungo tena
+Your payment is being confirmed. This usually takes under a minute. Refresh this page shortly. ||| Malipo yako yanathibitishwa. Hii kawaida huchukua chini ya dakika moja. Onyesha upya ukurasa huu hivi karibuni.
+Unread messages: {1} ||| Ujumbe ambao haujasomwa: {1}
+Read ||| Soma
+You are on the free plan. VIP unlocks every premium pick. ||| Uko kwenye mpango wa bure. VIP inafungua kila chaguo la hali ya juu.
+VIP picks today ||| Chaguo za VIP leo
+No VIP picks are posted for today yet. Check back soon. ||| Hakuna chaguo za VIP zilizochapishwa leo bado. Rudi hivi karibuni.
+VIP picks tomorrow ||| Chaguo za VIP kesho
+No free tips yet today. ||| Hakuna utabiri wa bure leo bado.
+You are on the free plan ||| Uko kwenye mpango wa bure
+Unlock every VIP pick with a weekly, monthly or 3-month plan. ||| Fungua kila chaguo la VIP kwa mpango wa wiki, mwezi au miezi 3.
+Days left ||| Siku zilizobaki
+Extend my plan ||| Ongeza mpango wangu
+Your plan does not renew by itself. Buy another before it ends and the days are added on. ||| Mpango wako haujihuishi wenyewe. Nunua mwingine kabla haujaisha na siku zitaongezwa.
+Payment history ||| Historia ya malipo
+You have not made any payments yet. ||| Bado hujafanya malipo yoyote.
+A payment marked Pending that never completes will show as Failed. If money left your account but your plan is not active, contact us with the M-Pesa or PayPal confirmation. ||| Malipo yaliyowekwa alama Inasubiri ambayo hayakamiliki yataonekana kama Yameshindwa. Ikiwa pesa zimetoka kwenye akaunti yako lakini mpango wako haujawashwa, wasiliana nasi ukiwa na uthibitisho wa M-Pesa au PayPal.
+Mark all as read ||| Weka zote kuwa zimesomwa
+No messages yet. ||| Hakuna ujumbe bado.
+Invite friends ||| Alika marafiki
+Your link ||| Kiungo chako
+Share this link. Anyone who signs up through it is counted below. ||| Shiriki kiungo hiki. Yeyote anayejisajili kupitia kiungo hiki huhesabiwa hapa chini.
+Friends who joined ||| Marafiki waliojiunga
+Of those, who have paid for VIP ||| Kati ya hao, waliolipia VIP
+Your details ||| Maelezo yako
+To change your email, contact support. ||| Ili kubadilisha barua pepe yako, wasiliana na msaada.
+M-Pesa phone number ||| Nambari ya simu ya M-Pesa
+Save details ||| Hifadhi maelezo
+Change password ||| Badilisha nenosiri
+Current password ||| Nenosiri la sasa
+
+# ---- checkout and payments
+Checkout ||| Malipo
+Your order ||| Oda yako
+You already have VIP. These days will be added after your current plan ends. ||| Tayari una VIP. Siku hizi zitaongezwa baada ya mpango wako wa sasa kuisha.
+One-off payment. It does not renew by itself. You must be 18 or older. ||| Malipo ya mara moja. Hayajihuishi yenyewe. Lazima uwe na umri wa miaka 18 au zaidi.
+Have a coupon code? ||| Una msimbo wa kuponi?
+Apply ||| Tumia
+{1}% off with code {2} ||| Punguzo la {1}% kwa msimbo {2}
+or ${1} with PayPal ||| au ${1} kwa PayPal
+Pay with M-Pesa ||| Lipa kwa M-Pesa
+Pay {1} with M-Pesa ||| Lipa {1} kwa M-Pesa
+A prompt will appear on this phone. Enter your M-Pesa PIN to pay. ||| Ombi litaonekana kwenye simu hii. Weka PIN yako ya M-Pesa ili ulipe.
+Pay with PayPal ||| Lipa kwa PayPal
+Charged in US dollars: ${1}. You can use your PayPal balance or a card. ||| Utatozwa kwa dola za Marekani: ${1}. Unaweza kutumia salio lako la PayPal au kadi.
+Payments are not switched on yet. Please check back soon. ||| Malipo bado hayajawashwa. Tafadhali rudi hivi karibuni.
+Payment received ||| Malipo yamepokelewa
+Thank you. Your {1} plan is active until {2}. ||| Asante. Mpango wako wa {1} unatumika hadi {2}.
+Thank you. Your {1} plan is active. ||| Asante. Mpango wako wa {1} unatumika.
+See my VIP picks ||| Tazama chaguo zangu za VIP
+Still confirming ||| Bado inathibitisha
+We have not received the confirmation yet. If you entered your PIN, your plan will switch on by itself within a few minutes. ||| Hatujapokea uthibitisho bado. Ikiwa uliweka PIN yako, mpango wako utawaka wenyewe ndani ya dakika chache.
+Check my payments ||| Angalia malipo yangu
+Payment not completed ||| Malipo hayajakamilika
+This payment did not go through. ||| Malipo haya hayakufanikiwa.
+Try again ||| Jaribu tena
+Nothing was charged, or M-Pesa / PayPal will return it. If money left your account but your plan is not active, contact us with your confirmation message. ||| Hakuna kilichotozwa, au M-Pesa / PayPal itakirudisha. Ikiwa pesa zimetoka kwenye akaunti yako lakini mpango wako haujawashwa, wasiliana nasi ukiwa na ujumbe wako wa uthibitisho.
+Choose a plan again ||| Chagua mpango tena
+Contact support ||| Wasiliana na msaada
+
+# ---- account management
+Account management ||| Usimamizi wa akaunti
+Tell us what you are looking for. We will talk to you directly before anything starts. ||| Tuambie unachotafuta. Tutaongea nawe moja kwa moja kabla ya kitu chochote kuanza.
+How it works ||| Jinsi inavyofanya kazi
+You send an enquiry here. Nothing is agreed and no money moves. ||| Unatuma ombi hapa. Hakuna kinachokubaliwa na hakuna pesa zinazohamishwa.
+We contact you on the phone or WhatsApp number you give, and talk through what you want. ||| Tunawasiliana nawe kwa nambari ya simu au WhatsApp uliyotoa, na tunazungumzia unachotaka.
+If we both agree, the terms (including fees) are written down and agreed before anything starts. ||| Tukikubaliana, masharti (ikiwa ni pamoja na ada) yanaandikwa na kukubaliwa kabla ya kitu chochote kuanza.
+You can ask to stop at any time. ||| Unaweza kuomba kusimamisha wakati wowote.
+What we never do ||| Mambo ambayo hatufanyi kamwe
+We never ask for your password, PIN or codes through this website, the chat or this form. If anyone asks you to send them here, do not. ||| Hatuombi nenosiri, PIN au misimbo yako kupitia tovuti hii, mazungumzo au fomu hii. Ikiwa yeyote anakuomba uzitume hapa, usifanye hivyo.
+This website never holds your betting money. ||| Tovuti hii haishikilii pesa zako za kubeti.
+We never promise profit or guarantee results. ||| Hatuahidi faida wala kuhakikisha matokeo.
+Risks you must understand. ||| Hatari unazopaswa kuelewa.
+Betting can lose all of the money used. Past results do not guarantee future results. Many betting companies do not allow anyone other than the account owner to operate an account, so check your company's rules, because your account could be limited or closed. Laws about betting and about managing other people's money differ between countries, so make sure you understand the rules where you live. Only use money you can afford to lose. 18+ only. ||| Kubeti kunaweza kupoteza pesa zote zilizotumika. Matokeo ya zamani hayahakikishi matokeo ya baadaye. Kampuni nyingi za kubeti haziruhusu mtu mwingine zaidi ya mmiliki wa akaunti kuiendesha, kwa hivyo angalia sheria za kampuni yako, kwa sababu akaunti yako inaweza kuzuiwa au kufungwa. Sheria kuhusu kubeti na kusimamia pesa za watu wengine hutofautiana kati ya nchi, kwa hivyo hakikisha unaelewa sheria mahali unapoishi. Tumia tu pesa unazoweza kumudu kupoteza. Kwa umri wa miaka 18 na zaidi tu.
+Send an enquiry ||| Tuma ombi
+Please log in or create a free account so we can reach you and keep your enquiry safe. ||| Tafadhali ingia au fungua akaunti ya bure ili tuweze kukufikia na kuweka ombi lako salama.
+You already have an enquiry we are working on. We will contact you soon. ||| Tayari una ombi tunalolifanyia kazi. Tutawasiliana nawe hivi karibuni.
+Phone or WhatsApp number ||| Nambari ya simu au WhatsApp
+Betting company you use ||| Kampuni ya kubeti unayotumia
+Only the name. Never your login details. ||| Jina tu. Kamwe si maelezo yako ya kuingia.
+Amount you are thinking of using ||| Kiasi unachofikiria kutumia
+Risk you are comfortable with ||| Kiwango cha hatari unachoridhika nacho
+Low ||| Chini
+Medium ||| Wastani
+High ||| Juu
+Anything else we should know (optional) ||| Kingine tunachopaswa kujua (si lazima)
+I understand I can lose all the money used and that no result is guaranteed. ||| Naelewa kuwa naweza kupoteza pesa zote zilizotumika na kwamba hakuna matokeo yaliyohakikishiwa.
+I understand that I must never send my password, PIN or codes on this site. ||| Naelewa kuwa kamwe nisitume nenosiri, PIN au misimbo yangu kwenye tovuti hii.
+Send enquiry ||| Tuma ombi
+Your enquiries ||| Maombi yako
+Betting company ||| Kampuni ya kubeti
+
+# ---- messages shown after an action or an error
+Your session expired. Please try again. ||| Kipindi chako kimeisha. Tafadhali jaribu tena.
+Your session expired. Refresh the page and try again. ||| Kipindi chako kimeisha. Onyesha upya ukurasa na ujaribu tena.
+Welcome, {1}! Your account is ready. We sent a link to confirm your email. ||| Karibu, {1}! Akaunti yako iko tayari. Tumetuma kiungo cha kuthibitisha barua pepe yako.
+You have been logged out. ||| Umetoka.
+The email or password is not correct. ||| Barua pepe au nenosiri si sahihi.
+Too many attempts. Please wait 15 minutes and try again. ||| Majaribio mengi mno. Tafadhali subiri dakika 15 kisha ujaribu tena.
+Too many attempts. Please wait a few minutes and try again. ||| Majaribio mengi mno. Tafadhali subiri dakika chache kisha ujaribu tena.
+Too many requests. Please wait 15 minutes and try again. ||| Maombi mengi mno. Tafadhali subiri dakika 15 kisha ujaribu tena.
+Too many requests. Please wait 15 minutes. ||| Maombi mengi mno. Tafadhali subiri dakika 15.
+Too many messages. Please wait 15 minutes and try again. ||| Ujumbe mwingi mno. Tafadhali subiri dakika 15 kisha ujaribu tena.
+Too many enquiries today. Please try again tomorrow. ||| Maombi mengi mno leo. Tafadhali jaribu kesho.
+Too many chats started from your connection. Please try again later. ||| Mazungumzo mengi mno yameanzishwa kutoka kwenye muunganisho wako. Tafadhali jaribu baadaye.
+You are sending messages too fast. Please wait a moment. ||| Unatuma ujumbe haraka mno. Tafadhali subiri kidogo.
+Type a message first. ||| Andika ujumbe kwanza.
+For your safety, never send passwords or PINs in chat. Please remove them and send again. ||| Kwa usalama wako, kamwe usitume manenosiri au PIN kwenye mazungumzo. Tafadhali ziondoe kisha utume tena.
+For your safety, never write passwords, PINs or codes here. Remove them and send again. ||| Kwa usalama wako, kamwe usiandike manenosiri, PIN au misimbo hapa. Ziondoe kisha utume tena.
+Please enter your name (2 to 60 characters). ||| Tafadhali weka jina lako (herufi 2 hadi 60).
+That email address does not look right. You can leave it empty. ||| Barua pepe hiyo haionekani sahihi. Unaweza kuiacha wazi.
+An account with this email already exists. Try logging in. ||| Akaunti yenye barua pepe hii tayari ipo. Jaribu kuingia.
+We could not create your account. Please try again. ||| Hatukuweza kufungua akaunti yako. Tafadhali jaribu tena.
+Enter your name (2 to 100 characters). ||| Weka jina lako (herufi 2 hadi 100).
+Enter your name. ||| Weka jina lako.
+Enter your full name. ||| Weka jina lako kamili.
+Enter a valid email address. ||| Weka barua pepe halali.
+Enter a valid email address so we can reply. ||| Weka barua pepe halali ili tuweze kujibu.
+Enter a valid Kenyan phone number, like 0712 345 678. ||| Weka nambari halali ya simu ya Kenya, kama 0712 345 678.
+Enter a valid Safaricom number, like 0712 345 678. ||| Weka nambari halali ya Safaricom, kama 0712 345 678.
+Enter a phone or WhatsApp number we can reach you on, like +254 712 345 678. ||| Weka nambari ya simu au WhatsApp tunayoweza kukufikia, kama +254 712 345 678.
+Enter a subject (3 to 120 characters). ||| Weka mada (herufi 3 hadi 120).
+Write your message (10 to 3000 characters). ||| Andika ujumbe wako (herufi 10 hadi 3000).
+Your message is too long (1500 characters maximum). ||| Ujumbe wako ni mrefu mno (herufi 1500 upeo).
+Enter your country. ||| Weka nchi yako.
+Enter the name of the betting company you use. ||| Weka jina la kampuni ya kubeti unayotumia.
+Enter the amount you are thinking of using (a number above 0). ||| Weka kiasi unachofikiria kutumia (nambari zaidi ya 0).
+Choose a currency. ||| Chagua sarafu.
+Choose how much risk you are comfortable with. ||| Chagua kiwango cha hatari unachoridhika nacho.
+You must confirm that you are 18 or older. ||| Lazima uthibitishe kuwa una umri wa miaka 18 au zaidi.
+Please accept the terms. ||| Tafadhali kubali masharti.
+Please confirm that you understand the risks. ||| Tafadhali thibitisha kuwa unaelewa hatari.
+Please confirm that you understand we never ask for your password on this site. ||| Tafadhali thibitisha kuwa unaelewa kwamba hatuombi nenosiri lako kwenye tovuti hii.
+You already have an enquiry we are working on. Please wait for our reply. ||| Tayari una ombi tunalolifanyia kazi. Tafadhali subiri jibu letu.
+Thank you. We have your enquiry and will contact you on the number you gave. ||| Asante. Tumepokea ombi lako na tutawasiliana nawe kwa nambari uliyotoa.
+We could not send your message just now. Please email us directly at {1}. ||| Hatukuweza kutuma ujumbe wako sasa hivi. Tafadhali tutumie barua pepe moja kwa moja kwa {1}.
+Your password must be at least 8 characters. ||| Nenosiri lako lazima liwe na angalau herufi 8.
+The two passwords do not match. ||| Manenosiri mawili hayalingani.
+Your password has been changed. You can log in now. ||| Nenosiri lako limebadilishwa. Sasa unaweza kuingia.
+Your password has been changed. ||| Nenosiri lako limebadilishwa.
+Your details have been saved. ||| Maelezo yako yamehifadhiwa.
+Your email is confirmed. Thank you! ||| Barua pepe yako imethibitishwa. Asante!
+We sent a new confirmation link to {1}. ||| Tumetuma kiungo kipya cha uthibitisho kwa {1}.
+This confirmation link is not valid or has expired. Log in and request a new one. ||| Kiungo hiki cha uthibitisho si halali au kimeisha muda. Ingia na uombe kipya.
+All messages marked as read. ||| Ujumbe wote umewekwa kuwa umesomwa.
+Please log in first. ||| Tafadhali ingia kwanza.
+Please log in. ||| Tafadhali ingia.
+Please choose a plan first. ||| Tafadhali chagua mpango kwanza.
+That plan is not available. ||| Mpango huo haupatikani.
+Payment not found. ||| Malipo hayajapatikana.
+Invalid request. ||| Ombi si halali.
+That code is not valid. ||| Msimbo huo si halali.
+That code has expired. ||| Msimbo huo umeisha muda.
+That code has been fully used. ||| Msimbo huo umetumika kikamilifu.
+You have already used that code. ||| Tayari umetumia msimbo huo.
+M-Pesa is not available right now. ||| M-Pesa haipatikani kwa sasa.
+PayPal is not available right now. ||| PayPal haipatikani kwa sasa.
+Could not reach M-Pesa. Please try again in a moment. ||| Hatukuweza kufikia M-Pesa. Tafadhali jaribu tena baada ya muda mfupi.
+Could not reach PayPal. Please try again in a moment. ||| Hatukuweza kufikia PayPal. Tafadhali jaribu tena baada ya muda mfupi.
+Check your phone and enter your M-Pesa PIN. ||| Angalia simu yako na uweke PIN yako ya M-Pesa.
+Waiting for you to enter your PIN... ||| Inasubiri uweke PIN yako...
+Payment received. Your VIP plan is now active. ||| Malipo yamepokelewa. Mpango wako wa VIP sasa unatumika.
+You cancelled the request on your phone. ||| Ulighairi ombi kwenye simu yako.
+The payment did not go through. Nothing was taken, or it will be refunded by M-Pesa. ||| Malipo hayakufanikiwa. Hakuna kilichochukuliwa, au M-Pesa itarejesha.
+PayPal could not complete the payment. You have not been charged. Please try again. ||| PayPal haikuweza kukamilisha malipo. Hujatozwa. Tafadhali jaribu tena.
+PayPal could not start the payment. Please try again. ||| PayPal haikuweza kuanzisha malipo. Tafadhali jaribu tena.
+PayPal could not use that payment method. Please choose another one. ||| PayPal haikuweza kutumia njia hiyo ya malipo. Tafadhali chagua nyingine.
+We could not confirm the payment yet. If PayPal shows a charge, your plan will switch on automatically or contact us with your PayPal receipt. ||| Hatukuweza kuthibitisha malipo bado. Ikiwa PayPal inaonyesha ulitozwa, mpango wako utawaka kiotomatiki au wasiliana nasi ukiwa na risiti yako ya PayPal.
+M-Pesa could not send the prompt. Please check the phone number and try again. ||| M-Pesa haikuweza kutuma ombi. Tafadhali angalia nambari ya simu na ujaribu tena.
+Enter a valid Safaricom number, like 0712 345 678. ||| Weka nambari halali ya Safaricom, kama 0712 345 678.
+An accumulator needs at least 2 selections. ||| Mkeka unahitaji angalau chaguo 2.
+A maximum of 100 selections is allowed. ||| Chaguo 100 ndizo upeo unaoruhusiwa.
+
+# ---- JavaScript messages
+Sending the request to your phone... ||| Inatuma ombi kwenye simu yako...
+Waiting for confirmation... ||| Inasubiri uthibitisho...
+Something went wrong. ||| Hitilafu imetokea.
+Something went wrong. Please try again. ||| Hitilafu imetokea. Tafadhali jaribu tena.
+Could not connect. Check your internet and try again. ||| Haikuweza kuunganisha. Angalia intaneti yako kisha ujaribu tena.
+We have not received confirmation yet. If you entered your PIN, your plan will switch on by itself within a few minutes. You can check the Payments page in your account. ||| Hatujapokea uthibitisho bado. Ikiwa uliweka PIN yako, mpango wako utawaka wenyewe ndani ya dakika chache. Unaweza kuangalia ukurasa wa Malipo kwenye akaunti yako.
+PayPal could not load. Check your connection and refresh the page. ||| PayPal haikuweza kupakia. Angalia muunganisho wako kisha uonyeshe upya ukurasa.
+Opening PayPal... ||| Inafungua PayPal...
+Could not start the payment. ||| Haikuweza kuanzisha malipo.
+Confirming your payment... ||| Inathibitisha malipo yako...
+The payment could not be confirmed. ||| Malipo hayakuweza kuthibitishwa.
+Payment cancelled. You have not been charged. ||| Malipo yameghairiwa. Hujatozwa.
+PayPal ran into a problem. Please try again. ||| PayPal imekumbana na tatizo. Tafadhali jaribu tena.
+
+# ---- performance page, trial/win-back, referral reward, Paystack and Razorpay
+Performance ||| Utendaji
+Where our tips do well and where they do not. Every settled tip is counted, wins and losses. ||| Mahali utabiri wetu unafanya vizuri na mahali haufanyi. Kila utabiri uliokamilika unahesabiwa, ushindi na hasara.
+Group ||| Kundi
+Win rate ||| Kiwango cha ushindi
+Average odds ||| Wastani wa odds
+Profit (units) ||| Faida (vitengo)
+units profit ||| vitengo vya faida
+win rate ({1} tips) ||| kiwango cha ushindi (utabiri {1})
+Profit is counted as 1 unit staked on every tip at the odds shown. With fewer than 10 tips a result can be luck, so treat small samples with care. ||| Faida inahesabiwa kama kitengo 1 kimewekwa kwa kila utabiri kwa odds zilizoonyeshwa. Kukiwa na utabiri chini ya 10, matokeo yanaweza kuwa bahati, kwa hivyo chukulia sampuli ndogo kwa tahadhari.
+No settled tips in this period yet. ||| Hakuna utabiri uliokamilika katika kipindi hiki bado.
+Try every VIP pick free for {1} day(s). ||| Jaribu kila chaguo la VIP bure kwa siku {1}.
+New here? Try every VIP pick free for {1} day(s). No payment needed. ||| Mgeni hapa? Jaribu kila chaguo la VIP bure kwa siku {1}. Hakuna malipo yanayohitajika.
+Start my free trial ||| Anza jaribio langu la bure
+Create a free account to try VIP free. ||| Fungua akaunti ya bure ili ujaribu VIP bure.
+Confirm your email address to unlock your free VIP trial. ||| Thibitisha barua pepe yako ili kufungua jaribio lako la bure la VIP.
+Add your phone number to unlock your free VIP trial. ||| Ongeza nambari yako ya simu ili kufungua jaribio lako la bure la VIP.
+Open profile ||| Fungua wasifu
+Your free VIP trial is active until {1}. ||| Jaribio lako la bure la VIP linatumika hadi {1}.
+Please confirm your email address first. ||| Tafadhali thibitisha barua pepe yako kwanza.
+Please add your phone number in your profile first. ||| Tafadhali ongeza nambari yako ya simu kwenye wasifu wako kwanza.
+The free trial is for new members who have not had a plan yet. ||| Jaribio la bure ni kwa wanachama wapya ambao hawajawahi kuwa na mpango.
+This phone number has already been used for a free trial. ||| Nambari hii ya simu tayari imetumika kwa jaribio la bure.
+The free trial is not available right now. ||| Jaribio la bure halipatikani kwa sasa.
+The free trial is not available. ||| Jaribio la bure halipatikani.
+The free trial is not set up yet. Please contact us. ||| Jaribio la bure bado halijawekwa. Tafadhali wasiliana nasi.
+Emails ||| Barua pepe
+Do not send me reminder or "we miss you" emails. (Account and payment emails are still sent.) ||| Usinitumie barua pepe za ukumbusho au za "tunakukumbuka". (Barua pepe za akaunti na malipo bado zinatumwa.)
+Save ||| Hifadhi
+Email choice saved. ||| Chaguo la barua pepe limehifadhiwa.
+Reward: ||| Zawadi:
+{1} free VIP days for you when a friend makes their first payment. ||| Siku {1} za VIP bure kwako rafiki anapofanya malipo yake ya kwanza.
+Pay in Naira ||| Lipa kwa Naira
+Card or bank transfer, charged in Nigerian naira: {1}. ||| Kadi au uhamisho wa benki, unatozwa kwa naira ya Nigeria: {1}.
+Pay {1} with Paystack ||| Lipa {1} kwa Paystack
+Pay in Indian rupees ||| Lipa kwa Rupia za India
+UPI, card or net banking, charged in Indian rupees: {1}. ||| UPI, kadi au benki mtandaoni, unatozwa kwa rupia za India: {1}.
+Pay {1} with Razorpay ||| Lipa {1} kwa Razorpay
+Paystack is not available right now. ||| Paystack haipatikani kwa sasa.
+Razorpay is not available right now. ||| Razorpay haipatikani kwa sasa.
+Paystack could not start the payment. Please try again. ||| Paystack haikuweza kuanzisha malipo. Tafadhali jaribu tena.
+Razorpay could not start the payment. Please try again. ||| Razorpay haikuweza kuanzisha malipo. Tafadhali jaribu tena.
+We could not confirm the payment yet. If you were charged, your plan will switch on automatically or contact us with your receipt. ||| Hatukuweza kuthibitisha malipo bado. Ikiwa ulitozwa, mpango wako utawaka kiotomatiki au wasiliana nasi ukiwa na risiti yako.
+Last 30 days ||| Siku 30 zilizopita
+Last 90 days ||| Siku 90 zilizopita
+Last 12 months ||| Miezi 12 iliyopita
+All time ||| Tangu mwanzo
+By sport ||| Kwa mchezo
+By league ||| Kwa ligi
+By market ||| Kwa soko
+By month ||| Kwa mwezi
+(small sample) ||| (sampuli ndogo)
+Monthly win rate ||| Kiwango cha ushindi kwa mwezi
+Monthly profit (units) ||| Faida kwa mwezi (vitengo)
+Last 12 months. Months with no settled tips are left empty. ||| Miezi 12 iliyopita. Miezi isiyo na utabiri uliokamilika imeachwa wazi.
+No settled tips in the last 12 months yet. ||| Hakuna utabiri uliokamilika katika miezi 12 iliyopita bado.
+Profit in units by month ||| Faida kwa vitengo kwa mwezi
+
+# ---- general patterns (keep these LAST)
+{1} vs {2}, {3} ||| {1} dhidi ya {2}, {3}
+{1} vs {2} ||| {1} dhidi ya {2}
+{1} · {2} ||| {1} · {2}
+{1} - {2} ||| {1} - {2}
+Tips ||| Utabiri
+at {1} ||| saa {1}
+Starting the payment... ||| Inaanzisha malipo...
+Redirecting to Paystack... ||| Inakupeleka Paystack...
+Verifying your payment... ||| Inathibitisha malipo yako...
+Payment window closed. You have not been charged. ||| Dirisha la malipo limefungwa. Hujatozwa.
+Razorpay could not load. Check your connection and refresh the page. ||| Razorpay haikuweza kupakia. Angalia muunganisho wako kisha uonyeshe upya ukurasa.
+# ---- update 6 (calculator, bet tracker, match/league pages, social, bookmakers, theme) ----
+Betting calculator ||| Kikokotoo cha kubeti
+Estimate a sensible stake for a single bet, or work out the combined odds and stake for an accumulator. Use the same currency for every amount. ||| Kadiria dau linalofaa kwa dau moja, au kokotoa odds jumla na dau la mkeka. Tumia sarafu ile ile kwa kila kiasi.
+Estimates, not guarantees. ||| Makadirio, si dhamana.
+The results are only as good as the numbers you put in, and no bet is certain to win. 18+ only. Never stake money you cannot afford to lose. Read our ||| Matokeo ni mazuri tu kama nambari unazoweka, na hakuna dau lililo na uhakika wa kushinda. Kwa umri wa miaka 18 na zaidi tu. Kamwe usiweke pesa usizoweza kumudu kupoteza. Soma
+responsible gambling page ||| ukurasa wetu wa kucheza kwa uwajibikaji
+Single bet ||| Dau moja
+Accumulator ||| Mkeka
+Your bet ||| Dau lako
+Bankroll ||| Mtaji
+The total amount you set aside for betting. ||| Jumla ya pesa ulizotenga kwa kubeti.
+Decimal odds ||| Odds za desimali
+How to estimate the win chance ||| Jinsi ya kukadiria nafasi ya kushinda
+I will enter my own win probability ||| Nitaweka uwezekano wangu wa kushinda
+Use a confidence rating (1 to 5 stars) ||| Tumia ukadiriaji wa uhakika (nyota 1 hadi 5)
+Win probability (%) ||| Uwezekano wa kushinda (%)
+Your honest estimate of how often this bet wins. ||| Makadirio yako ya kweli ya mara ambazo dau hili hushinda.
+Confidence ||| Uhakika
+1 star: 35% ||| Nyota 1: 35%
+2 stars: 45% ||| Nyota 2: 45%
+3 stars: 55% ||| Nyota 3: 55%
+4 stars: 65% ||| Nyota 4: 65%
+5 stars: 75% ||| Nyota 5: 75%
+The percentages are fixed assumptions for this calculator, not our recorded win rates. ||| Asilimia ni dhana zisizobadilika za kikokotoo hiki, si viwango vyetu vya ushindi vilivyorekodiwa.
+Risk profile ||| Wasifu wa hatari
+Cautious: quarter Kelly, 1% flat ||| Mwangalifu: robo Kelly, 1% thabiti
+Balanced: half Kelly, 2% flat ||| Wastani: nusu Kelly, 2% thabiti
+Bold: full Kelly, 3% flat ||| Jasiri: Kelly kamili, 3% thabiti
+Suggested stake ||| Dau linalopendekezwa
+Enter your bankroll, odds and win chance. ||| Weka mtaji wako, odds na nafasi ya kushinda.
+Your selections ||| Chaguo zako
+Add a selection ||| Ongeza chaguo
+Target return (stake plus profit) ||| Mapato lengwa (dau pamoja na faida)
+Optional. We work out the stake needed to return this much. ||| Si lazima. Tunakokotoa dau linalohitajika kurudisha kiasi hiki.
+Or your stake ||| Au dau lako
+Optional. We show what it would return. ||| Si lazima. Tunaonyesha kingerudisha.
+Bankroll (optional) ||| Mtaji (si lazima)
+Accumulator result ||| Matokeo ya mkeka
+Enter the odds of each selection. ||| Weka odds za kila chaguo.
+How these numbers work ||| Jinsi nambari hizi zinavyofanya kazi
+Kelly stake = (odds x chance - 1) / (odds - 1) of your bankroll, where chance is your win probability as a fraction. If the result is zero or negative, the bet has no edge and the stake is 0. ||| Dau la Kelly = (odds x nafasi - 1) / (odds - 1) ya mtaji wako, ambapo nafasi ni uwezekano wako wa kushinda kama sehemu. Ikiwa matokeo ni sifuri au hasi, dau halina faida na dau ni 0.
+Full Kelly is aggressive and swings a lot. Half and quarter Kelly are smoother and safer if your estimate is a little too optimistic. ||| Kelly kamili ni ya kijasiri na hubadilika sana. Nusu na robo Kelly ni laini na salama zaidi ikiwa makadirio yako yana matumaini kupita kiasi.
+Flat staking puts the same small share of your bankroll (1 to 3 percent) on every bet, whatever the odds. ||| Dau thabiti huweka sehemu ndogo ile ile ya mtaji wako (asilimia 1 hadi 3) kwa kila dau, bila kujali odds.
+An accumulator multiplies the odds of every selection. One loss loses the whole bet. ||| Mkeka huzidisha odds za kila chaguo. Kupoteza moja hupoteza dau zima.
+Bookmaker implied chance ||| Nafasi inayodokezwa na kampuni ya kubeti
+Combined odds ||| Odds zilizounganishwa
+Each odds value must be above 1.00. ||| Kila thamani ya odds lazima iwe zaidi ya 1.00.
+Enter the odds of at least two selections. ||| Weka odds za angalau chaguo mbili.
+Even if the odds are fair, the chance of all selections winning is about 1 in ||| Hata kama odds ni za haki, nafasi ya chaguo zote kushinda ni takriban 1 kati ya
+Every selection must win. If just one loses, you lose your whole stake. ||| Kila chaguo lazima lishinde. Likipoteza moja tu, unapoteza dau lako lote.
+Flat stake ||| Dau thabiti
+Flat staking ||| Kuweka dau thabiti
+Four or more selections is high risk. Keep the stake small. ||| Chaguo nne au zaidi ni hatari kubwa. Weka dau dogo.
+Full Kelly ||| Kelly kamili
+Full Kelly is more than a quarter of your bankroll. That is very aggressive and your win estimate may be too optimistic. Consider half or quarter Kelly. ||| Kelly kamili ni zaidi ya robo ya mtaji wako. Hiyo ni ya kijasiri mno na makadirio yako ya ushindi yanaweza kuwa na matumaini kupita kiasi. Fikiria nusu au robo Kelly.
+Half Kelly ||| Nusu Kelly
+Quarter Kelly ||| Robo Kelly
+Kelly criterion ||| Kigezo cha Kelly
+No edge: at these odds your estimated chance does not beat the bookmaker price, so the Kelly stake is 0. Skipping this bet is the sensible choice. ||| Hakuna faida: kwa odds hizi nafasi uliyokadiria haishindi bei ya kampuni ya kubeti, kwa hivyo dau la Kelly ni 0. Kuruka dau hili ni uamuzi wa busara.
+Odds of selection ||| Odds za chaguo
+Profit at that stake ||| Faida kwa dau hilo
+Profit if every selection wins ||| Faida ikiwa kila chaguo litashinda
+Profit if it wins ||| Faida ikishinda
+Remove ||| Ondoa
+Return for your stake ||| Mapato kwa dau lako
+Selections ||| Chaguo
+Stake needed for your target return ||| Dau linalohitajika kwa mapato lengwa
+Suggested for your risk profile ||| Inapendekezwa kwa wasifu wako wa hatari
+These are estimates, not guarantees. 18+ only. ||| Haya ni makadirio, si dhamana. Kwa umri wa miaka 18 na zaidi tu.
+These are estimates, not guarantees. Bets can and do lose. 18+ only. ||| Haya ni makadirio, si dhamana. Dau zinaweza kupoteza na zinapoteza. Kwa umri wa miaka 18 na zaidi tu.
+This stake is more than 2% of your bankroll, which is a lot for a bet that usually loses. ||| Dau hili ni zaidi ya 2% ya mtaji wako, ambayo ni nyingi kwa dau ambalo mara nyingi hupoteza.
+Win probability must be between 0 and 100. ||| Uwezekano wa kushinda lazima uwe kati ya 0 na 100.
+With this many selections a win is rare. Treat it as a small-stake lottery ticket, not a plan. ||| Kukiwa na chaguo nyingi hivi ushindi ni nadra. Uchukulie kama tikiti ya bahati nasibu ya dau dogo, si mpango.
+Your estimated chance ||| Nafasi uliyokadiria
+Calculator type ||| Aina ya kikokotoo
+My bet tracker ||| Kifuatilia dau changu
+Bet tracker ||| Kifuatilia dau
+Amounts are in your own currency. SlipKing does not convert them, so use the same currency for every bet. This tracker is private to you and is for your own records only. 18+ only. ||| Kiasi ni kwa sarafu yako mwenyewe. SlipKing haibadilishi, kwa hivyo tumia sarafu ile ile kwa kila dau. Kifuatilia hiki ni cha siri yako na ni kwa kumbukumbu zako tu. Kwa umri wa miaka 18 na zaidi tu.
+Gamble responsibly ||| Cheza kwa uwajibikaji
+Month placed ||| Mwezi uliowekwa
+All months ||| Miezi yote
+Filter ||| Chuja
+Clear filters ||| Futa vichujio
+Download all my bets (CSV) ||| Pakua dau zangu zote (CSV)
+Staked (settled bets) ||| Kiasi kilichowekwa (dau zilizokamilika)
+Profit or loss ||| Faida au hasara
+ROI (profit / staked) ||| ROI (faida / kiasi kilichowekwa)
+Cumulative profit ||| Faida iliyokusanywa
+The chart appears once you have a won or lost bet. ||| Chati inaonekana ukiwa na dau lililoshinda au kupoteza.
+Add a bet ||| Ongeza dau
+Bet ||| Dau
+Bookmaker (optional) ||| Kampuni ya kubeti (si lazima)
+Stake ||| Dau lililowekwa
+Date placed ||| Tarehe iliyowekwa
+Notes (optional) ||| Maelezo (si lazima)
+Add bet ||| Ongeza dau
+Profit: won = stake x (odds - 1), lost = minus the stake, void and pending = 0. You can hold up to 2000 bets. ||| Faida: ushindi = dau x (odds - 1), kupoteza = toa dau, lililobatilishwa na linalosubiri = 0. Unaweza kuwa na hadi dau 2000.
+Add each bet you place, then update its result when it settles. ||| Ongeza kila dau unaloweka, kisha sasisha matokeo yake linapokamilika.
+Only won and lost bets count towards profit, ROI and strike rate. ||| Dau zilizoshinda na kupoteza pekee ndizo huhesabiwa kwenye faida, ROI na kiwango cha ushindi.
+ROI is your profit divided by the total staked on settled bets. ||| ROI ni faida yako ikigawanywa na jumla ya kiasi kilichowekwa kwenye dau zilizokamilika.
+Your bets are private to your account and are never shown to other members. ||| Dau zako ni za siri kwa akaunti yako na hazionyeshwi kamwe kwa wanachama wengine.
+My bets ||| Dau zangu
+Update ||| Sasisha
+View the tip ||| Tazama utabiri
+Delete ||| Futa
+No bets match these filters. ||| Hakuna dau zinazolingana na vichujio hivi.
+You have not added any bets yet. Use the form above to add your first one. ||| Bado hujaongeza dau lolote. Tumia fomu iliyo juu kuongeza la kwanza.
+e.g. Arsenal to win ||| k.m. Arsenal kushinda
+Track this bet ||| Fuatilia dau hili
+Tips for this match ||| Utabiri wa mechi hii
+to unlock the VIP picks. Once the match is settled, every pick becomes public. ||| ili kufungua chaguo za VIP. Mechi ikikamilika, kila chaguo huwa wazi kwa umma.
+No tips for this match yet. Check back closer to kick-off. ||| Hakuna utabiri wa mechi hii bado. Rudi karibu na mechi kuanza.
+Our recent settled tips on this team's matches. ||| Utabiri wetu wa hivi karibuni uliokamilika kwenye mechi za timu hii.
+Odds change between bookmakers. Check the price you are offered before you bet. No tip is guaranteed. 18+ only. ||| Odds hutofautiana kati ya kampuni za kubeti. Angalia bei unayopewa kabla ya kubeti. Hakuna utabiri uliohakikishiwa. Kwa umri wa miaka 18 na zaidi tu.
+Won - lost ||| Imeshinda - imepoteza
+Upcoming tips ||| Utabiri ujao
+No upcoming tips for this league right now. ||| Hakuna utabiri ujao wa ligi hii kwa sasa.
+Recent results ||| Matokeo ya hivi karibuni
+No settled tips for this league yet. ||| Hakuna utabiri uliokamilika wa ligi hii bado.
+Past results do not guarantee future results. 18+ only. ||| Matokeo ya zamani hayahakikishi matokeo ya baadaye. Kwa umri wa miaka 18 na zaidi tu.
+Bet on {1} ||| Beti na {1}
+18+ only. Gamble responsibly. ||| Kwa umri wa miaka 18 na zaidi tu. Cheza kwa uwajibikaji.
+Compare odds ||| Linganisha odds
+Bookmaker ||| Kampuni ya kubeti
+Best odds ||| Odds bora
+Bad-day guarantee: ||| Dhamana ya siku mbaya:
+Follow us ||| Tufuate
+Join the VIP Telegram channel ||| Jiunge na chaneli ya VIP ya Telegram
+Free tips on Telegram ||| Utabiri wa bure kwenye Telegram
+Follow on WhatsApp ||| Fuata kwenye WhatsApp
+Share: ||| Shiriki:
+Share ||| Shiriki
+Install app ||| Sakinisha programu
+Turn on tip alerts ||| Washa arifa za utabiri
+Tip alerts: on ||| Arifa za utabiri: zimewashwa
+New VIP tip ||| Utabiri mpya wa VIP
+New free tip ||| Utabiri mpya wa bure
+Switch to dark mode ||| Badilisha kwa hali ya giza
+Switch to light mode ||| Badilisha kwa hali ya mwanga
+Pay with M-Pesa, PayPal or card. Weekly, monthly and 3-month plans. ||| Lipa kwa M-Pesa, PayPal au kadi. Mipango ya wiki, mwezi na miezi 3.
+Tipsters ||| Watabiri
+Become a tipster ||| Kuwa mtabiri
+Apply ||| Omba
+Best rated ||| Waliokadiriwa vizuri zaidi
+Highest win rate ||| Kiwango cha juu zaidi cha ushindi
+Most subscribers ||| Wanaofuatwa zaidi
+Newest ||| Wapya zaidi
+Search name, country or speciality ||| Tafuta jina, nchi au utaalamu
+win rate ||| kiwango cha ushindi
+settled tips ||| utabiri uliokamilika
+subscribers ||| waliojiunga
+No ratings yet ||| Hakuna ukadiriaji bado
+No plans yet ||| Hakuna mipango bado
+Subscribe ||| Jiunge
+Extend ||| Ongeza
+Recent tips ||| Utabiri wa hivi karibuni
+Ratings and reviews ||| Ukadiriaji na maoni
+Rate this tipster ||| Mkadirie mtabiri huyu
+Update your rating ||| Sasisha ukadiriaji wako
+Save rating ||| Hifadhi ukadiriaji
+Comment (optional) ||| Maoni (si lazima)
+No reviews yet. ||| Hakuna maoni bado.
+Premium tip ||| Utabiri wa premium
+Subscribe to unlock ||| Jiunge ili kufungua
+My tipsters ||| Watabiri wangu
+Tip by ||| Utabiri na
+Are you a tipster? ||| Wewe ni mtabiri?
+Browse tipsters ||| Vinjari watabiri
+Only members who bought one of this tipster's plans can leave a rating. This keeps ratings honest. ||| Ni wanachama tu walionunua mojawapo ya mipango ya mtabiri huyu wanaoweza kuacha ukadiriaji. Hii huweka ukadiriaji kuwa wa uaminifu.
+Thank you. Your rating is saved. ||| Asante. Ukadiriaji wako umehifadhiwa.
+Country ||| Nchi
+Mobile number ||| Nambari ya simu
+Mobile number (without the country code) ||| Nambari ya simu (bila msimbo wa nchi)
+We will send you an SMS code to confirm this number. Type it without the country code. ||| Tutakutumia msimbo wa SMS kuthibitisha nambari hii. Iandike bila msimbo wa nchi.
+Type it without the country code. ||| Iandike bila msimbo wa nchi.
+Confirm your mobile number ||| Thibitisha nambari yako ya simu
+SMS code ||| Msimbo wa SMS
+Confirm ||| Thibitisha
+Send a new code ||| Tuma msimbo mpya
+Wrong number? ||| Nambari si sahihi?
+Change it in your profile ||| Ibadilishe kwenye wasifu wako
+Do this later ||| Fanya hii baadaye
+Confirm now ||| Thibitisha sasa
+Mobile number ||| Nambari ya simu
+Save and send SMS code ||| Hifadhi na utume msimbo wa SMS
+Save number ||| Hifadhi nambari
+Confirmed ||| Imethibitishwa
+Not confirmed ||| Haijathibitishwa
+Please confirm your mobile number with the SMS code. You need this before you can pay. ||| Tafadhali thibitisha nambari yako ya simu kwa msimbo wa SMS. Unahitaji hii kabla ya kulipa.
+Choose your country. ||| Chagua nchi yako.
+That code is not correct. ||| Msimbo huo si sahihi.
+That code has expired. Ask for a new one. ||| Msimbo huo umeisha muda. Omba mpya.
+Enter the 6-digit code from the SMS. ||| Weka msimbo wa tarakimu 6 kutoka kwenye SMS.
+Your mobile number is confirmed. ||| Nambari yako ya simu imethibitishwa.
+Please wait a minute before asking for another code. ||| Tafadhali subiri dakika moja kabla ya kuomba msimbo mwingine.
+Leaderboard ||| Jedwali la viongozi
+Tipster leaderboard ||| Jedwali la watabiri
+View the leaderboard ||| Tazama jedwali la viongozi
+Rank by profit ||| Panga kwa faida
+Rank by win rate ||| Panga kwa kiwango cha ushindi
+Rank by member rating ||| Panga kwa ukadiriaji wa wanachama
+Profit ||| Faida
+Record ||| Rekodi
+Avg odds ||| Wastani wa odds
+Rating ||| Ukadiriaji
+Subscribers ||| Waliojiunga
+Analysis by ||| Uchambuzi na
+I want to get tips ||| Nataka kupata utabiri
+I am a tipster ||| Mimi ni mtabiri
+Register as a tipster ||| Jisajili kama mtabiri
+Sell your tips, build a following and get paid. An admin approves every tipster. ||| Uza utabiri wako, jenga wafuasi na ulipwe. Msimamizi huidhinisha kila mtabiri.
+Your tipster profile ||| Wasifu wako wa mtabiri
+Your login ||| Kuingia kwako
+Tipster name (public) ||| Jina la mtabiri (la umma)
+One-line summary ||| Muhtasari wa mstari mmoja
+About you and your method ||| Kuhusu wewe na mbinu yako
+Specialities ||| Utaalamu
+Profile picture (optional) ||| Picha ya wasifu (si lazima)
+Profile picture ||| Picha ya wasifu
+Send my tipster application ||| Tuma ombi langu la mtabiri
+View performance ||| Tazama utendaji
+Choose ||| Chagua
+See all tipsters ||| Tazama watabiri wote
+Our first tipsters will appear here soon. ||| Watabiri wetu wa kwanza wataonekana hapa hivi karibuni.
+Follow independent tipsters, check their record and ratings, then choose the one you trust. ||| Fuata watabiri huru, kagua rekodi na ukadiriaji wao, kisha uchague unayemwamini.
+Best value ||| Thamani bora
+Extend access ||| Ongeza ufikiaji
+This is your plan ||| Huu ni mpango wako
+Account settings ||| Mipangilio ya akaunti
+Create a new plan ||| Unda mpango mpya
+Live ||| Moja kwa moja
+Game ||| Mchezo
+Live match centre ||| Kituo cha mechi za moja kwa moja
+Free prediction game ||| Mchezo wa bure wa kutabiri
+Top referrers ||| Waalikaji bora
+Alerts ||| Arifa
+Rewards ||| Zawadi
+Follow for alerts ||| Fuata kwa arifa
+Following (tap to unfollow) ||| Unafuata (gusa ili uache kufuata)
+Alert settings ||| Mipangilio ya arifa
+Verified record ||| Rekodi iliyothibitishwa
+Verified results ||| Matokeo yaliyothibitishwa
+See every tip ||| Tazama kila utabiri
+Money-back guarantee ||| Dhamana ya kurejeshewa pesa
+Start free trial ||| Anza jaribio la bure
+Comments ||| Maoni
+Post comment ||| Tuma maoni
+Reply ||| Jibu
+Report ||| Ripoti
+Money-back ||| Rejesho la pesa
+Claim refund ||| Omba kurejeshewa
+Friends you invited ||| Marafiki ulioalika
+Copy link ||| Nakili kiungo
+Your results ||| Matokeo yako
+
+Choose how to pay ||| Chagua njia ya kulipa
+Pick a company below. You are only charged after you confirm. ||| Chagua kampuni hapa chini. Utatozwa tu baada ya kuthibitisha.
+Pay with Airtel Money ||| Lipa kwa Airtel Money
+Pay with MTN MoMo ||| Lipa kwa MTN MoMo
+Pay by card ||| Lipa kwa kadi
+Waiting for you to approve the prompt on your phone... ||| Tunasubiri uidhinishe ombi kwenye simu yako...
+Profile picture and flag ||| Picha ya wasifu na bendera
+Save picture and flag ||| Hifadhi picha na bendera
+Show my flag next to my name ||| Onyesha bendera yangu karibu na jina langu
+Account management ||| Usimamizi wa akaunti
+Send a request ||| Tuma ombi
+
+# --- Community pages (Discussion, groups, messages, search) ---
+Community ||| Jamii
+Your feed ||| Mlisho wako
+Following ||| Unaowafuata
+Global Chat ||| Gumzo la Kila Mtu
+Groups ||| Vikundi
+Match rooms & polls ||| Vyumba vya mechi na kura
+Top members ||| Wanachama bora
+Slips ||| Tiketi
+Search & #tags ||| Tafuta na #lebo
++ Create group ||| + Unda kikundi
+Groups you've joined ||| Vikundi ulivyojiunga
+You have not joined any group yet. ||| Bado hujajiunga na kikundi chochote.
+Log in to join groups. ||| Ingia ili ujiunge na vikundi.
+Top groups ||| Vikundi vinavyoongoza
+All ||| Vyote
+Joined ||| Umejiunga
+Most active ||| Vinavyoshughulika zaidi
+New ||| Vipya
+View Group ||| Tazama kikundi
+Join ||| Jiunge
+Request to join ||| Omba kujiunga
+Requested ||| Ombi limetumwa
+Open group ||| Fungua kikundi
+Join a group to fill your feed. ||| Jiunge na kikundi ili mlisho wako ujae.
+Browse groups ||| Vinjari vikundi
+No posts yet in your groups. ||| Hakuna machapisho bado katika vikundi vyako.
+No groups match your search. ||| Hakuna kikundi kinacholingana na utafutaji wako.
+Bets they shared ||| Dau walizoshiriki
+Group posts ||| Machapisho ya kikundi
+Upcoming and live ||| Zijazo na zinazoendelea
+Finished (3 days) ||| Zilizoisha (siku 3)
+Posts ||| Machapisho
+Chat ||| Gumzo
+Members ||| Wanachama
+Rules ||| Sheria
+Group Info ||| Taarifa za kikundi
+Online ||| Mtandaoni
+Invite Friends ||| Alika marafiki
+Invite Members ||| Alika wanachama
+Group Description ||| Maelezo ya kikundi
+Group Tags ||| Lebo za kikundi
+Hot ||| Moto
+Top ||| Bora
+Post ||| Chapisha
+Poll ||| Kura
+Attach a slip ||| Ambatisha tiketi
+Attach my tip ||| Ambatisha utabiri wangu
+No posts yet ||| Hakuna machapisho bado
+Pinned ||| Imebandikwa
+Group Member ||| Mwanachama
+Tipster ||| Mtabiri
+Admin ||| Msimamizi
+Team ||| Timu
+Like ||| Penda
+Liked ||| Umependa
+Comment ||| Toa maoni
+Edit ||| Hariri
+Send a message ||| Tuma ujumbe
+Pin to top ||| Bandika juu
+Unpin ||| Ondoa kubandika
+Cancel ||| Ghairi
+Approve ||| Idhinisha
+Decline ||| Kataa
+Events ||| Matukio
++ Add ||| + Ongeza
+No upcoming events. ||| Hakuna matukio yajayo.
+I am going ||| Nitahudhuria
+Going ✓ ||| Utahudhuria ✓
+Create event ||| Unda tukio
+Weekly challenge ||| Changamoto ya wiki
+Recent Media ||| Picha za hivi karibuni
+Group Rules ||| Sheria za kikundi
+Popular Topics ||| Mada maarufu
+★ Top contributor ||| ★ Mchangiaji bora
+Private group ||| Kikundi cha faragha
+Members only ||| Wanachama pekee
+Pick a conversation ||| Chagua mazungumzo
+Block ||| Zuia
+Unblock ||| Ondoa kizuizi
+Say hello. ||| Salimia.
+Search the community ||| Tafuta katika jamii
+Trending this week ||| Yanayovuma wiki hii
+Posts, members and chat of {1} are only visible to approved members. ||| Machapisho, wanachama na gumzo la {1} yanaonekana kwa wanachama walioidhinishwa tu.
+Join requests ({1}) ||| Maombi ya kujiunga ({1})
+Members ({1}) ||| Wanachama ({1})
+Posts ({1}) ||| Machapisho ({1})
+{1} members ||| Wanachama {1}
+{1} member ||| Mwanachama {1}
+{1} posts ||| Machapisho {1}
+{1} post ||| Chapisho {1}
+{1} comments ||| Maoni {1}
+{1} comment ||| Maoni {1}
+{1} likes ||| Wapendaji {1}
+{1} like ||| Mpendaji {1}
+{1} going ||| {1} watahudhuria
+{1} replies ||| Majibu {1}
+{1} reply ||| Jibu {1}
+{1} votes ||| Kura {1}
+{1} vote ||| Kura {1}
+Share something with this group... ||| Shiriki kitu na kikundi hiki...
+Add more details (optional). Tag a member with @username. ||| Ongeza maelezo zaidi (si lazima). Mtaje mwanachama kwa @jina.
+Write a comment... ||| Andika maoni...
+Write a message... ||| Andika ujumbe...
+Search groups... ||| Tafuta vikundi...
+Search posts, groups, members or #tags ||| Tafuta machapisho, vikundi, wanachama au #lebo
+Alert me when the odds move ||| Nijulishe odds zikibadilika
+Join {1} free ||| Jiunge na {1} bila malipo
+Build your own slip ||| Tengeneza tiketi yako mwenyewe
+Share link ||| Kiungo cha kushiriki
+Stake calculator ||| Kikokotoo cha dau

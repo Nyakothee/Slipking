@@ -1,0 +1,77 @@
+/* SlipKing payment buttons: every method is drawn in its company's colours.
+   Change a colour by editing the two variables of that method below (--pb-bg background, --pb-fg text). */
+
+.pb-mpesa    { --pb-bg:#2e9e3a; --pb-fg:#fff;    --pb-ac:#7ddc86; }
+.pb-airtel   { --pb-bg:#e4002b; --pb-fg:#fff;    --pb-ac:#ff8a9d; }
+.pb-mtn      { --pb-bg:#ffcb05; --pb-fg:#1a1a1a; --pb-ac:#1a1a1a; }
+.pb-stripe   { --pb-bg:#635bff; --pb-fg:#fff;    --pb-ac:#c7c3ff; }
+.pb-paypal   { --pb-bg:#ffc439; --pb-fg:#003087; --pb-ac:#003087; }
+.pb-paystack { --pb-bg:#0ba4db; --pb-fg:#fff;    --pb-ac:#b8ecff; }
+.pb-razorpay { --pb-bg:#0c2451; --pb-fg:#fff;    --pb-ac:#6ea8ff; }
+
+.payhead { margin:0 0 4px; }
+.paysub { color:var(--mute); font-size:14px; margin:0 0 14px; }
+
+.paygrid { display:grid; gap:10px; margin-bottom:16px; }
+.paybtn {
+  display:flex; align-items:center; gap:12px; width:100%; text-align:left; cursor:pointer;
+  background:var(--pb-bg); color:var(--pb-fg); border:2px solid transparent; border-radius:12px;
+  padding:11px 14px; font:inherit; transition:transform .12s, box-shadow .12s, border-color .12s;
+}
+.paybtn:hover { transform:translateY(-1px); box-shadow:0 4px 14px rgba(0,0,0,.22); }
+.paybtn:focus-visible { outline:3px solid var(--gold); outline-offset:2px; }
+.paybtn.on { border-color:var(--ink); box-shadow:0 0 0 3px var(--gold); }
+.pb-mark {
+  flex:0 0 36px; width:36px; height:36px; border-radius:50%; display:grid; place-items:center;
+  background:rgba(255,255,255,.22); color:var(--pb-fg); font-weight:800; font-size:17px;
+}
+.pb-mpesa .pb-mark, .pb-airtel .pb-mark, .pb-stripe .pb-mark, .pb-paystack .pb-mark, .pb-razorpay .pb-mark { background:rgba(255,255,255,.22); }
+.pb-mtn .pb-mark, .pb-paypal .pb-mark { background:rgba(0,0,0,.12); }
+.pb-mark.has-img { background:#fff; padding:3px; }
+.pb-mark img { width:100%; height:100%; object-fit:contain; }
+.pb-txt { flex:1; min-width:0; display:flex; flex-direction:column; line-height:1.25; }
+.pb-txt b { font-size:15px; }
+.pb-txt small { font-size:12px; opacity:.88; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.pb-amt { font-weight:800; font-size:14px; white-space:nowrap; }
+
+.paypanel { border-top:1px solid var(--line); padding-top:16px; }
+.paypanels.is-js .paypanel { display:none; }
+.paypanels.is-js .paypanel.on { display:block; }
+.paypanel h3 { margin-top:0; }
+
+.btn.paysubmit {
+  display:flex; align-items:center; justify-content:center; gap:10px;
+  background:var(--pb-bg); color:var(--pb-fg); border:0; font-weight:700;
+}
+.btn.paysubmit:hover { filter:brightness(1.07); }
+.paysubmit .pb-mark { flex-basis:26px; width:26px; height:26px; font-size:13px; }
+.btn.paysubmit:disabled { opacity:.6; cursor:wait; }
+
+.paypanel select { width:100%; }
+.paycur { display:flex; gap:8px; flex-wrap:wrap; margin:0 0 12px; }
+.paycur label { cursor:pointer; }
+.paycur input { position:absolute; opacity:0; pointer-events:none; }
+.paycur span { display:inline-block; padding:7px 14px; border:1px solid var(--line); border-radius:999px; font-weight:700; font-size:14px; background:var(--card); color:var(--ink); }
+.paycur input:checked + span { background:var(--pb-bg); color:var(--pb-fg); border-color:var(--pb-bg); }
+.paycur input:focus-visible + span { outline:3px solid var(--gold); outline-offset:2px; }
+
+/* small coloured chips on the VIP / home pages */
+.paychip {
+  display:inline-block; padding:5px 12px; border-radius:999px; font-size:13px; font-weight:700;
+  background:var(--pb-bg); color:var(--pb-fg); margin:0 6px 6px 0;
+}
+.pay span.paychip { margin:0; border:0; padding:5px 12px; background:var(--pb-bg); color:var(--pb-fg); }
+
+@media (min-width:1100px) { .paygrid { grid-template-columns:1fr 1fr; } }
+@media (max-width:420px)  { .pb-txt small { white-space:normal; } }
+
+/* Placeholder buttons for methods not connected yet */
+.paybtn.is-soon { opacity:.72; cursor:not-allowed; filter:saturate(.85); }
+.paybtn.is-soon:hover { transform:none; }
+.pb-soon { font-size:11px; font-weight:800; letter-spacing:.04em; text-transform:uppercase; background:rgba(0,0,0,.22); color:#fff; padding:4px 9px; border-radius:999px; }
+.pb-mtn .pb-soon, .pb-paypal .pb-soon { background:rgba(0,0,0,.14); color:#1a1a1a; }
+.paychip { display:inline-flex; align-items:center; gap:6px; }
+.paychip .pb-mark { flex:0 0 20px; width:20px; height:20px; font-size:11px; border-radius:6px; }
+.paychip.is-soon { opacity:.7; }
+.paychip em { font-style:normal; font-size:10px; font-weight:800; text-transform:uppercase; opacity:.85; }
+.is-soon-grid { margin-bottom:8px; }

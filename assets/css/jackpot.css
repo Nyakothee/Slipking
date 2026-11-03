@@ -1,0 +1,39 @@
+/* Jackpot (jackpot.php) */
+.jp{max-width:980px}
+.jp-hero{display:flex;gap:20px;align-items:center;flex-wrap:wrap;padding:26px;border-radius:18px;color:#fff;margin-bottom:16px;background:linear-gradient(120deg,var(--pitch),var(--pitch2) 60%,#1d6b53);position:relative;overflow:hidden}
+.jp-hero:after{content:"";position:absolute;right:-60px;top:-80px;width:280px;height:280px;border-radius:50%;background:radial-gradient(circle,rgba(240,169,28,.4),transparent 70%)}
+.jp-hero>*{position:relative;z-index:1}
+.jp-cup{font-size:64px;line-height:1;filter:drop-shadow(0 6px 14px rgba(0,0,0,.35))}
+.jp-ht{flex:1;min-width:220px}.jp-tag{display:inline-block;background:rgba(255,255,255,.16);border-radius:99px;padding:2px 12px;font-size:13px;font-weight:700}
+.jp-hero h1{font:800 clamp(40px,7vw,68px)/1 'Barlow Condensed',sans-serif;color:var(--gold);margin:6px 0}
+.jp-hero p{color:#cfe3da;max-width:520px}
+.jp-side{display:flex;gap:10px}.jp-box{background:rgba(255,255,255,.12);border-radius:14px;padding:12px 18px;text-align:center;min-width:92px}
+.jp-box b{display:block;font:800 28px/1 'Barlow Condensed',sans-serif}.jp-box span{font-size:12px;color:#cfe3da}
+.jp-prog{position:sticky;top:64px;z-index:5;display:flex;align-items:center;gap:12px;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px 14px;margin-bottom:12px}
+.jp-bar{flex:1;height:10px;border-radius:99px;background:var(--paper);overflow:hidden}.jp-bar i{display:block;height:100%;width:0;background:var(--gold);transition:width .2s}
+.jp-prog span{white-space:nowrap;font-size:14px}
+.jp-games{display:flex;flex-direction:column;gap:10px}
+.jp-g{display:flex;align-items:center;gap:14px;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px 14px;flex-wrap:wrap}
+.jp-g.ok{border-color:#1f9d5c;background:rgba(31,157,92,.1)}.jp-g.bad{border-color:#c8372d;background:rgba(200,55,45,.08)}
+.jp-no{flex:none;width:30px;height:30px;border-radius:50%;background:var(--pitch);color:#fff;display:flex;align-items:center;justify-content:center;font:800 15px 'Barlow Condensed',sans-serif}
+.jp-t{flex:1;min-width:200px;display:flex;flex-wrap:wrap;gap:2px 8px;align-items:baseline}.jp-t strong{font-size:17px}.jp-t em{font-style:normal;color:var(--mute);font-size:12px;text-transform:uppercase}
+.jp-t small{flex-basis:100%;color:var(--mute);font-size:13px}
+.jp-p{display:flex;gap:8px}.jp-p label{cursor:pointer}.jp-p input{position:absolute;opacity:0}
+.jp-p span{display:flex;align-items:center;justify-content:center;width:54px;height:46px;border-radius:12px;border:2px solid var(--line);background:var(--paper);font:800 20px 'Barlow Condensed',sans-serif;transition:all .15s}
+.jp-p label:hover span{border-color:var(--pitch2)}
+.jp-p input:checked+span{background:var(--gold);border-color:var(--gold);color:#241a00;box-shadow:0 4px 12px rgba(240,169,28,.4)}
+.jp-p input:focus-visible+span{outline:3px solid var(--gold);outline-offset:2px}
+.jp-r{display:flex;gap:18px}.jp-r span{font-size:12px;color:var(--mute);text-align:center}.jp-r b{display:block;font:800 24px/1.1 'Barlow Condensed',sans-serif;color:var(--ink)}
+.jp-submit{margin:18px 0;display:flex;gap:12px;align-items:center;flex-wrap:wrap}.jp-submit small{color:var(--mute);flex-basis:100%}
+.btn.ghost-d{background:transparent;color:var(--ink);border:1.5px solid var(--line)}
+.jp-card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px;margin-top:16px}.jp-card h3{font:800 24px 'Barlow Condensed',sans-serif;margin-bottom:8px}
+.jp-dist{display:flex;gap:8px;flex-wrap:wrap}.jp-dist span{background:var(--paper);border:1px solid var(--line);border-radius:99px;padding:4px 12px;font-size:14px}
+.jp-you{margin:12px 0;font-size:17px}
+.alert.ok{background:#e4f6ea;border-color:#9bd3b0;color:#14532d}
+.jp-ban{display:flex;align-items:center;gap:14px;max-width:1100px;margin:14px auto;padding:12px 18px;border-radius:14px;background:linear-gradient(120deg,var(--pitch),var(--pitch2));color:#fff;text-decoration:none;box-shadow:0 8px 22px rgba(0,0,0,.18)}
+.jp-ban-ic{font-size:34px}.jp-ban-t{flex:1}.jp-ban-t strong{display:block;font:800 24px/1.1 'Barlow Condensed',sans-serif;color:var(--gold)}.jp-ban-t small{color:#cfe3da}
+.jp-ban-go{background:var(--gold);color:#241a00;border-radius:99px;padding:8px 16px;font-weight:800;white-space:nowrap}
+:root[data-theme="dark"] .jp-no,:root[data-theme="dark"] .jp-hero{background-color:#14513f}
+:root[data-theme="dark"] .alert.ok{background:#12361f;border-color:#2f7d5a;color:#bfeccf}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .alert.ok{background:#12361f;border-color:#2f7d5a;color:#bfeccf}}
+@media (max-width:640px){.jp-g{padding:12px}.jp-p{width:100%;justify-content:space-between}.jp-p span{width:calc((100vw - 90px)/3);max-width:none}.jp-ban{margin:10px 16px;flex-wrap:wrap}.jp-cup{font-size:44px}.jp-prog{top:56px}}

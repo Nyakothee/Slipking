@@ -1,0 +1,876 @@
+# SlipKing - French (Français). One line per phrase:  English ||| Translation
+# Texts with {1} {2} are patterns: {1} is replaced by the changing part of the page.
+# Specific patterns must come before general ones. Please have a native speaker review this file.
+__months ||| January=janvier;February=février;March=mars;April=avril;May=mai;June=juin;July=juillet;August=août;September=septembre;October=octobre;November=novembre;December=décembre;Jan=janv.;Feb=févr.;Mar=mars;Apr=avr.;Jun=juin;Jul=juil.;Aug=août;Sep=sept.;Oct=oct.;Nov=nov.;Dec=déc.
+__days ||| Monday=lundi;Tuesday=mardi;Wednesday=mercredi;Thursday=jeudi;Friday=vendredi;Saturday=samedi;Sunday=dimanche;Mon=lun.;Tue=mar.;Wed=mer.;Thu=jeu.;Fri=ven.;Sat=sam.;Sun=dim.
+
+# ---- menu, header, footer
+Home ||| Accueil
+Today's tips ||| Pronostics du jour
+Accumulators ||| Combinés
+Results ||| Résultats
+VIP ||| VIP
+Blog ||| Blog
+About ||| À propos
+Skip to content ||| Aller au contenu
+Main ||| Principal
+Menu ||| Menu
+Currency ||| Devise
+Language ||| Langue
+Log in ||| Se connecter
+Log out ||| Se déconnecter
+Go VIP ||| Passer VIP
+My account ||| Mon compte
+Create account ||| Créer un compte
+Create an account ||| Créer un compte
+Site ||| Site
+Support ||| Assistance
+Follow ||| Suivez-nous
+Contact us ||| Nous contacter
+Terms ||| Conditions
+Privacy ||| Confidentialité
+Responsible gambling ||| Jeu responsable
+VIP plans ||| Formules VIP
+Predictions with a public record. ||| Des pronostics avec un historique public.
+18+ only. Gamble responsibly and never bet more than you can afford to lose. Tips are opinions, not guarantees. If betting stops being fun, seek help from a support service in your country. © {1} {2} ||| Réservé aux 18 ans et plus. Jouez de façon responsable et ne pariez jamais plus que ce que vous pouvez vous permettre de perdre. Les pronostics sont des avis, pas des garanties. Si parier cesse d’être un plaisir, demandez de l’aide à un service d’assistance de votre pays. © {1} {2}
+Prices in other currencies are estimates. You pay in KES (M-Pesa) or USD (PayPal). ||| Les prix dans les autres devises sont des estimations. Vous payez en KES (M-Pesa) ou en USD (PayPal).
+This page is currently available in English only. ||| Cette page n’est actuellement disponible qu’en anglais.
+{1} tips today ||| {1} pronostics aujourd’hui
+Last 30 days: {1}% won ||| 30 derniers jours : {1} % gagnés
+Kenya shilling ||| Shilling kényan
+US dollar ||| Dollar américain
+Nigerian naira ||| Naira nigérian
+Indian rupee ||| Roupie indienne
+Chat with us ||| Discutez avec nous
+Live chat ||| Chat en direct
+Close chat ||| Fermer le chat
+Hello! How can we help? We reply as soon as we can. ||| Bonjour ! Comment pouvons-nous vous aider ? Nous répondons dès que possible.
+Your name ||| Votre nom
+Email (optional) ||| E-mail (facultatif)
+Type your message ||| Écrivez votre message
+Send ||| Envoyer
+Never share passwords or PINs in chat. ||| Ne partagez jamais de mots de passe ni de codes PIN dans le chat.
+
+# ---- statuses and common words
+Won ||| Gagné
+Lost ||| Perdu
+Void ||| Annulé
+Pending ||| En attente
+Awaiting result ||| Résultat en attente
+Active ||| Actif
+Ended ||| Terminé
+Cancelled ||| Annulé
+Paid ||| Payé
+Failed ||| Échoué
+Closed ||| Clôturé
+Received ||| Reçue
+We have contacted you ||| Nous vous avons contacté
+Accepted ||| Acceptée
+Not accepted ||| Non acceptée
+Yes ||| Oui
+No ||| Non
+Free ||| Gratuit
+VS ||| VS
+Today ||| Aujourd’hui
+Tomorrow ||| Demain
+Yesterday ||| Hier
+Today {1} ||| Aujourd’hui {1}
+Tomorrow {1} ||| Demain {1}
+Yesterday {1} ||| Hier {1}
+Date ||| Date
+Match ||| Match
+Matches ||| Matchs
+Pick ||| Pronostic
+Pick: ||| Pronostic :
+Odds ||| Cotes
+Result ||| Résultat
+Status ||| Statut
+Plan ||| Formule
+Price ||| Prix
+Length ||| Durée
+Amount ||| Montant
+Method ||| Méthode
+Message ||| Message
+Messages ||| Messages
+Subject ||| Objet
+Country ||| Pays
+Email ||| E-mail
+Password ||| Mot de passe
+Full name ||| Nom complet
+Kickoff ||| Coup d’envoi
+Started ||| Début
+Ends ||| Fin
+From ||| Du
+To ||| Au
+History ||| Historique
+Receipt ||| Reçu
+Receipt / reference ||| Reçu / référence
+Total odds ||| Cote totale
+Football ||| Football
+Basketball ||| Basketball
+Tennis ||| Tennis
+All sports ||| Tous les sports
+All tips ||| Tous les pronostics
+All results ||| Tous les résultats
+Sport ||| Sport
+Day ||| Jour
+Match details ||| Détails du match
+VS ||| VS
+/ week ||| / semaine
+/ month ||| / mois
+/ 3 months ||| / 3 mois
+/ year ||| / an
+/ {1} days ||| / {1} jours
+{1} days ||| {1} jours
+Weekly ||| Hebdomadaire
+Monthly ||| Mensuel
+Elite ||| Élite
+All VIP tips ||| Tous les pronostics VIP
+Telegram alerts ||| Alertes Telegram
+Results archive ||| Archive des résultats
+Everything in Weekly ||| Tout ce qui est dans Hebdomadaire
+Accumulators ||| Combinés
+Correct score picks ||| Pronostics de score exact
+Private VIP group ||| Groupe VIP privé
+Everything in Monthly ||| Tout ce qui est dans Mensuel
+Highest-confidence picks ||| Pronostics à plus forte confiance
+Early access to tips ||| Accès anticipé aux pronostics
+Priority support ||| Assistance prioritaire
+Double chance ||| Double chance
+Over/Under ||| Plus/Moins
+BTTS ||| Les deux équipes marquent
+Handicap ||| Handicap
+Correct score ||| Score exact
+Acca ||| Combiné
+Set betting ||| Pari sur les sets
+Total games ||| Total de jeux
+Locked VIP pick ||| Pronostic VIP verrouillé
+VIP tip ||| Pronostic VIP
+Confidence {1} of 5 ||| Confiance {1} sur 5
+Confidence: {1} out of 5 ||| Confiance : {1} sur 5
+Last {1} results ||| {1} derniers résultats
+Win rate by month ||| Taux de réussite par mois
+
+# ---- home page
+Predictions you can check, match by match. ||| Des pronostics que vous pouvez vérifier, match après match.
+Free tips every day. Every pick is timestamped before kickoff and stays on the record, win or lose. ||| Des pronostics gratuits chaque jour. Chaque pronostic est horodaté avant le coup d’envoi et reste dans l’historique, qu’il soit gagnant ou perdant.
+See today's free tips ||| Voir les pronostics gratuits du jour
+View VIP plans ||| Voir les formules VIP
+Open your VIP picks ||| Ouvrir vos pronostics VIP
+won, last 30 days ||| gagnés, 30 derniers jours
+tips settled, last 30 days ||| pronostics réglés, 30 derniers jours
+average odds ||| cote moyenne
+Free tips today ||| Pronostics gratuits du jour
+No sign-up needed. Refreshed every morning. ||| Aucune inscription nécessaire. Mis à jour chaque matin.
+Today's free tips are being prepared. Check back in a little while. ||| Les pronostics gratuits du jour sont en préparation. Revenez dans un instant.
+VIP picks ||| Pronostics VIP
+Higher confidence, fewer tips. ||| Plus de confiance, moins de pronostics.
+Your plan is active. ||| Votre formule est active.
+Unlock with a plan. ||| Débloquez avec une formule.
+VIP picks for today will appear here. ||| Les pronostics VIP du jour apparaîtront ici.
+1 Million Accumulator ||| Combiné 1 Million
+Free for everyone. A long ticket where every selection must win. ||| Gratuit pour tous. Un long ticket où chaque sélection doit gagner.
+All accumulators ||| Tous les combinés
+Minimum stake for {1} ||| Mise minimale pour {1}
+{1} selections ||| {1} sélections
+See all selections ||| Voir toutes les sélections
+Most long accumulators lose. Only stake what you can afford to lose. ||| La plupart des longs combinés perdent. Ne misez que ce que vous pouvez vous permettre de perdre.
+Our record is public ||| Notre historique est public
+Every tip we post is kept in the archive with its posting time. Nothing is edited or hidden after the match. ||| Chaque pronostic publié est conservé dans l’archive avec son heure de publication. Rien n’est modifié ni caché après le match.
+Open full results ||| Ouvrir tous les résultats
+Monthly results appear here once tips are settled. ||| Les résultats mensuels apparaîtront ici une fois les pronostics réglés.
+Pick your sport ||| Choisissez votre sport
+Choose your plan ||| Choisissez votre formule
+Pay with M-Pesa or PayPal. Your plan runs for the period you pay for and does not renew by itself. ||| Payez avec M-Pesa ou PayPal. Votre formule dure la période payée et ne se renouvelle pas automatiquement.
+Most chosen ||| Le plus choisi
+Choose {1} ||| Choisir {1}
+Extend with {1} ||| Prolonger avec {1}
+What members say ||| Ce que disent les membres
+Questions ||| Questions
+Are the tips guaranteed to win? ||| Les pronostics sont-ils garantis gagnants ?
+No. No tip is guaranteed. We publish every result so you can judge the record yourself. ||| Non. Aucun pronostic n’est garanti. Nous publions chaque résultat pour que vous jugiez vous-même.
+How do I pay for VIP? ||| Comment payer le VIP ?
+With M-Pesa (you get a prompt on your phone) or with PayPal. Your plan activates as soon as payment is confirmed. ||| Avec M-Pesa (une invitation apparaît sur votre téléphone) ou avec PayPal. Votre formule s’active dès que le paiement est confirmé.
+Does my plan renew automatically? ||| Ma formule se renouvelle-t-elle automatiquement ?
+No. Your plan ends when the period you paid for ends, and you choose whether to buy another. ||| Non. Votre formule se termine à la fin de la période payée, et vous choisissez d’en acheter une autre ou non.
+Football & Sports Predictions with a Public Record ||| Pronostics de football et de sport avec un historique public
+
+# ---- tips, tip, results
+Yesterday's tips ||| Pronostics d’hier
+Tomorrow's tips ||| Pronostics de demain
+{1} · {2} tips ({3} free, {4} VIP) ||| {1} · {2} pronostics ({3} gratuits, {4} VIP)
+No tips for this day and filter yet. Try another day, or check back later. ||| Aucun pronostic pour ce jour et ce filtre. Essayez un autre jour ou revenez plus tard.
+VIP tips locked: {1}. ||| Pronostics VIP verrouillés : {1}.
+See VIP plans ||| Voir les formules VIP
+Once a match is settled, the pick becomes public in the results archive. ||| Une fois le match réglé, le pronostic devient public dans l’archive des résultats.
+Unlock with VIP ||| Débloquer avec le VIP
+This is a VIP tip ||| Ceci est un pronostic VIP
+The pick, odds and analysis for this match are for VIP members until the match is settled. After that they are shown here for everyone. ||| Le pronostic, les cotes et l’analyse de ce match sont réservés aux membres VIP jusqu’au règlement du match. Ensuite, ils sont visibles ici par tous.
+Our analysis ||| Notre analyse
+No written analysis for this tip. ||| Aucune analyse écrite pour ce pronostic.
+Market: {1} ||| Marché : {1}
+Status: {1} ||| Statut : {1}
+Odds change between bookmakers. Check the price you are offered before you bet. No tip is guaranteed. ||| Les cotes varient selon les bookmakers. Vérifiez la cote proposée avant de parier. Aucun pronostic n’est garanti.
+{1} · posted {2} ||| {1} · publié le {2}
+Results archive ||| Archive des résultats
+Every tip, in the order the matches were played. ||| Tous les pronostics, dans l’ordre des matchs joués.
+win rate, last 30 days ({1} tips) ||| taux de réussite, 30 derniers jours ({1} pronostics)
+units profit, last 30 days ||| unités de profit, 30 derniers jours
+win rate, all time ({1} tips) ||| taux de réussite, depuis le début ({1} pronostics)
+units profit, all time ||| unités de profit, depuis le début
+Profit is counted as 1 unit staked on every tip at the odds shown: a win returns odds minus 1, a loss costs 1. Void tips count as 0. Real returns depend on the odds you get. ||| Le profit est calculé avec 1 unité misée sur chaque pronostic aux cotes affichées : un gain rapporte la cote moins 1, une perte coûte 1. Les pronostics annulés comptent pour 0. Vos gains réels dépendent des cotes obtenues.
+No results match this filter yet. ||| Aucun résultat ne correspond à ce filtre.
+
+# ---- VIP page
+Every plan unlocks all VIP tips. Longer plans cost less per day. ||| Chaque formule débloque tous les pronostics VIP. Les formules longues coûtent moins cher par jour.
+VIP is active ||| Le VIP est actif
+Your {1} plan is active until {2}. ||| Votre formule {1} est active jusqu’au {2}.
+About {1} per day ||| Environ {1} par jour
+With PayPal: ${1} ||| Avec PayPal : {1} $
+Plans are not available right now. ||| Les formules ne sont pas disponibles pour le moment.
+Plans are one-off payments and do not renew by themselves. No tip is guaranteed to win. Please bet only what you can afford to lose. 18+ only. ||| Les formules sont des paiements uniques et ne se renouvellent pas automatiquement. Aucun pronostic n’est garanti gagnant. Ne pariez que ce que vous pouvez vous permettre de perdre. 18 ans et plus.
+Free vs VIP ||| Gratuit ou VIP
+What you get ||| Ce que vous obtenez
+Daily tips ||| Pronostics quotidiens
+A few ||| Quelques-uns
+All of them ||| Tous
+Accumulators and correct score ||| Combinés et score exact
+Written analysis ||| Analyse écrite
+Alerts and private group ||| Alertes et groupe privé
+How paying works ||| Comment fonctionne le paiement
+Choose a plan and sign in or create an account. ||| Choisissez une formule et connectez-vous ou créez un compte.
+Pay with M-Pesa (a prompt appears on your phone) or PayPal. ||| Payez avec M-Pesa (une invitation apparaît sur votre téléphone) ou PayPal.
+Your plan starts the moment the payment is confirmed. ||| Votre formule démarre dès la confirmation du paiement.
+PayPal ||| PayPal
+M-Pesa ||| M-Pesa
+Recent VIP results ||| Résultats VIP récents
+VIP win rate so far: {1}% of {2} settled tips. ||| Taux de réussite VIP à ce jour : {1} % sur {2} pronostics réglés.
+Settled picks are public, wins and losses alike. ||| Les pronostics réglés sont publics, qu’ils soient gagnants ou perdants.
+Full results ||| Tous les résultats
+VIP results will be listed here as matches are settled. ||| Les résultats VIP seront listés ici au fur et à mesure du règlement des matchs.
+Before you pay ||| Avant de payer
+What if my M-Pesa payment does not activate my plan? ||| Que faire si mon paiement M-Pesa n’active pas ma formule ?
+Wait two minutes and refresh. If it still shows inactive, contact us with your M-Pesa confirmation message and we will activate it. ||| Attendez deux minutes et actualisez. Si elle reste inactive, contactez-nous avec votre message de confirmation M-Pesa et nous l’activerons.
+Can I get a refund? ||| Puis-je être remboursé ?
+Refund terms will be listed on the terms page. Please read them before you pay. ||| Les conditions de remboursement figurent sur la page des conditions. Lisez-les avant de payer.
+Which currency is used? ||| Quelle devise est utilisée ?
+M-Pesa payments are in Kenya shillings. PayPal payments are charged in US dollars at the price shown on the plan. ||| Les paiements M-Pesa se font en shillings kényans. Les paiements PayPal sont facturés en dollars américains au prix indiqué sur la formule.
+
+# ---- accumulators
+Accumulators ||| Combinés
+One long ticket of many selections. Every selection must win. ||| Un long ticket de nombreuses sélections. Chaque sélection doit gagner.
+1 Million Accumulator (free) ||| Combiné 1 Million (gratuit)
+VIP Accumulator ||| Combiné VIP
+Please read this first. ||| À lire d’abord.
+An accumulator wins only if every selection wins, and one loss means the whole ticket loses. With dozens of selections the odds are huge because the chance is tiny, so most tickets lose. Only stake an amount you can afford to lose completely. ||| Un combiné ne gagne que si chaque sélection gagne, et une seule perte fait perdre tout le ticket. Avec des dizaines de sélections, les cotes sont énormes parce que la probabilité est minuscule, donc la plupart des tickets perdent. Ne misez qu’un montant que vous pouvez vous permettre de perdre entièrement.
+Our record so far: ||| Notre bilan à ce jour :
+{1} won, {2} lost ({3} settled) ||| {1} gagnés, {2} perdus ({3} réglés)
+No {1} accumulator has been posted yet. Check back soon. ||| Aucun combiné {1} n’a encore été publié. Revenez bientôt.
+1 in {1} ||| 1 sur {1}
+Posted {1} · {2} selections · ||| Publié le {1} · {2} sélections ·
+Every selection must win. One loss loses the whole ticket. The "minimum stake" is only the smallest stake that would reach the target if every selection wins, and it is not advice to stake that amount. Odds change between bookmakers, so check your price. 18+ only. ||| Chaque sélection doit gagner. Une seule perte fait perdre tout le ticket. La « mise minimale » est seulement la plus petite mise qui atteindrait l’objectif si toutes les sélections gagnent, et ce n’est pas un conseil de miser ce montant. Les cotes varient selon les bookmakers, vérifiez donc votre cote. 18 ans et plus.
+total odds ||| cote totale
+(void selections removed) ||| (sélections annulées retirées)
+minimum stake to return {1} or more ||| mise minimale pour obtenir {1} ou plus
+roughly the chance all selections win, as the odds see it ||| environ la probabilité que toutes les sélections gagnent, selon les cotes
+won: {1}, lost: {2}, still to play: {3} ||| gagnées : {1}, perdues : {2}, à jouer : {3}
+This is a VIP accumulator ||| Ceci est un combiné VIP
+The {1} selections are for VIP members until the ticket is settled. After that they are shown here for everyone, whether it won or lost. ||| Les {1} sélections sont réservées aux membres VIP jusqu’au règlement du ticket. Ensuite, elles sont visibles par tous, qu’il ait gagné ou perdu.
+Your stake ({1}) ||| Votre mise ({1})
+Return if every selection wins = stake x total odds. Estimate only. ||| Gain si toutes les sélections gagnent = mise x cote totale. Estimation uniquement.
+Returns ||| Gain
+Responsible gambling ||| Jeu responsable
+
+# ---- blog, contact, about, 404
+Guides, previews and bankroll advice. ||| Guides, aperçus et conseils de gestion de budget.
+No articles yet. The first ones are on the way. ||| Aucun article pour l’instant. Les premiers arrivent bientôt.
+Betting carries risk and no tip is guaranteed. 18+ only. Never bet more than you can afford to lose. ||| Parier comporte des risques et aucun pronostic n’est garanti. 18 ans et plus. Ne pariez jamais plus que ce que vous pouvez vous permettre de perdre.
+See today's tips ||| Voir les pronostics du jour
+Contact us ||| Nous contacter
+For payment problems, include your M-Pesa receipt code or PayPal receipt. ||| Pour un problème de paiement, indiquez votre code de reçu M-Pesa ou votre reçu PayPal.
+Your email ||| Votre e-mail
+Send message ||| Envoyer le message
+Thank you. We have your message and will reply to {1}. ||| Merci. Nous avons bien reçu votre message et répondrons à {1}.
+Back to the home page ||| Retour à l’accueil
+Leave empty ||| Laisser vide
+About {1} ||| À propos de {1}
+{1} publishes sports betting predictions. Some are free and open to everyone. The rest are VIP tips for members who take a paid plan. ||| {1} publie des pronostics de paris sportifs. Certains sont gratuits et ouverts à tous. Les autres sont des pronostics VIP pour les membres ayant une formule payante.
+Every tip is stamped with the time it was posted, before the match starts. After kickoff a tip cannot be edited or deleted, and every result, win or loss, goes into a public archive. ||| Chaque pronostic est horodaté avant le début du match. Après le coup d’envoi, un pronostic ne peut plus être modifié ni supprimé, et chaque résultat, gagné ou perdu, entre dans une archive publique.
+See our full results ||| Voir tous nos résultats
+before you spend anything. ||| avant de dépenser quoi que ce soit.
+No tipster wins every time, and neither do we. Tips are opinions based on form and statistics, not promises. Only bet money you can afford to lose. ||| Aucun pronostiqueur ne gagne à chaque fois, et nous non plus. Les pronostics sont des avis fondés sur la forme et les statistiques, pas des promesses. Ne pariez que de l’argent que vous pouvez vous permettre de perdre.
+Read about responsible gambling ||| En savoir plus sur le jeu responsable
+We do not take bets and we are not a bookmaker. You place any bet yourself, with a bookmaker that is licensed where you live. ||| Nous ne prenons pas de paris et nous ne sommes pas un bookmaker. Vous placez vous-même vos paris, auprès d’un bookmaker agréé là où vous vivez.
+Page not found ||| Page introuvable
+The page you asked for does not exist or has moved. ||| La page demandée n’existe pas ou a été déplacée.
+Betting should be entertainment, never a way to make a living or to fix money problems. You must be 18 or older to use this site. ||| Parier doit rester un divertissement, jamais un moyen de gagner sa vie ni de régler des problèmes d’argent. Vous devez avoir 18 ans ou plus pour utiliser ce site.
+Our tips are not guarantees. ||| Nos pronostics ne sont pas des garanties.
+They are opinions. Any tip can lose, including our most confident ones. Never bet because a tip "cannot lose". ||| Ce sont des avis. Tout pronostic peut perdre, y compris les plus confiants. Ne pariez jamais parce qu’un pronostic « ne peut pas perdre ».
+Keep it under control ||| Gardez le contrôle
+Decide a budget before you start and stick to it. Only bet money you can afford to lose completely. Never borrow to bet. Do not chase losses with bigger stakes. Take regular breaks, and keep a record of what you spend. ||| Fixez un budget avant de commencer et respectez-le. Ne pariez que de l’argent que vous pouvez vous permettre de perdre entièrement. N’empruntez jamais pour parier. Ne courez pas après vos pertes avec des mises plus grosses. Faites des pauses régulières et gardez une trace de vos dépenses.
+Warning signs ||| Signes d’alerte
+Betting more than you planned. Hiding it from family or friends. Feeling anxious or angry when you cannot bet. Betting to win back losses. Money for rent, food or school fees going to bets. If any of these sound familiar, stop and talk to someone. ||| Parier plus que prévu. Le cacher à sa famille ou à ses amis. Se sentir anxieux ou en colère quand on ne peut pas parier. Parier pour regagner ses pertes. L’argent du loyer, de la nourriture ou des frais de scolarité qui part dans les paris. Si l’un de ces points vous parle, arrêtez et parlez-en à quelqu’un.
+Where to get help ||| Où trouver de l’aide
+Speak to a trusted friend or family member. Licensed bookmakers offer tools to set deposit limits, take a break, or exclude yourself completely, so use them. Look for a gambling support organisation or counselling service in your own country and contact them. ||| Parlez à un ami ou à un proche de confiance. Les bookmakers agréés proposent des outils pour fixer des limites de dépôt, faire une pause ou vous exclure complètement : utilisez-les. Cherchez une association d’aide aux joueurs ou un service de conseil dans votre pays et contactez-la.
+Our part ||| Notre rôle
+We show every result, wins and losses, so you can judge us honestly. We never pressure anyone to buy VIP, and plans never renew by themselves. ||| Nous montrons chaque résultat, gains et pertes, pour que vous puissiez nous juger honnêtement. Nous ne poussons personne à acheter le VIP, et les formules ne se renouvellent jamais automatiquement.
+
+# ---- sign up, log in, passwords
+Create account ||| Créer un compte
+Free to join. VIP is optional. ||| Inscription gratuite. Le VIP est facultatif.
+M-Pesa phone number (optional) ||| Numéro M-Pesa (facultatif)
+Used to pre-fill your M-Pesa payment. ||| Sert à pré-remplir votre paiement M-Pesa.
+At least 8 characters. ||| Au moins 8 caractères.
+Repeat password ||| Répétez le mot de passe
+I am 18 years or older. ||| J’ai 18 ans ou plus.
+I accept the ||| J’accepte les
+terms ||| conditions
+and understand that tips are not guaranteed. ||| et je comprends que les pronostics ne sont pas garantis.
+Already have an account? ||| Vous avez déjà un compte ?
+Welcome back. ||| Bon retour.
+Forgot your password? ||| Mot de passe oublié ?
+New here? ||| Nouveau ici ?
+Forgot password ||| Mot de passe oublié
+Enter your email and we will send you a link to choose a new password. ||| Saisissez votre e-mail et nous vous enverrons un lien pour choisir un nouveau mot de passe.
+Send reset link ||| Envoyer le lien
+Back to log in ||| Retour à la connexion
+If that email has an account, a reset link is on its way. It is valid for 1 hour. Check your spam folder too. ||| Si cet e-mail correspond à un compte, un lien de réinitialisation est en route. Il est valable 1 heure. Vérifiez aussi vos courriers indésirables.
+New password ||| Nouveau mot de passe
+Choose a password of at least 8 characters. ||| Choisissez un mot de passe d’au moins 8 caractères.
+Repeat new password ||| Répétez le nouveau mot de passe
+Save password ||| Enregistrer le mot de passe
+This reset link is not valid or has expired. ||| Ce lien de réinitialisation n’est pas valide ou a expiré.
+Get a new link ||| Obtenir un nouveau lien
+
+# ---- account area
+Hello, {1} ||| Bonjour, {1}
+Signed in as {1} ||| Connecté en tant que {1}
+Dashboard ||| Tableau de bord
+Subscription ||| Abonnement
+Payments ||| Paiements
+Profile ||| Profil
+Notifications ||| Notifications
+Referrals ||| Parrainage
+Please confirm your email address. We sent you a link when you signed up. ||| Veuillez confirmer votre adresse e-mail. Nous vous avons envoyé un lien à l’inscription.
+Send the link again ||| Renvoyer le lien
+Your payment is being confirmed. This usually takes under a minute. Refresh this page shortly. ||| Votre paiement est en cours de confirmation. Cela prend généralement moins d’une minute. Actualisez cette page dans un instant.
+Unread messages: {1} ||| Messages non lus : {1}
+Read ||| Lire
+You are on the free plan. VIP unlocks every premium pick. ||| Vous êtes sur la formule gratuite. Le VIP débloque tous les pronostics premium.
+VIP picks today ||| Pronostics VIP du jour
+No VIP picks are posted for today yet. Check back soon. ||| Aucun pronostic VIP n’est encore publié aujourd’hui. Revenez bientôt.
+VIP picks tomorrow ||| Pronostics VIP de demain
+No free tips yet today. ||| Pas encore de pronostics gratuits aujourd’hui.
+You are on the free plan ||| Vous êtes sur la formule gratuite
+Unlock every VIP pick with a weekly, monthly or 3-month plan. ||| Débloquez tous les pronostics VIP avec une formule hebdomadaire, mensuelle ou de 3 mois.
+Days left ||| Jours restants
+Extend my plan ||| Prolonger ma formule
+Your plan does not renew by itself. Buy another before it ends and the days are added on. ||| Votre formule ne se renouvelle pas automatiquement. Achetez-en une autre avant la fin et les jours seront ajoutés.
+Payment history ||| Historique des paiements
+You have not made any payments yet. ||| Vous n’avez encore effectué aucun paiement.
+A payment marked Pending that never completes will show as Failed. If money left your account but your plan is not active, contact us with the M-Pesa or PayPal confirmation. ||| Un paiement « En attente » qui n’aboutit jamais passera à « Échoué ». Si de l’argent a quitté votre compte mais que votre formule n’est pas active, contactez-nous avec la confirmation M-Pesa ou PayPal.
+Mark all as read ||| Tout marquer comme lu
+No messages yet. ||| Aucun message pour l’instant.
+Invite friends ||| Inviter des amis
+Your link ||| Votre lien
+Share this link. Anyone who signs up through it is counted below. ||| Partagez ce lien. Toute personne qui s’inscrit avec est comptée ci-dessous.
+Friends who joined ||| Amis inscrits
+Of those, who have paid for VIP ||| Dont ayant payé le VIP
+Your details ||| Vos informations
+To change your email, contact support. ||| Pour changer votre e-mail, contactez l’assistance.
+M-Pesa phone number ||| Numéro de téléphone M-Pesa
+Save details ||| Enregistrer
+Change password ||| Changer le mot de passe
+Current password ||| Mot de passe actuel
+
+# ---- checkout and payments
+Checkout ||| Paiement
+Your order ||| Votre commande
+You already have VIP. These days will be added after your current plan ends. ||| Vous avez déjà le VIP. Ces jours seront ajoutés après la fin de votre formule actuelle.
+One-off payment. It does not renew by itself. You must be 18 or older. ||| Paiement unique. Il ne se renouvelle pas automatiquement. Vous devez avoir 18 ans ou plus.
+Have a coupon code? ||| Un code promo ?
+Apply ||| Appliquer
+{1}% off with code {2} ||| {1} % de réduction avec le code {2}
+or ${1} with PayPal ||| ou {1} $ avec PayPal
+Pay with M-Pesa ||| Payer avec M-Pesa
+Pay {1} with M-Pesa ||| Payer {1} avec M-Pesa
+A prompt will appear on this phone. Enter your M-Pesa PIN to pay. ||| Une invitation apparaîtra sur ce téléphone. Saisissez votre code PIN M-Pesa pour payer.
+Pay with PayPal ||| Payer avec PayPal
+Charged in US dollars: ${1}. You can use your PayPal balance or a card. ||| Facturé en dollars américains : {1} $. Vous pouvez utiliser votre solde PayPal ou une carte.
+Payments are not switched on yet. Please check back soon. ||| Les paiements ne sont pas encore activés. Revenez bientôt.
+Payment received ||| Paiement reçu
+Thank you. Your {1} plan is active until {2}. ||| Merci. Votre formule {1} est active jusqu’au {2}.
+Thank you. Your {1} plan is active. ||| Merci. Votre formule {1} est active.
+See my VIP picks ||| Voir mes pronostics VIP
+Still confirming ||| Confirmation en cours
+We have not received the confirmation yet. If you entered your PIN, your plan will switch on by itself within a few minutes. ||| Nous n’avons pas encore reçu la confirmation. Si vous avez saisi votre PIN, votre formule s’activera d’elle-même dans quelques minutes.
+Check my payments ||| Voir mes paiements
+Payment not completed ||| Paiement non abouti
+This payment did not go through. ||| Ce paiement n’a pas abouti.
+Try again ||| Réessayer
+Nothing was charged, or M-Pesa / PayPal will return it. If money left your account but your plan is not active, contact us with your confirmation message. ||| Rien n’a été débité, ou M-Pesa / PayPal le remboursera. Si de l’argent a quitté votre compte mais que votre formule n’est pas active, contactez-nous avec votre message de confirmation.
+Choose a plan again ||| Choisir à nouveau une formule
+Contact support ||| Contacter l’assistance
+
+# ---- account management
+Account management ||| Gestion de compte
+Tell us what you are looking for. We will talk to you directly before anything starts. ||| Dites-nous ce que vous cherchez. Nous vous parlerons directement avant tout démarrage.
+How it works ||| Comment ça marche
+You send an enquiry here. Nothing is agreed and no money moves. ||| Vous envoyez une demande ici. Rien n’est convenu et aucun argent ne bouge.
+We contact you on the phone or WhatsApp number you give, and talk through what you want. ||| Nous vous contactons sur le numéro de téléphone ou WhatsApp que vous indiquez, et discutons de ce que vous souhaitez.
+If we both agree, the terms (including fees) are written down and agreed before anything starts. ||| Si nous sommes d’accord, les conditions (y compris les frais) sont rédigées et acceptées avant tout démarrage.
+You can ask to stop at any time. ||| Vous pouvez demander l’arrêt à tout moment.
+What we never do ||| Ce que nous ne faisons jamais
+We never ask for your password, PIN or codes through this website, the chat or this form. If anyone asks you to send them here, do not. ||| Nous ne demandons jamais votre mot de passe, PIN ou codes via ce site, le chat ou ce formulaire. Si quelqu’un vous demande de les envoyer ici, ne le faites pas.
+This website never holds your betting money. ||| Ce site ne détient jamais votre argent de paris.
+We never promise profit or guarantee results. ||| Nous ne promettons jamais de profit et ne garantissons aucun résultat.
+Risks you must understand. ||| Risques à bien comprendre.
+Betting can lose all of the money used. Past results do not guarantee future results. Many betting companies do not allow anyone other than the account owner to operate an account, so check your company's rules, because your account could be limited or closed. Laws about betting and about managing other people's money differ between countries, so make sure you understand the rules where you live. Only use money you can afford to lose. 18+ only. ||| Parier peut faire perdre tout l’argent utilisé. Les résultats passés ne garantissent pas les résultats futurs. Beaucoup de sociétés de paris n’autorisent que le titulaire à utiliser un compte : vérifiez les règles de la vôtre, car votre compte pourrait être limité ou fermé. Les lois sur les paris et sur la gestion de l’argent d’autrui varient selon les pays : assurez-vous de comprendre les règles là où vous vivez. N’utilisez que de l’argent que vous pouvez vous permettre de perdre. 18 ans et plus.
+Send an enquiry ||| Envoyer une demande
+Please log in or create a free account so we can reach you and keep your enquiry safe. ||| Connectez-vous ou créez un compte gratuit pour que nous puissions vous joindre et protéger votre demande.
+You already have an enquiry we are working on. We will contact you soon. ||| Vous avez déjà une demande en cours de traitement. Nous vous contacterons bientôt.
+Phone or WhatsApp number ||| Numéro de téléphone ou WhatsApp
+Betting company you use ||| Société de paris que vous utilisez
+Only the name. Never your login details. ||| Uniquement le nom. Jamais vos identifiants.
+Amount you are thinking of using ||| Montant que vous envisagez d’utiliser
+Risk you are comfortable with ||| Niveau de risque qui vous convient
+Low ||| Faible
+Medium ||| Moyen
+High ||| Élevé
+Anything else we should know (optional) ||| Autre chose à nous dire (facultatif)
+I understand I can lose all the money used and that no result is guaranteed. ||| Je comprends que je peux perdre tout l’argent utilisé et qu’aucun résultat n’est garanti.
+I understand that I must never send my password, PIN or codes on this site. ||| Je comprends que je ne dois jamais envoyer mon mot de passe, PIN ou codes sur ce site.
+Send enquiry ||| Envoyer la demande
+Your enquiries ||| Vos demandes
+Betting company ||| Société de paris
+
+# ---- messages shown after an action or an error
+Your session expired. Please try again. ||| Votre session a expiré. Veuillez réessayer.
+Your session expired. Refresh the page and try again. ||| Votre session a expiré. Actualisez la page et réessayez.
+Welcome, {1}! Your account is ready. We sent a link to confirm your email. ||| Bienvenue, {1} ! Votre compte est prêt. Nous avons envoyé un lien pour confirmer votre e-mail.
+You have been logged out. ||| Vous avez été déconnecté.
+The email or password is not correct. ||| L’e-mail ou le mot de passe est incorrect.
+Too many attempts. Please wait 15 minutes and try again. ||| Trop de tentatives. Attendez 15 minutes et réessayez.
+Too many attempts. Please wait a few minutes and try again. ||| Trop de tentatives. Attendez quelques minutes et réessayez.
+Too many requests. Please wait 15 minutes and try again. ||| Trop de demandes. Attendez 15 minutes et réessayez.
+Too many requests. Please wait 15 minutes. ||| Trop de demandes. Attendez 15 minutes.
+Too many messages. Please wait 15 minutes and try again. ||| Trop de messages. Attendez 15 minutes et réessayez.
+Too many enquiries today. Please try again tomorrow. ||| Trop de demandes aujourd’hui. Réessayez demain.
+Too many chats started from your connection. Please try again later. ||| Trop de chats démarrés depuis votre connexion. Réessayez plus tard.
+You are sending messages too fast. Please wait a moment. ||| Vous envoyez des messages trop vite. Patientez un instant.
+Type a message first. ||| Écrivez d’abord un message.
+For your safety, never send passwords or PINs in chat. Please remove them and send again. ||| Pour votre sécurité, n’envoyez jamais de mots de passe ni de codes PIN dans le chat. Retirez-les et renvoyez le message.
+For your safety, never write passwords, PINs or codes here. Remove them and send again. ||| Pour votre sécurité, n’écrivez jamais de mots de passe, PIN ou codes ici. Retirez-les et renvoyez.
+Please enter your name (2 to 60 characters). ||| Saisissez votre nom (2 à 60 caractères).
+That email address does not look right. You can leave it empty. ||| Cette adresse e-mail semble incorrecte. Vous pouvez la laisser vide.
+An account with this email already exists. Try logging in. ||| Un compte avec cet e-mail existe déjà. Essayez de vous connecter.
+We could not create your account. Please try again. ||| Nous n’avons pas pu créer votre compte. Veuillez réessayer.
+Enter your name (2 to 100 characters). ||| Saisissez votre nom (2 à 100 caractères).
+Enter your name. ||| Saisissez votre nom.
+Enter your full name. ||| Saisissez votre nom complet.
+Enter a valid email address. ||| Saisissez une adresse e-mail valide.
+Enter a valid email address so we can reply. ||| Saisissez une adresse e-mail valide pour que nous puissions répondre.
+Enter a valid Kenyan phone number, like 0712 345 678. ||| Saisissez un numéro kényan valide, comme 0712 345 678.
+Enter a valid Safaricom number, like 0712 345 678. ||| Saisissez un numéro Safaricom valide, comme 0712 345 678.
+Enter a phone or WhatsApp number we can reach you on, like +254 712 345 678. ||| Saisissez un numéro de téléphone ou WhatsApp où vous joindre, comme +254 712 345 678.
+Enter a subject (3 to 120 characters). ||| Saisissez un objet (3 à 120 caractères).
+Write your message (10 to 3000 characters). ||| Rédigez votre message (10 à 3000 caractères).
+Your message is too long (1500 characters maximum). ||| Votre message est trop long (1500 caractères maximum).
+Enter your country. ||| Saisissez votre pays.
+Enter the name of the betting company you use. ||| Saisissez le nom de la société de paris que vous utilisez.
+Enter the amount you are thinking of using (a number above 0). ||| Saisissez le montant que vous envisagez d’utiliser (un nombre supérieur à 0).
+Choose a currency. ||| Choisissez une devise.
+Choose how much risk you are comfortable with. ||| Choisissez le niveau de risque qui vous convient.
+You must confirm that you are 18 or older. ||| Vous devez confirmer que vous avez 18 ans ou plus.
+Please accept the terms. ||| Veuillez accepter les conditions.
+Please confirm that you understand the risks. ||| Veuillez confirmer que vous comprenez les risques.
+Please confirm that you understand we never ask for your password on this site. ||| Veuillez confirmer que vous comprenez que nous ne demandons jamais votre mot de passe sur ce site.
+You already have an enquiry we are working on. Please wait for our reply. ||| Vous avez déjà une demande en cours. Veuillez attendre notre réponse.
+Thank you. We have your enquiry and will contact you on the number you gave. ||| Merci. Nous avons votre demande et vous contacterons au numéro indiqué.
+We could not send your message just now. Please email us directly at {1}. ||| Nous n’avons pas pu envoyer votre message. Écrivez-nous directement à {1}.
+Your password must be at least 8 characters. ||| Votre mot de passe doit contenir au moins 8 caractères.
+The two passwords do not match. ||| Les deux mots de passe ne correspondent pas.
+Your password has been changed. You can log in now. ||| Votre mot de passe a été changé. Vous pouvez vous connecter.
+Your password has been changed. ||| Votre mot de passe a été changé.
+Your details have been saved. ||| Vos informations ont été enregistrées.
+Your email is confirmed. Thank you! ||| Votre e-mail est confirmé. Merci !
+We sent a new confirmation link to {1}. ||| Nous avons envoyé un nouveau lien de confirmation à {1}.
+This confirmation link is not valid or has expired. Log in and request a new one. ||| Ce lien de confirmation n’est pas valide ou a expiré. Connectez-vous et demandez-en un nouveau.
+All messages marked as read. ||| Tous les messages sont marqués comme lus.
+Please log in first. ||| Veuillez d’abord vous connecter.
+Please log in. ||| Veuillez vous connecter.
+Please choose a plan first. ||| Veuillez d’abord choisir une formule.
+That plan is not available. ||| Cette formule n’est pas disponible.
+Payment not found. ||| Paiement introuvable.
+Invalid request. ||| Requête invalide.
+That code is not valid. ||| Ce code n’est pas valide.
+That code has expired. ||| Ce code a expiré.
+That code has been fully used. ||| Ce code a été entièrement utilisé.
+You have already used that code. ||| Vous avez déjà utilisé ce code.
+M-Pesa is not available right now. ||| M-Pesa n’est pas disponible pour le moment.
+PayPal is not available right now. ||| PayPal n’est pas disponible pour le moment.
+Could not reach M-Pesa. Please try again in a moment. ||| Impossible de joindre M-Pesa. Réessayez dans un instant.
+Could not reach PayPal. Please try again in a moment. ||| Impossible de joindre PayPal. Réessayez dans un instant.
+Check your phone and enter your M-Pesa PIN. ||| Regardez votre téléphone et saisissez votre code PIN M-Pesa.
+Waiting for you to enter your PIN... ||| En attente de la saisie de votre PIN...
+Payment received. Your VIP plan is now active. ||| Paiement reçu. Votre formule VIP est maintenant active.
+You cancelled the request on your phone. ||| Vous avez annulé la demande sur votre téléphone.
+The payment did not go through. Nothing was taken, or it will be refunded by M-Pesa. ||| Le paiement n’a pas abouti. Rien n’a été prélevé, ou M-Pesa le remboursera.
+PayPal could not complete the payment. You have not been charged. Please try again. ||| PayPal n’a pas pu finaliser le paiement. Vous n’avez pas été débité. Veuillez réessayer.
+PayPal could not start the payment. Please try again. ||| PayPal n’a pas pu démarrer le paiement. Veuillez réessayer.
+PayPal could not use that payment method. Please choose another one. ||| PayPal n’a pas pu utiliser ce moyen de paiement. Choisissez-en un autre.
+We could not confirm the payment yet. If PayPal shows a charge, your plan will switch on automatically or contact us with your PayPal receipt. ||| Nous n’avons pas encore pu confirmer le paiement. Si PayPal affiche un débit, votre formule s’activera automatiquement ; sinon contactez-nous avec votre reçu PayPal.
+M-Pesa could not send the prompt. Please check the phone number and try again. ||| M-Pesa n’a pas pu envoyer l’invitation. Vérifiez le numéro de téléphone et réessayez.
+Enter a valid Safaricom number, like 0712 345 678. ||| Saisissez un numéro Safaricom valide, comme 0712 345 678.
+An accumulator needs at least 2 selections. ||| Un combiné nécessite au moins 2 sélections.
+A maximum of 100 selections is allowed. ||| Un maximum de 100 sélections est autorisé.
+
+# ---- JavaScript messages
+Sending the request to your phone... ||| Envoi de la demande sur votre téléphone...
+Waiting for confirmation... ||| En attente de confirmation...
+Something went wrong. ||| Une erreur est survenue.
+Something went wrong. Please try again. ||| Une erreur est survenue. Veuillez réessayer.
+Could not connect. Check your internet and try again. ||| Connexion impossible. Vérifiez votre internet et réessayez.
+We have not received confirmation yet. If you entered your PIN, your plan will switch on by itself within a few minutes. You can check the Payments page in your account. ||| Nous n’avons pas encore reçu de confirmation. Si vous avez saisi votre PIN, votre formule s’activera d’elle-même dans quelques minutes. Vous pouvez consulter la page Paiements de votre compte.
+PayPal could not load. Check your connection and refresh the page. ||| PayPal n’a pas pu se charger. Vérifiez votre connexion et actualisez la page.
+Opening PayPal... ||| Ouverture de PayPal...
+Could not start the payment. ||| Impossible de démarrer le paiement.
+Confirming your payment... ||| Confirmation de votre paiement...
+The payment could not be confirmed. ||| Le paiement n’a pas pu être confirmé.
+Payment cancelled. You have not been charged. ||| Paiement annulé. Vous n’avez pas été débité.
+PayPal ran into a problem. Please try again. ||| PayPal a rencontré un problème. Veuillez réessayer.
+
+# ---- performance page, trial/win-back, referral reward, Paystack and Razorpay
+Performance ||| Performances
+Where our tips do well and where they do not. Every settled tip is counted, wins and losses. ||| Où nos pronostics réussissent et où ils échouent. Chaque pronostic réglé est compté, gagné ou perdu.
+Group ||| Groupe
+Win rate ||| Taux de réussite
+Average odds ||| Cote moyenne
+Profit (units) ||| Profit (unités)
+units profit ||| unités de profit
+win rate ({1} tips) ||| taux de réussite ({1} pronostics)
+Profit is counted as 1 unit staked on every tip at the odds shown. With fewer than 10 tips a result can be luck, so treat small samples with care. ||| Le profit est calculé avec 1 unité misée sur chaque pronostic aux cotes affichées. Avec moins de 10 pronostics, un résultat peut relever de la chance : prudence avec les petits échantillons.
+No settled tips in this period yet. ||| Aucun pronostic réglé sur cette période.
+Try every VIP pick free for {1} day(s). ||| Essayez tous les pronostics VIP gratuitement pendant {1} jour(s).
+New here? Try every VIP pick free for {1} day(s). No payment needed. ||| Nouveau ici ? Essayez tous les pronostics VIP gratuitement pendant {1} jour(s). Aucun paiement requis.
+Start my free trial ||| Commencer mon essai gratuit
+Create a free account to try VIP free. ||| Créez un compte gratuit pour essayer le VIP gratuitement.
+Confirm your email address to unlock your free VIP trial. ||| Confirmez votre adresse e-mail pour débloquer votre essai VIP gratuit.
+Add your phone number to unlock your free VIP trial. ||| Ajoutez votre numéro de téléphone pour débloquer votre essai VIP gratuit.
+Open profile ||| Ouvrir le profil
+Your free VIP trial is active until {1}. ||| Votre essai VIP gratuit est actif jusqu’au {1}.
+Please confirm your email address first. ||| Veuillez d’abord confirmer votre adresse e-mail.
+Please add your phone number in your profile first. ||| Veuillez d’abord ajouter votre numéro de téléphone dans votre profil.
+The free trial is for new members who have not had a plan yet. ||| L’essai gratuit est réservé aux nouveaux membres qui n’ont pas encore eu de formule.
+This phone number has already been used for a free trial. ||| Ce numéro de téléphone a déjà servi pour un essai gratuit.
+The free trial is not available right now. ||| L’essai gratuit n’est pas disponible pour le moment.
+The free trial is not available. ||| L’essai gratuit n’est pas disponible.
+The free trial is not set up yet. Please contact us. ||| L’essai gratuit n’est pas encore configuré. Veuillez nous contacter.
+Emails ||| E-mails
+Do not send me reminder or "we miss you" emails. (Account and payment emails are still sent.) ||| Ne m’envoyez pas d’e-mails de rappel ni « vous nous manquez ». (Les e-mails de compte et de paiement sont toujours envoyés.)
+Save ||| Enregistrer
+Email choice saved. ||| Choix d’e-mail enregistré.
+Reward: ||| Récompense :
+{1} free VIP days for you when a friend makes their first payment. ||| {1} jours VIP gratuits pour vous quand un ami effectue son premier paiement.
+Pay in Naira ||| Payer en nairas
+Card or bank transfer, charged in Nigerian naira: {1}. ||| Carte ou virement bancaire, facturé en nairas nigérians : {1}.
+Pay {1} with Paystack ||| Payer {1} avec Paystack
+Pay in Indian rupees ||| Payer en roupies indiennes
+UPI, card or net banking, charged in Indian rupees: {1}. ||| UPI, carte ou banque en ligne, facturé en roupies indiennes : {1}.
+Pay {1} with Razorpay ||| Payer {1} avec Razorpay
+Paystack is not available right now. ||| Paystack n’est pas disponible pour le moment.
+Razorpay is not available right now. ||| Razorpay n’est pas disponible pour le moment.
+Paystack could not start the payment. Please try again. ||| Paystack n’a pas pu démarrer le paiement. Veuillez réessayer.
+Razorpay could not start the payment. Please try again. ||| Razorpay n’a pas pu démarrer le paiement. Veuillez réessayer.
+We could not confirm the payment yet. If you were charged, your plan will switch on automatically or contact us with your receipt. ||| Nous n’avons pas encore pu confirmer le paiement. Si vous avez été débité, votre formule s’activera automatiquement ; sinon contactez-nous avec votre reçu.
+Last 30 days ||| 30 derniers jours
+Last 90 days ||| 90 derniers jours
+Last 12 months ||| 12 derniers mois
+All time ||| Depuis le début
+By sport ||| Par sport
+By league ||| Par championnat
+By market ||| Par marché
+By month ||| Par mois
+(small sample) ||| (petit échantillon)
+Monthly win rate ||| Taux de réussite mensuel
+Monthly profit (units) ||| Profit mensuel (unités)
+Last 12 months. Months with no settled tips are left empty. ||| 12 derniers mois. Les mois sans pronostic réglé restent vides.
+No settled tips in the last 12 months yet. ||| Aucun pronostic réglé ces 12 derniers mois.
+Profit in units by month ||| Profit en unités par mois
+
+# ---- general patterns (keep these LAST)
+{1} vs {2}, {3} ||| {1} vs {2}, {3}
+{1} vs {2} ||| {1} vs {2}
+{1} · {2} ||| {1} · {2}
+{1} - {2} ||| {1} - {2}
+Tips ||| Pronostics
+at {1} ||| à {1}
+Starting the payment... ||| Démarrage du paiement...
+Redirecting to Paystack... ||| Redirection vers Paystack...
+Verifying your payment... ||| Vérification de votre paiement...
+Payment window closed. You have not been charged. ||| Fenêtre de paiement fermée. Vous n'avez pas été débité.
+Razorpay could not load. Check your connection and refresh the page. ||| Razorpay n'a pas pu se charger. Vérifiez votre connexion et actualisez la page.
+# ---- update 6 (calculator, bet tracker, match/league pages, social, bookmakers, theme) ----
+Betting calculator ||| Calculateur de paris
+Estimate a sensible stake for a single bet, or work out the combined odds and stake for an accumulator. Use the same currency for every amount. ||| Estimez une mise raisonnable pour un pari simple, ou calculez la cote combinée et la mise d'un combiné. Utilisez la même devise pour tous les montants.
+Estimates, not guarantees. ||| Des estimations, pas des garanties.
+The results are only as good as the numbers you put in, and no bet is certain to win. 18+ only. Never stake money you cannot afford to lose. Read our ||| Les résultats dépendent des chiffres que vous saisissez, et aucun pari n'est certain de gagner. 18 ans et plus uniquement. Ne misez jamais de l'argent que vous ne pouvez pas vous permettre de perdre. Lisez notre
+responsible gambling page ||| page sur le jeu responsable
+Single bet ||| Pari simple
+Accumulator ||| Combiné
+Your bet ||| Votre pari
+Bankroll ||| Capital de jeu
+The total amount you set aside for betting. ||| Le montant total que vous réservez aux paris.
+Decimal odds ||| Cote décimale
+How to estimate the win chance ||| Comment estimer la probabilité de gain
+I will enter my own win probability ||| Je saisis ma propre probabilité de gain
+Use a confidence rating (1 to 5 stars) ||| Utiliser une note de confiance (1 à 5 étoiles)
+Win probability (%) ||| Probabilité de gain (%)
+Your honest estimate of how often this bet wins. ||| Votre estimation honnête de la fréquence de gain de ce pari.
+Confidence ||| Confiance
+1 star: 35% ||| 1 étoile : 35 %
+2 stars: 45% ||| 2 étoiles : 45 %
+3 stars: 55% ||| 3 étoiles : 55 %
+4 stars: 65% ||| 4 étoiles : 65 %
+5 stars: 75% ||| 5 étoiles : 75 %
+The percentages are fixed assumptions for this calculator, not our recorded win rates. ||| Ces pourcentages sont des hypothèses fixes pour ce calculateur, pas nos taux de réussite réels.
+Risk profile ||| Profil de risque
+Cautious: quarter Kelly, 1% flat ||| Prudent : quart de Kelly, 1 % fixe
+Balanced: half Kelly, 2% flat ||| Équilibré : demi-Kelly, 2 % fixe
+Bold: full Kelly, 3% flat ||| Audacieux : Kelly complet, 3 % fixe
+Suggested stake ||| Mise suggérée
+Enter your bankroll, odds and win chance. ||| Saisissez votre capital, la cote et la probabilité de gain.
+Your selections ||| Vos sélections
+Add a selection ||| Ajouter une sélection
+Target return (stake plus profit) ||| Gain visé (mise plus bénéfice)
+Optional. We work out the stake needed to return this much. ||| Facultatif. Nous calculons la mise nécessaire pour obtenir ce gain.
+Or your stake ||| Ou votre mise
+Optional. We show what it would return. ||| Facultatif. Nous affichons le gain correspondant.
+Bankroll (optional) ||| Capital de jeu (facultatif)
+Accumulator result ||| Résultat du combiné
+Enter the odds of each selection. ||| Saisissez la cote de chaque sélection.
+How these numbers work ||| Comment ces chiffres sont calculés
+Kelly stake = (odds x chance - 1) / (odds - 1) of your bankroll, where chance is your win probability as a fraction. If the result is zero or negative, the bet has no edge and the stake is 0. ||| Mise de Kelly = (cote x probabilité - 1) / (cote - 1) de votre capital, où la probabilité est exprimée en fraction. Si le résultat est nul ou négatif, le pari n'a pas d'avantage et la mise est de 0.
+Full Kelly is aggressive and swings a lot. Half and quarter Kelly are smoother and safer if your estimate is a little too optimistic. ||| Le Kelly complet est agressif et très volatil. Le demi- et le quart de Kelly sont plus réguliers et plus sûrs si votre estimation est un peu trop optimiste.
+Flat staking puts the same small share of your bankroll (1 to 3 percent) on every bet, whatever the odds. ||| La mise fixe place la même petite part de votre capital (1 à 3 %) sur chaque pari, quelle que soit la cote.
+An accumulator multiplies the odds of every selection. One loss loses the whole bet. ||| Un combiné multiplie les cotes de toutes les sélections. Une seule perte fait perdre tout le pari.
+Bookmaker implied chance ||| Probabilité implicite du bookmaker
+Combined odds ||| Cote combinée
+Each odds value must be above 1.00. ||| Chaque cote doit être supérieure à 1,00.
+Enter the odds of at least two selections. ||| Saisissez les cotes d'au moins deux sélections.
+Even if the odds are fair, the chance of all selections winning is about 1 in ||| Même si les cotes sont justes, la probabilité que toutes les sélections gagnent est d'environ 1 sur
+Every selection must win. If just one loses, you lose your whole stake. ||| Chaque sélection doit gagner. Si une seule perd, vous perdez toute votre mise.
+Flat stake ||| Mise fixe
+Flat staking ||| Mise fixe
+Four or more selections is high risk. Keep the stake small. ||| Quatre sélections ou plus représentent un risque élevé. Gardez une petite mise.
+Full Kelly ||| Kelly complet
+Full Kelly is more than a quarter of your bankroll. That is very aggressive and your win estimate may be too optimistic. Consider half or quarter Kelly. ||| Le Kelly complet dépasse le quart de votre capital. C'est très agressif et votre estimation est peut-être trop optimiste. Envisagez le demi- ou le quart de Kelly.
+Half Kelly ||| Demi-Kelly
+Quarter Kelly ||| Quart de Kelly
+Kelly criterion ||| Critère de Kelly
+No edge: at these odds your estimated chance does not beat the bookmaker price, so the Kelly stake is 0. Skipping this bet is the sensible choice. ||| Pas d'avantage : avec ces cotes, votre probabilité estimée ne bat pas le prix du bookmaker, donc la mise de Kelly est de 0. Ignorer ce pari est le choix raisonnable.
+Odds of selection ||| Cote de la sélection
+Profit at that stake ||| Bénéfice avec cette mise
+Profit if every selection wins ||| Bénéfice si toutes les sélections gagnent
+Profit if it wins ||| Bénéfice en cas de gain
+Remove ||| Retirer
+Return for your stake ||| Gain pour votre mise
+Selections ||| Sélections
+Stake needed for your target return ||| Mise nécessaire pour le gain visé
+Suggested for your risk profile ||| Suggestion pour votre profil de risque
+These are estimates, not guarantees. 18+ only. ||| Ce sont des estimations, pas des garanties. 18 ans et plus uniquement.
+These are estimates, not guarantees. Bets can and do lose. 18+ only. ||| Ce sont des estimations, pas des garanties. Les paris peuvent perdre, et perdent. 18 ans et plus uniquement.
+This stake is more than 2% of your bankroll, which is a lot for a bet that usually loses. ||| Cette mise dépasse 2 % de votre capital, ce qui est beaucoup pour un pari qui perd le plus souvent.
+Win probability must be between 0 and 100. ||| La probabilité de gain doit être comprise entre 0 et 100.
+With this many selections a win is rare. Treat it as a small-stake lottery ticket, not a plan. ||| Avec autant de sélections, un gain est rare. Considérez-le comme un billet de loterie à petite mise, pas comme un plan.
+Your estimated chance ||| Votre probabilité estimée
+Calculator type ||| Type de calcul
+My bet tracker ||| Mon suivi de paris
+Bet tracker ||| Suivi de paris
+Amounts are in your own currency. SlipKing does not convert them, so use the same currency for every bet. This tracker is private to you and is for your own records only. 18+ only. ||| Les montants sont dans votre propre devise. SlipKing ne les convertit pas, utilisez donc la même devise pour chaque pari. Ce suivi est privé et sert uniquement à vos propres archives. 18 ans et plus uniquement.
+Gamble responsibly ||| Jouez de façon responsable
+Month placed ||| Mois du pari
+All months ||| Tous les mois
+Filter ||| Filtrer
+Clear filters ||| Effacer les filtres
+Download all my bets (CSV) ||| Télécharger tous mes paris (CSV)
+Staked (settled bets) ||| Misé (paris réglés)
+Profit or loss ||| Bénéfice ou perte
+ROI (profit / staked) ||| ROI (bénéfice / mise)
+Cumulative profit ||| Bénéfice cumulé
+The chart appears once you have a won or lost bet. ||| Le graphique apparaît dès que vous avez un pari gagné ou perdu.
+Add a bet ||| Ajouter un pari
+Bet ||| Pari
+Bookmaker (optional) ||| Bookmaker (facultatif)
+Stake ||| Mise
+Date placed ||| Date du pari
+Notes (optional) ||| Notes (facultatif)
+Add bet ||| Ajouter le pari
+Profit: won = stake x (odds - 1), lost = minus the stake, void and pending = 0. You can hold up to 2000 bets. ||| Bénéfice : gagné = mise x (cote - 1), perdu = moins la mise, annulé et en attente = 0. Vous pouvez conserver jusqu'à 2000 paris.
+Add each bet you place, then update its result when it settles. ||| Ajoutez chaque pari placé, puis mettez à jour son résultat une fois réglé.
+Only won and lost bets count towards profit, ROI and strike rate. ||| Seuls les paris gagnés et perdus comptent pour le bénéfice, le ROI et le taux de réussite.
+ROI is your profit divided by the total staked on settled bets. ||| Le ROI est votre bénéfice divisé par le total misé sur les paris réglés.
+Your bets are private to your account and are never shown to other members. ||| Vos paris sont privés et ne sont jamais montrés aux autres membres.
+My bets ||| Mes paris
+Update ||| Mettre à jour
+View the tip ||| Voir le pronostic
+Delete ||| Supprimer
+No bets match these filters. ||| Aucun pari ne correspond à ces filtres.
+You have not added any bets yet. Use the form above to add your first one. ||| Vous n'avez pas encore ajouté de pari. Utilisez le formulaire ci-dessus pour ajouter le premier.
+e.g. Arsenal to win ||| p. ex. Arsenal gagne
+Track this bet ||| Suivre ce pari
+Tips for this match ||| Pronostics pour ce match
+to unlock the VIP picks. Once the match is settled, every pick becomes public. ||| pour débloquer les pronostics VIP. Une fois le match réglé, tous les pronostics deviennent publics.
+No tips for this match yet. Check back closer to kick-off. ||| Aucun pronostic pour ce match pour l'instant. Revenez plus près du coup d'envoi.
+Our recent settled tips on this team's matches. ||| Nos derniers pronostics réglés sur les matchs de cette équipe.
+Odds change between bookmakers. Check the price you are offered before you bet. No tip is guaranteed. 18+ only. ||| Les cotes varient selon les bookmakers. Vérifiez le prix proposé avant de parier. Aucun pronostic n'est garanti. 18 ans et plus uniquement.
+Won - lost ||| Gagnés - perdus
+Upcoming tips ||| Prochains pronostics
+No upcoming tips for this league right now. ||| Aucun pronostic à venir pour ce championnat pour le moment.
+Recent results ||| Résultats récents
+No settled tips for this league yet. ||| Aucun pronostic réglé pour ce championnat pour l'instant.
+Past results do not guarantee future results. 18+ only. ||| Les résultats passés ne garantissent pas les résultats futurs. 18 ans et plus uniquement.
+Bet on {1} ||| Parier sur {1}
+18+ only. Gamble responsibly. ||| 18 ans et plus uniquement. Jouez de façon responsable.
+Compare odds ||| Comparer les cotes
+Bookmaker ||| Bookmaker
+Best odds ||| Meilleure cote
+Bad-day guarantee: ||| Garantie mauvais jour :
+Follow us ||| Suivez-nous
+Join the VIP Telegram channel ||| Rejoindre le canal Telegram VIP
+Free tips on Telegram ||| Pronostics gratuits sur Telegram
+Follow on WhatsApp ||| Suivre sur WhatsApp
+Share: ||| Partager :
+Share ||| Partager
+Install app ||| Installer l'application
+Turn on tip alerts ||| Activer les alertes de pronostics
+Tip alerts: on ||| Alertes de pronostics : activées
+New VIP tip ||| Nouveau pronostic VIP
+New free tip ||| Nouveau pronostic gratuit
+Switch to dark mode ||| Passer en mode sombre
+Switch to light mode ||| Passer en mode clair
+Pay with M-Pesa, PayPal or card. Weekly, monthly and 3-month plans. ||| Payez avec M-Pesa, PayPal ou par carte. Offres hebdomadaires, mensuelles et de 3 mois.
+Tipsters ||| Pronostiqueurs
+Become a tipster ||| Devenir pronostiqueur
+Apply ||| Postuler
+Best rated ||| Mieux notés
+Highest win rate ||| Meilleur taux de réussite
+Most subscribers ||| Plus d'abonnés
+Newest ||| Plus récents
+Search name, country or speciality ||| Rechercher un nom, un pays ou une spécialité
+win rate ||| taux de réussite
+settled tips ||| pronostics réglés
+subscribers ||| abonnés
+No ratings yet ||| Pas encore de notes
+No plans yet ||| Aucune offre pour le moment
+Subscribe ||| S'abonner
+Extend ||| Prolonger
+Recent tips ||| Derniers pronostics
+Ratings and reviews ||| Notes et avis
+Rate this tipster ||| Noter ce pronostiqueur
+Update your rating ||| Modifier votre note
+Save rating ||| Enregistrer la note
+Comment (optional) ||| Commentaire (facultatif)
+No reviews yet. ||| Aucun avis pour le moment.
+Premium tip ||| Pronostic premium
+Subscribe to unlock ||| S'abonner pour débloquer
+My tipsters ||| Mes pronostiqueurs
+Tip by ||| Pronostic de
+Are you a tipster? ||| Êtes-vous pronostiqueur ?
+Browse tipsters ||| Voir les pronostiqueurs
+Only members who bought one of this tipster's plans can leave a rating. This keeps ratings honest. ||| Seuls les membres ayant acheté une offre de ce pronostiqueur peuvent le noter. Cela garantit des notes honnêtes.
+Thank you. Your rating is saved. ||| Merci. Votre note est enregistrée.
+Country ||| Pays
+Mobile number ||| Numéro de mobile
+Mobile number (without the country code) ||| Numéro de mobile (sans l'indicatif du pays)
+We will send you an SMS code to confirm this number. Type it without the country code. ||| Nous vous enverrons un code par SMS pour confirmer ce numéro. Saisissez-le sans l'indicatif du pays.
+Type it without the country code. ||| Saisissez-le sans l'indicatif du pays.
+Confirm your mobile number ||| Confirmez votre numéro de mobile
+SMS code ||| Code SMS
+Confirm ||| Confirmer
+Send a new code ||| Envoyer un nouveau code
+Wrong number? ||| Mauvais numéro ?
+Change it in your profile ||| Modifiez-le dans votre profil
+Do this later ||| Le faire plus tard
+Confirm now ||| Confirmer maintenant
+Mobile number ||| Numéro de mobile
+Save and send SMS code ||| Enregistrer et envoyer le code SMS
+Save number ||| Enregistrer le numéro
+Confirmed ||| Confirmé
+Not confirmed ||| Non confirmé
+Please confirm your mobile number with the SMS code. You need this before you can pay. ||| Veuillez confirmer votre numéro de mobile avec le code SMS. C'est nécessaire avant de payer.
+Choose your country. ||| Choisissez votre pays.
+That code is not correct. ||| Ce code n'est pas correct.
+That code has expired. Ask for a new one. ||| Ce code a expiré. Demandez-en un nouveau.
+Enter the 6-digit code from the SMS. ||| Saisissez le code à 6 chiffres reçu par SMS.
+Your mobile number is confirmed. ||| Votre numéro de mobile est confirmé.
+Please wait a minute before asking for another code. ||| Veuillez patienter une minute avant de demander un autre code.
+Leaderboard ||| Classement
+Tipster leaderboard ||| Classement des pronostiqueurs
+View the leaderboard ||| Voir le classement
+Rank by profit ||| Classer par profit
+Rank by win rate ||| Classer par taux de réussite
+Rank by member rating ||| Classer par note des membres
+Profit ||| Profit
+Record ||| Bilan
+Avg odds ||| Cote moyenne
+Rating ||| Note
+Subscribers ||| Abonnés
+Analysis by ||| Analyse de
+I want to get tips ||| Je veux recevoir des pronostics
+I am a tipster ||| Je suis pronostiqueur
+Register as a tipster ||| S'inscrire comme pronostiqueur
+Sell your tips, build a following and get paid. An admin approves every tipster. ||| Vendez vos pronostics, fidélisez votre public et soyez payé. Un administrateur approuve chaque pronostiqueur.
+Your tipster profile ||| Votre profil de pronostiqueur
+Your login ||| Votre connexion
+Tipster name (public) ||| Nom de pronostiqueur (public)
+One-line summary ||| Résumé en une ligne
+About you and your method ||| À propos de vous et de votre méthode
+Specialities ||| Spécialités
+Profile picture (optional) ||| Photo de profil (facultatif)
+Profile picture ||| Photo de profil
+Send my tipster application ||| Envoyer ma candidature de pronostiqueur
+View performance ||| Voir les performances
+Choose ||| Choisir
+See all tipsters ||| Voir tous les pronostiqueurs
+Our first tipsters will appear here soon. ||| Nos premiers pronostiqueurs apparaîtront bientôt ici.
+Follow independent tipsters, check their record and ratings, then choose the one you trust. ||| Suivez des pronostiqueurs indépendants, consultez leur bilan et leurs notes, puis choisissez celui en qui vous avez confiance.
+Best value ||| Meilleur rapport qualité-prix
+Extend access ||| Prolonger l'accès
+This is your plan ||| Ceci est votre offre
+Account settings ||| Paramètres du compte
+Create a new plan ||| Créer une nouvelle offre
+Live ||| En direct
+Game ||| Jeu
+Live match centre ||| Centre de matchs en direct
+Free prediction game ||| Jeu de pronostics gratuit
+Top referrers ||| Meilleurs parrains
+Alerts ||| Alertes
+Rewards ||| Récompenses
+Follow for alerts ||| Suivre pour les alertes
+Following (tap to unfollow) ||| Suivi (appuyer pour ne plus suivre)
+Alert settings ||| Paramètres des alertes
+Verified record ||| Résultats vérifiés
+Verified results ||| Résultats vérifiés
+See every tip ||| Voir tous les pronostics
+Money-back guarantee ||| Garantie satisfait ou remboursé
+Start free trial ||| Commencer l'essai gratuit
+Comments ||| Commentaires
+Post comment ||| Publier le commentaire
+Reply ||| Répondre
+Report ||| Signaler
+Money-back ||| Remboursement
+Claim refund ||| Demander le remboursement
+Friends you invited ||| Amis que vous avez invités
+Copy link ||| Copier le lien
+Your results ||| Vos résultats
+Choose how to pay ||| Choisissez comment payer
+Pick a company below. You are only charged after you confirm. ||| Choisissez une société ci-dessous. Vous n'êtes débité qu'après confirmation.
+Pay with Airtel Money ||| Payer avec Airtel Money
+Pay with MTN MoMo ||| Payer avec MTN MoMo
+Pay by card ||| Payer par carte
+Profile picture and flag ||| Photo de profil et drapeau
+Save picture and flag ||| Enregistrer la photo et le drapeau
+Show my flag next to my name ||| Afficher mon drapeau à côté de mon nom
+Account management ||| Gestion de compte
+Send a request ||| Envoyer une demande

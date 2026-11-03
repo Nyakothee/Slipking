@@ -1,0 +1,17 @@
+/* Group A: social follow box, share buttons, install/alert buttons, admin two-factor. Load after style.css. */
+.social-box{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--gold);border-radius:8px;padding:14px 18px;margin:18px 0}
+.social-box h3{font:800 22px 'Barlow Condensed','Arial Narrow',sans-serif;margin-bottom:6px}
+.social-box ul{list-style:none;margin:0;padding:0}
+.social-box li{margin:6px 0}
+.social-box a{font-weight:700;text-decoration:underline}
+.social-box .sb-vip{color:var(--pitch2)}
+.share{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:14px 0}
+.share-l{color:var(--mute);font-weight:600}
+.share-b{display:inline-block;padding:6px 12px;border:1.5px solid var(--pitch);border-radius:6px;font-weight:700;font-size:14px;color:var(--pitch)}
+.share-b:hover{background:var(--pitch);color:#fff}
+[data-pwa-install],[data-pwa-alerts]{cursor:pointer;border:1.5px solid var(--pitch);background:transparent;color:var(--pitch);font:700 14px 'Source Sans 3',Arial,sans-serif;padding:6px 12px;border-radius:6px}
+[data-pwa-install][hidden],[data-pwa-alerts][hidden]{display:none}
+[data-pwa-alerts][aria-pressed="true"]{background:var(--pitch);color:#fff}
+.rcodes{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:8px;font-family:monospace;font-size:17px;margin:12px 0}
+.rcodes li,.rcodes span{list-style:none;background:#fff;border:1px dashed var(--line);border-radius:6px;padding:6px 10px;text-align:center}
+@media (max-width:600px){.share-b{padding:8px 14px}}

@@ -1,0 +1,13 @@
+/* Embedded widgets: blend into the page (no card, no coloured bar, no frame) */
+.wgt-wrap { margin:0 0 18px; }
+.wgt { margin:0 0 20px; background:transparent; border:0; box-shadow:none; border-radius:0; overflow:visible; }
+.wgt-t { margin:0 0 10px; padding:0 0 7px; font-size:20px; letter-spacing:0; text-transform:none; background:none; color:var(--ink); border-bottom:2px solid var(--gold,#f0a91c); display:inline-block; }
+.wgt-frame { display:block; width:100%; border:0; background:transparent; color-scheme:normal; }
+.wgt-ticker { margin:0; }
+.wgt-ticker .wgt { margin:0; }
+.wgt-pages { display:grid; gap:14px; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); }
+.wgt-page { display:flex; flex-direction:column; gap:4px; padding:18px; border-radius:14px; background:var(--card,#fff); color:var(--ink); border:1.5px solid var(--line,rgba(13,59,44,.14)); border-left:5px solid #f0a91c; text-decoration:none; transition:transform .15s, box-shadow .15s; }
+.wgt-page:hover { transform:translateY(-3px); box-shadow:0 8px 22px rgba(13,59,44,.12); }
+.wgt-page strong { font-size:18px; }
+.wgt-page span { font-size:13px; color:var(--mute); }
+.wgt-crop { overflow:hidden; position:relative; }

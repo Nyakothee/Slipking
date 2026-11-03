@@ -1,0 +1,15 @@
+/* Group D: admin charts, bulk import, backups. Loaded in the admin header after admin.css. */
+.achart{width:100%;height:auto;display:block}
+.achart .grid{stroke:var(--line);stroke-width:1}
+.achart .ax{fill:var(--mute);font:11px 'Source Sans 3',Arial,sans-serif}
+.achart .bar{fill:var(--pitch2)}
+.achart .ln{fill:none;stroke:var(--pitch2);stroke-width:2.5;stroke-linejoin:round}
+.achart .dot{fill:var(--gold);stroke:var(--pitch2);stroke-width:1}
+.achart-data{margin-top:8px;font-size:14px}
+.achart-data summary{cursor:pointer;color:var(--mute)}
+.achart-data .tbl{margin-top:8px;max-width:360px}
+.charts{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+@media(max-width:900px){.charts{grid-template-columns:1fr}}
+.rowok{background:#eaf7ef}.rowbad{background:#fdeceb}
+.chip{display:inline-block;font-size:12px;font-weight:700;padding:1px 8px;border-radius:99px}
+.chip.ok{background:#dcf3e5;color:#188a4a}.chip.bad{background:#fbe1de;color:#c8372d}

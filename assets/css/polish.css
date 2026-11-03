@@ -1,0 +1,178 @@
+/* SlipKing polish layer (loaded last): tidy sizes, compact footer, and a complete dark-mode pass. */
+
+/* ---- type scale and header ---- */
+body{font-size:16px}
+.bar{gap:14px;height:60px}
+.brand{font-size:26px}
+nav{gap:2px;min-width:0}
+nav a{padding:7px 9px;font-size:14px;font-weight:600;white-space:nowrap}
+.btn{font-size:15px;padding:9px 16px}
+.btn.small,.btn.tiny{font-size:13.5px;padding:5px 12px}
+.authbtns{gap:6px}
+.authbtns .btn{padding:7px 13px;font-size:14px}
+.prefs summary{font-size:13.5px;padding:6px 10px}
+.theme-toggle{width:34px;height:34px;font-size:16px}
+.ticker{font-size:13px;padding:5px 0}
+.head h2{font-size:34px}
+.hero h1{font-size:clamp(36px,6vw,68px)}
+.hero p{font-size:17px}
+.proof b{font-size:30px}
+.price{font-size:40px}
+.plan h3{font-size:26px}
+.box2 h3,.acard h3{font-size:24px}
+section{padding:42px 0}
+.tabs a,.tabs button{font-size:14px;padding:6px 12px}
+.tbl th,.tbl td{padding:10px}
+h1.mtitle,.mtitle{font-size:clamp(32px,5vw,48px)}
+@media(max-width:1240px){
+ nav{display:none;position:absolute;top:60px;left:0;right:0;background:var(--pitch);flex-direction:column;padding:10px 18px;gap:2px;box-shadow:0 10px 24px rgba(0,0,0,.25)}
+ nav.open{display:flex}
+ nav a{font-size:15px;padding:10px 8px}
+ .menu{display:block;margin-left:0}
+ .prefs:first-of-type{margin-left:auto}
+ .bar .btn{display:none}
+ .navauth{display:block}
+}
+@media(max-width:1240px){.bar .authbtns{display:none}}
+@media(max-width:560px){.brand{font-size:24px}.head h2{font-size:30px}.hero{padding:48px 0 44px}}
+
+/* ---- compact footer ---- */
+footer{padding:26px 0 16px;font-size:14px}
+.fgrid{grid-template-columns:1.1fr 3fr 1fr 1.3fr;gap:20px;margin-bottom:14px}
+.fgrid ul{padding:0;margin:0}
+.fgrid>div:nth-child(2) ul{columns:3;column-gap:22px}
+footer h4{font-size:15px;margin-bottom:6px}
+footer li{margin:2px 0;break-inside:avoid;line-height:1.35}
+footer a:hover{color:#fff}
+.warn{padding-top:10px;margin-top:6px;font-size:12.5px;line-height:1.45}
+.warn+.warn{border-top:0;padding-top:4px;margin-top:0}
+@media(max-width:1000px){.fgrid{grid-template-columns:1fr 1fr}.fgrid>div:nth-child(2){grid-column:1/-1;order:3}.fgrid>div:nth-child(2) ul{columns:3}}
+@media(max-width:620px){.fgrid{grid-template-columns:1fr 1fr;gap:14px}.fgrid>div:nth-child(2) ul{columns:2}.fgrid>div:last-child{grid-column:1/-1}}
+
+/* ---- accumulator page: stake + cash out ---- */
+.calc-main{align-items:flex-end}
+.calc .out{font-size:30px}
+
+/* ---- new stats/odds pages inside the grid ---- */
+.gm-stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:12px 0}
+.bm-table{width:100%;border-collapse:collapse}
+.bm-table th,.bm-table td{padding:9px 10px;text-align:left;border-bottom:1px solid var(--line);font-size:14.5px}
+.bm-table th{background:var(--pitch);color:#fff;font-weight:600}
+.lt{background:var(--card)}
+
+/* ---- dark mode (visitor chose dark) ---- */
+
+/* surfaces that were hard-coded white or pale */
+:root[data-theme="dark"] .rcodes li,:root[data-theme="dark"] .rcodes span,:root[data-theme="dark"] .tabs a,:root[data-theme="dark"] .tabs button,:root[data-theme="dark"] .plan,:root[data-theme="dark"] .quote,:root[data-theme="dark"] .faq details,:root[data-theme="dark"] .post,:root[data-theme="dark"] .tbl,:root[data-theme="dark"] .stat,:root[data-theme="dark"] .box,:root[data-theme="dark"] .box2,:root[data-theme="dark"] .empty,:root[data-theme="dark"] .pager a,:root[data-theme="dark"] .note,:root[data-theme="dark"] .fcard,:root[data-theme="dark"] .note-item,:root[data-theme="dark"] .pmenu,:root[data-theme="dark"] .acard,:root[data-theme="dark"] .skchat-panel,:root[data-theme="dark"] .skchat-m.admin,:root[data-theme="dark"] .field input[type=text],:root[data-theme="dark"] .field input[type=email],:root[data-theme="dark"] .field input[type=tel],:root[data-theme="dark"] .field input[type=password],:root[data-theme="dark"] .field input[type=number],:root[data-theme="dark"] .field select,:root[data-theme="dark"] .field textarea,:root[data-theme="dark"] .lt,:root[data-theme="dark"] .calc-form,:root[data-theme="dark"] .gm-opt span{background:var(--card);color:var(--ink);border-color:var(--line)}
+:root[data-theme="dark"] .pick{background:#101a15;color:var(--ink)}
+:root[data-theme="dark"] .tabs a.on,:root[data-theme="dark"] .tabs button.on,:root[data-theme="dark"] .pager a.on{background:var(--pitch2);color:#fff;border-color:var(--pitch2)}
+:root[data-theme="dark"] .fcard h2,:root[data-theme="dark"] .box2 h3,:root[data-theme="dark"] .acard h3,:root[data-theme="dark"] .plan h3{color:var(--ink)}
+:root[data-theme="dark"] .bigodds{color:var(--gold)}
+:root[data-theme="dark"] .acard .row b{color:var(--ink)}
+:root[data-theme="dark"] .linkbox{background:#101a15;color:var(--ink);border-color:var(--line)}
+:root[data-theme="dark"] .skchat-msgs,:root[data-theme="dark"] .skchat-form{background:#101a15}
+:root[data-theme="dark"] .skchat-who input,:root[data-theme="dark"] .skchat-form textarea{background:#17211c;color:var(--ink);border-color:var(--line)}
+:root[data-theme="dark"] .pmenu a:hover,:root[data-theme="dark"] .pmenu a.on{background:#101a15}
+:root[data-theme="dark"] .altlink a,:root[data-theme="dark"] .box .sw a,:root[data-theme="dark"] .slip .more{color:var(--gold)}
+:root[data-theme="dark"] .plan li{border-color:var(--line)}
+:root[data-theme="dark"] .crumbs,:root[data-theme="dark"] .head p{color:var(--mute)}
+:root[data-theme="dark"] .article p{color:var(--ink)}
+:root[data-theme="dark"] .kv td{border-color:var(--line)}
+:root[data-theme="dark"] .legs tr.lost td{background:#3d1b18}
+:root[data-theme="dark"] .legs tr.won td{background:#12361f}
+:root[data-theme="dark"] .legs tr.void td{background:#1f2823;color:var(--mute)}
+:root[data-theme="dark"] .legs tfoot td{background:#101a15;color:var(--ink)}
+:root[data-theme="dark"] .bm-table td{color:var(--ink)}
+:root[data-theme="dark"] .bm-table tr.best,:root[data-theme="dark"] .gt-badge{background:#2a2617;color:#f0d9a0}
+:root[data-theme="dark"] .odds-t td.odds-best{background:rgba(76,197,127,.16);color:var(--win)}
+:root[data-theme="dark"] .lt th{background:var(--pitch2);color:#fff}
+:root[data-theme="dark"] .lt td{border-color:var(--line);color:var(--ink)}
+/* status colours */
+:root[data-theme="dark"] .badge.won,:root[data-theme="dark"] .chip.ok,:root[data-theme="dark"] .rowok,:root[data-theme="dark"] .flash.success,:root[data-theme="dark"] .msg.ok,:root[data-theme="dark"] .status-active,:root[data-theme="dark"] .tp-badge.ok,:root[data-theme="dark"] .lv-tip.st-won{background:#12361f;color:#8fe3b0}
+:root[data-theme="dark"] .badge.lost,:root[data-theme="dark"] .chip.bad,:root[data-theme="dark"] .rowbad,:root[data-theme="dark"] .flash.error,:root[data-theme="dark"] .errors,:root[data-theme="dark"] .msg.bad,:root[data-theme="dark"] .lv-tip.st-lost{background:#3d1b18;color:#ffb3aa}
+:root[data-theme="dark"] .badge.pending,:root[data-theme="dark"] .lv-tip,:root[data-theme="dark"] .lv-pill,:root[data-theme="dark"] .tp-badge,:root[data-theme="dark"] .lv-tip.st-void{background:#232f29;color:#c9d8cf}
+:root[data-theme="dark"] .flash.info,:root[data-theme="dark"] .msg.info{background:#17304a;color:#b5d6f5}
+:root[data-theme="dark"] .banner,:root[data-theme="dark"] .risk,:root[data-theme="dark"] .calc-warn,:root[data-theme="dark"] .tp-trial,:root[data-theme="dark"] .tp-guar,:root[data-theme="dark"] .tp-badge.gold{background:#2a2617;border-color:#4a4120;color:#f0d9a0}
+:root[data-theme="dark"] .risk strong,:root[data-theme="dark"] .banner strong{color:#ffe7a8}
+:root[data-theme="dark"] .banner a,:root[data-theme="dark"] .risk a{color:#ffe7a8}
+:root[data-theme="dark"] .note{border-left-color:var(--gold);color:var(--mute)}
+:root[data-theme="dark"] .errors a,:root[data-theme="dark"] .flash a{color:inherit}
+:root[data-theme="dark"] .bd-card.got{background:#27301f;border-color:var(--gold)}
+:root[data-theme="dark"] .rc-calc input{background:#101a15;color:var(--ink);border-color:var(--line)}
+:root[data-theme="dark"] .article a,:root[data-theme="dark"] .note a,:root[data-theme="dark"] .box2 p a:not(.btn),:root[data-theme="dark"] .fcard a:not(.btn):not(.tabs a){color:#9fe3c2}
+:root[data-theme="dark"] .lock{background:linear-gradient(transparent,rgba(23,33,28,.96) 40%)}
+:root[data-theme="dark"] .slip .top{border-color:var(--line)}
+:root[data-theme="dark"] select,:root[data-theme="dark"] textarea,:root[data-theme="dark"] input[type=number],:root[data-theme="dark"] input[type=search],:root[data-theme="dark"] input[type=date]{background:#101a15;color:var(--ink);border-color:var(--line)}
+:root[data-theme="dark"] ::placeholder{color:#7f9388}
+:root[data-theme="dark"] .skchat-m.visitor{background:var(--pitch2)}
+:root[data-theme="dark"] .rc-box,:root[data-theme="dark"] .lv-card,:root[data-theme="dark"] .lv-panel,:root[data-theme="dark"] .cm-box,:root[data-theme="dark"] .gm-row,:root[data-theme="dark"] .gm-stats div,:root[data-theme="dark"] .bd-card{background:var(--card);color:var(--ink);border-color:var(--line)}
+:root[data-theme="dark"] .cm-btn,:root[data-theme="dark"] .cm-form textarea,:root[data-theme="dark"] .cm-replyform textarea{background:#101a15;color:var(--ink);border-color:var(--line)}
+:root[data-theme="dark"] .cash-info{background:rgba(255,255,255,.08)}
+
+/* ---- dark mode (device prefers dark and visitor made no choice) ---- */
+@media (prefers-color-scheme: dark){
+
+/* surfaces that were hard-coded white or pale */
+:root:not([data-theme="light"]) .rcodes li,:root:not([data-theme="light"]) .rcodes span,:root:not([data-theme="light"]) .tabs a,:root:not([data-theme="light"]) .tabs button,:root:not([data-theme="light"]) .plan,:root:not([data-theme="light"]) .quote,:root:not([data-theme="light"]) .faq details,:root:not([data-theme="light"]) .post,:root:not([data-theme="light"]) .tbl,:root:not([data-theme="light"]) .stat,:root:not([data-theme="light"]) .box,:root:not([data-theme="light"]) .box2,:root:not([data-theme="light"]) .empty,:root:not([data-theme="light"]) .pager a,:root:not([data-theme="light"]) .note,:root:not([data-theme="light"]) .fcard,:root:not([data-theme="light"]) .note-item,:root:not([data-theme="light"]) .pmenu,:root:not([data-theme="light"]) .acard,:root:not([data-theme="light"]) .skchat-panel,:root:not([data-theme="light"]) .skchat-m.admin,:root:not([data-theme="light"]) .field input[type=text],:root:not([data-theme="light"]) .field input[type=email],:root:not([data-theme="light"]) .field input[type=tel],:root:not([data-theme="light"]) .field input[type=password],:root:not([data-theme="light"]) .field input[type=number],:root:not([data-theme="light"]) .field select,:root:not([data-theme="light"]) .field textarea,:root:not([data-theme="light"]) .lt,:root:not([data-theme="light"]) .calc-form,:root:not([data-theme="light"]) .gm-opt span{background:var(--card);color:var(--ink);border-color:var(--line)}
+:root:not([data-theme="light"]) .pick{background:#101a15;color:var(--ink)}
+:root:not([data-theme="light"]) .tabs a.on,:root:not([data-theme="light"]) .tabs button.on,:root:not([data-theme="light"]) .pager a.on{background:var(--pitch2);color:#fff;border-color:var(--pitch2)}
+:root:not([data-theme="light"]) .fcard h2,:root:not([data-theme="light"]) .box2 h3,:root:not([data-theme="light"]) .acard h3,:root:not([data-theme="light"]) .plan h3{color:var(--ink)}
+:root:not([data-theme="light"]) .bigodds{color:var(--gold)}
+:root:not([data-theme="light"]) .acard .row b{color:var(--ink)}
+:root:not([data-theme="light"]) .linkbox{background:#101a15;color:var(--ink);border-color:var(--line)}
+:root:not([data-theme="light"]) .skchat-msgs,:root:not([data-theme="light"]) .skchat-form{background:#101a15}
+:root:not([data-theme="light"]) .skchat-who input,:root:not([data-theme="light"]) .skchat-form textarea{background:#17211c;color:var(--ink);border-color:var(--line)}
+:root:not([data-theme="light"]) .pmenu a:hover,:root:not([data-theme="light"]) .pmenu a.on{background:#101a15}
+:root:not([data-theme="light"]) .altlink a,:root:not([data-theme="light"]) .box .sw a,:root:not([data-theme="light"]) .slip .more{color:var(--gold)}
+:root:not([data-theme="light"]) .plan li{border-color:var(--line)}
+:root:not([data-theme="light"]) .crumbs,:root:not([data-theme="light"]) .head p{color:var(--mute)}
+:root:not([data-theme="light"]) .article p{color:var(--ink)}
+:root:not([data-theme="light"]) .kv td{border-color:var(--line)}
+:root:not([data-theme="light"]) .legs tr.lost td{background:#3d1b18}
+:root:not([data-theme="light"]) .legs tr.won td{background:#12361f}
+:root:not([data-theme="light"]) .legs tr.void td{background:#1f2823;color:var(--mute)}
+:root:not([data-theme="light"]) .legs tfoot td{background:#101a15;color:var(--ink)}
+:root:not([data-theme="light"]) .bm-table td{color:var(--ink)}
+:root:not([data-theme="light"]) .bm-table tr.best,:root:not([data-theme="light"]) .gt-badge{background:#2a2617;color:#f0d9a0}
+:root:not([data-theme="light"]) .odds-t td.odds-best{background:rgba(76,197,127,.16);color:var(--win)}
+:root:not([data-theme="light"]) .lt th{background:var(--pitch2);color:#fff}
+:root:not([data-theme="light"]) .lt td{border-color:var(--line);color:var(--ink)}
+/* status colours */
+:root:not([data-theme="light"]) .badge.won,:root:not([data-theme="light"]) .chip.ok,:root:not([data-theme="light"]) .rowok,:root:not([data-theme="light"]) .flash.success,:root:not([data-theme="light"]) .msg.ok,:root:not([data-theme="light"]) .status-active,:root:not([data-theme="light"]) .tp-badge.ok,:root:not([data-theme="light"]) .lv-tip.st-won{background:#12361f;color:#8fe3b0}
+:root:not([data-theme="light"]) .badge.lost,:root:not([data-theme="light"]) .chip.bad,:root:not([data-theme="light"]) .rowbad,:root:not([data-theme="light"]) .flash.error,:root:not([data-theme="light"]) .errors,:root:not([data-theme="light"]) .msg.bad,:root:not([data-theme="light"]) .lv-tip.st-lost{background:#3d1b18;color:#ffb3aa}
+:root:not([data-theme="light"]) .badge.pending,:root:not([data-theme="light"]) .lv-tip,:root:not([data-theme="light"]) .lv-pill,:root:not([data-theme="light"]) .tp-badge,:root:not([data-theme="light"]) .lv-tip.st-void{background:#232f29;color:#c9d8cf}
+:root:not([data-theme="light"]) .flash.info,:root:not([data-theme="light"]) .msg.info{background:#17304a;color:#b5d6f5}
+:root:not([data-theme="light"]) .banner,:root:not([data-theme="light"]) .risk,:root:not([data-theme="light"]) .calc-warn,:root:not([data-theme="light"]) .tp-trial,:root:not([data-theme="light"]) .tp-guar,:root:not([data-theme="light"]) .tp-badge.gold{background:#2a2617;border-color:#4a4120;color:#f0d9a0}
+:root:not([data-theme="light"]) .risk strong,:root:not([data-theme="light"]) .banner strong{color:#ffe7a8}
+:root:not([data-theme="light"]) .banner a,:root:not([data-theme="light"]) .risk a{color:#ffe7a8}
+:root:not([data-theme="light"]) .note{border-left-color:var(--gold);color:var(--mute)}
+:root:not([data-theme="light"]) .errors a,:root:not([data-theme="light"]) .flash a{color:inherit}
+:root:not([data-theme="light"]) .bd-card.got{background:#27301f;border-color:var(--gold)}
+:root:not([data-theme="light"]) .rc-calc input{background:#101a15;color:var(--ink);border-color:var(--line)}
+:root:not([data-theme="light"]) .article a,:root:not([data-theme="light"]) .note a,:root:not([data-theme="light"]) .box2 p a:not(.btn),:root:not([data-theme="light"]) .fcard a:not(.btn):not(.tabs a){color:#9fe3c2}
+:root:not([data-theme="light"]) .lock{background:linear-gradient(transparent,rgba(23,33,28,.96) 40%)}
+:root:not([data-theme="light"]) .slip .top{border-color:var(--line)}
+:root:not([data-theme="light"]) select,:root:not([data-theme="light"]) textarea,:root:not([data-theme="light"]) input[type=number],:root:not([data-theme="light"]) input[type=search],:root:not([data-theme="light"]) input[type=date]{background:#101a15;color:var(--ink);border-color:var(--line)}
+:root:not([data-theme="light"]) ::placeholder{color:#7f9388}
+:root:not([data-theme="light"]) .skchat-m.visitor{background:var(--pitch2)}
+:root:not([data-theme="light"]) .rc-box,:root:not([data-theme="light"]) .lv-card,:root:not([data-theme="light"]) .lv-panel,:root:not([data-theme="light"]) .cm-box,:root:not([data-theme="light"]) .gm-row,:root:not([data-theme="light"]) .gm-stats div,:root:not([data-theme="light"]) .bd-card{background:var(--card);color:var(--ink);border-color:var(--line)}
+:root:not([data-theme="light"]) .cm-btn,:root:not([data-theme="light"]) .cm-form textarea,:root:not([data-theme="light"]) .cm-replyform textarea{background:#101a15;color:var(--ink);border-color:var(--line)}
+:root:not([data-theme="light"]) .cash-info{background:rgba(255,255,255,.08)}
+}
+
+/* ---- Locked VIP cards: the real pick, odds and market are never sent to the browser. The cover is almost fully opaque (update 19) ---- */
+.slip.locked .pick strong,.slip.locked .odds,.slip.locked .meta span:last-child{filter:blur(7px);user-select:none;pointer-events:none}
+html:root .slip.locked .lock{height:78%;background:linear-gradient(rgba(255,255,255,.90),rgba(255,255,255,.985) 30%);padding-top:10px}
+:root[data-theme="dark"] .slip.locked .lock{background:linear-gradient(rgba(23,33,28,.90),rgba(23,33,28,.985) 30%)}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .slip.locked .lock{background:linear-gradient(rgba(23,33,28,.90),rgba(23,33,28,.985) 30%)}}
+.vip-mask{display:inline-block;letter-spacing:.14em;color:var(--mute)}
+
+/* Tap targets: small buttons stay compact on desktop but are at least 44px tall on touch screens. */
+@media (pointer:coarse){
+  .btn.small,.btn.tiny{min-height:44px;min-width:44px;padding:10px 16px}
+}
+
+/* "Posted before kickoff" proof line on tip cards */
+.slip .proof{margin:8px 0 0;font-size:12.5px;font-weight:700;color:#1b8a4b}
+.slip .proof.late{color:var(--mute,#6b7a74);font-weight:600}
+@media (prefers-color-scheme:dark){.slip .proof{color:#4fd18b}}

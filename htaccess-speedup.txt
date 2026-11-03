@@ -1,0 +1,33 @@
+# SlipKing speed-up rules.
+# HOW TO USE: rename this file to ".htaccess" and upload it to the website's main folder.
+# If you ALREADY have a .htaccess there, do not overwrite it: paste this text at the END of your existing file.
+# Every block is wrapped so a host that does not support it simply ignores it (nothing can break).
+
+# 1) Compress text files (much smaller downloads on mobile data)
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css text/plain text/xml application/javascript application/json image/svg+xml
+</IfModule>
+
+# 2) Let browsers keep images, CSS and scripts so repeat visits are almost instant
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType image/png  "access plus 30 days"
+  ExpiresByType image/jpeg "access plus 30 days"
+  ExpiresByType image/webp "access plus 30 days"
+  ExpiresByType image/svg+xml "access plus 30 days"
+  ExpiresByType image/x-icon "access plus 30 days"
+  ExpiresByType font/woff2 "access plus 1 year"
+  ExpiresByType text/css "access plus 7 days"
+  ExpiresByType application/javascript "access plus 7 days"
+</IfModule>
+<IfModule mod_headers.c>
+  <FilesMatch "\.(png|jpe?g|webp|svg|ico|woff2)$">
+    Header set Cache-Control "public, max-age=2592000"
+  </FilesMatch>
+  # Safe security headers
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>
+
+# 3) Never list folder contents
+Options -Indexes
