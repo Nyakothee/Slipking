@@ -1,0 +1,48 @@
+# SlipKing website requirements
+# The site is plain PHP + MySQL (no Composer packages and no Node build), so this lists what the server must provide.
+
+# --- Server ---
+PHP >= 7.4            (8.x recommended; set in your hosting panel: "Select PHP Version")
+MySQL >= 5.7          (or MariaDB >= 10.3), utf8mb4, InnoDB
+Apache with mod_rewrite and .htaccess enabled (or Nginx with equivalent rules)
+HTTPS (SSL certificate)
+
+# --- Required PHP extensions ---
+ext-pdo
+ext-pdo_mysql
+ext-mbstring
+ext-json
+ext-curl              (payments, SMS, live scores, push notifications)
+ext-openssl           (HTTPS requests, signed links, push keys)
+ext-ctype
+ext-fileinfo          (checks uploaded pictures and the app file)
+ext-session
+
+# --- Recommended PHP extensions ---
+ext-gd                (needed for share-as-picture tip images and thumbnails; with FreeType and WebP/JPEG/PNG support)
+ext-iconv
+
+# --- PHP settings ---
+file_uploads = On
+upload_max_filesize >= 64M    (app upload is chunked, but larger is safer)
+post_max_size >= 64M
+max_execution_time >= 60
+memory_limit >= 128M
+
+# --- Writable folders (chmod 755 or 775) ---
+cache/
+cache/sessions/
+cache/data/
+cache/tipimg/
+logs/
+uploads/
+
+# --- Cron jobs ---
+# cron/live-scores.php   every minute
+# cron/digest.php        every hour
+# (plus any other cron/*.php files listed in the admin Health page)
+
+# --- Setup ---
+# 1. Upload the files and fill in the database details in includes/config.php.
+# 2. Import the SQL files in order: database.sql, then database-update-*.sql up to database-update-45.sql.
+# 3. Open /check.php to confirm everything above is in place.
